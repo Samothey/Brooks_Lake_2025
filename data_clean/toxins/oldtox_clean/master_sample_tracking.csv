@@ -1,0 +1,482 @@
+sample_number,site_id,date,method,sample_type,status,lake,site_type,depth_category,has_grab_result,has_spatt_result,status_final
+044,SPATT_BLANK,2025-06-25,spatt,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+045,SPATT_BLANK,2025-06-25,spatt,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+046,BKS_BL_SH_01,2025-06-25,spatt,regular,collected,brooks,shore,NA,FALSE,FALSE,collected
+047,BKS_BL_SH_01,2025-06-24,grab,regular,collected,brooks,shore,NA,FALSE,FALSE,collected
+048,BKS_BL_SH_02,2025-06-25,spatt,regular,lost,brooks,shore,NA,FALSE,FALSE,lost
+049,BKS_BL_SH_02,2025-06-25,grab,regular,collected,brooks,shore,NA,FALSE,FALSE,collected
+050,BKS_BL_SH_03,2025-06-24,spatt,regular,lost,brooks,shore,NA,FALSE,FALSE,lost
+051,BKS_BL_SH_03,2025-06-25,grab,regular,collected,brooks,shore,NA,FALSE,FALSE,collected
+052,BKS_BL_SH_04,2025-06-24,spatt,regular,lost,brooks,shore,NA,FALSE,FALSE,lost
+053,BKS_BL_SH_04,2025-06-25,grab,regular,collected,brooks,shore,NA,FALSE,FALSE,collected
+054,BKS_BL_SH_05,2025-06-24,spatt,regular,lost,brooks,shore,NA,FALSE,FALSE,lost
+055,BKS_BL_SH_05,2025-06-25,grab,regular,collected,brooks,shore,NA,FALSE,FALSE,collected
+056,BKS_BL_SH_06,2025-06-24,spatt,regular,lost,brooks,shore,NA,FALSE,FALSE,lost
+057,BKS_BL_SH_06,2025-06-24,grab,regular,collected,brooks,shore,NA,FALSE,FALSE,collected
+058,BKS_BL_SH_07,2025-06-24,spatt,regular,lost,brooks,shore,NA,FALSE,FALSE,lost
+059,BKS_BL_SH_07,2025-06-25,grab,regular,collected,brooks,shore,NA,FALSE,FALSE,collected
+060,BKS_BL_BU_SS,2025-06-25,spatt,regular,collected,brooks,buoy,surface,FALSE,FALSE,collected
+061,BKS_BL_BU_SS,2025-06-24,grab,regular,collected,brooks,buoy,surface,FALSE,FALSE,collected
+062,BKS_BL_BU_DD,2025-06-25,spatt,regular,collected,brooks,buoy,bottom,FALSE,FALSE,collected
+063,BKS_BL_BU_DD,2025-06-25,grab,regular,collected,brooks,buoy,bottom,FALSE,FALSE,collected
+064,BKS_BL_SH_01,2025-07-21,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+065,BKS_BL_SH_02,2025-07-21,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+066,BKS_BL_SH_03,2025-07-21,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+067,BKS_BL_SH_04,2025-07-21,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+068,SPATT_BLANK,2025-06-24,spatt,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+069,GRAB_BLANK,2025-06-24,grab,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+070,SPATT_BLANK,2025-06-24,spatt,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+071,GRAB_BLANK,2025-06-24,grab,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+072,BKS_BL_SH_05,2025-07-23,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+073,BKS_BL_SH_06,2025-07-23,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+074,BKS_BL_SH_07,2025-07-23,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+075,BKS_BL_BON,2025-07-23,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+076,BKS_RN_SH_10,2025-06-24,spatt,regular,collected,rainbow,shore,NA,FALSE,FALSE,collected
+077,BKS_RN_SH_10,2025-06-25,grab,regular,collected,rainbow,shore,NA,FALSE,FALSE,collected
+078,BKS_BL_CREEK,2025-07-23,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+079,BKS_BL_BU_SS,2025-07-23,spatt,regular,shipped,brooks,buoy,surface,FALSE,TRUE,analyzed
+080,BYS_BR_SH_01,2025-06-25,spatt,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+081,BYS_BR_SH_01,2025-06-26,grab,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+082,BYS_PC_SH_02,2025-06-25,spatt,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+083,BYS_PC_SH_02,2025-06-26,grab,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+084,BYS_FR_SH_03,2025-06-27,spatt,regular,lost,boysen,shore,NA,FALSE,FALSE,lost
+085,BYS_FR_SH_03,2025-06-26,grab,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+086,BYS_CR_SH_04,2025-06-25,spatt,regular,lost,boysen,shore,NA,FALSE,FALSE,lost
+087,BYS_CR_SH_04,2025-06-26,grab,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+088,BKS_BL_BU_DD,2025-07-23,spatt,regular,shipped,brooks,buoy,bottom,FALSE,TRUE,analyzed
+089,BKS_UB_SH_08,2025-07-22,spatt,regular,lost,upper brooks,shore,NA,FALSE,FALSE,lost
+090,BKS_UB_SH_09,2025-07-22,spatt,regular,shipped,upper brooks,shore,NA,FALSE,TRUE,analyzed
+091,BKS_UB_BU_SS,2025-07-22,spatt,regular,shipped,upper brooks,buoy,surface,FALSE,TRUE,analyzed
+092,SPATT_BLANK,2025-06-25,spatt,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+093,GRAB_BLANK,2025-06-25,grab,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+094,SPATT_BLANK,2025-06-25,spatt,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+095,BKS_UB_BU_DD,2025-07-22,spatt,regular,shipped,upper brooks,buoy,bottom,FALSE,TRUE,analyzed
+096,BKS_BL_SH_01,2025-07-08,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+097,BKS_BL_SH_02,2025-07-08,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+098,BKS_BL_SH_03,2025-07-08,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+099,BKS_BL_SH_04,2025-07-08,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+100,BKS_BL_SH_05,2025-07-08,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+101,BKS_BL_SH_06,2025-07-08,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+102,BKS_BL_SH_07,2025-07-08,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+103,BKS_RN_SH_10,2025-07-22,spatt,regular,shipped,rainbow,shore,NA,FALSE,TRUE,analyzed
+104,BKS_RN_BU_SS,2025-07-22,spatt,regular,shipped,rainbow,buoy,surface,FALSE,TRUE,analyzed
+105,BKS_BL_BU_SS,2025-07-08,spatt,regular,shipped,brooks,buoy,surface,FALSE,TRUE,analyzed
+106,BKS_BL_BU_DD,2025-07-08,spatt,regular,shipped,brooks,buoy,bottom,FALSE,TRUE,analyzed
+107,BKS_UB_SH_08,2025-07-09,spatt,regular,shipped,upper brooks,shore,NA,FALSE,TRUE,analyzed
+109,BKS_UB_BU_SS,2025-07-09,spatt,regular,shipped,upper brooks,buoy,surface,FALSE,TRUE,analyzed
+110,BKS_UB_BU_DD,2025-07-09,spatt,regular,shipped,upper brooks,buoy,bottom,FALSE,TRUE,analyzed
+111,BKS_RN_SH_10,2025-07-09,spatt,regular,shipped,rainbow,shore,NA,FALSE,TRUE,analyzed
+112,BKS_RN_BU_SS,2025-07-09,spatt,regular,shipped,rainbow,buoy,surface,FALSE,TRUE,analyzed
+113,BKS_RN_BU_DD,2025-07-09,spatt,regular,shipped,rainbow,buoy,bottom,FALSE,TRUE,analyzed
+114,BKS_LJ_BU_SS,2025-07-09,spatt,regular,shipped,lower jade,buoy,surface,FALSE,TRUE,analyzed
+115,BKS_LJ_BU_DD,2025-07-09,spatt,regular,shipped,lower jade,buoy,bottom,FALSE,TRUE,analyzed
+116,BKS_UB_BU_SS,2025-07-09,spatt,duplicate,collected,upper brooks,buoy,surface,FALSE,FALSE,collected
+117,BKS_RN_SH_10,2025-07-09,spatt,duplicate,shipped,rainbow,shore,NA,FALSE,TRUE,analyzed
+118,BYS_BR_SH_01,2025-07-10,spatt,regular,shipped,boysen,shore,NA,FALSE,TRUE,analyzed
+119,BYS_PC_SH_02,2025-07-10,spatt,regular,shipped,boysen,shore,NA,FALSE,TRUE,analyzed
+120,BYS_FR_SH_03,2025-07-10,spatt,regular,shipped,boysen,shore,NA,FALSE,TRUE,analyzed
+121,BYS_CR_SH_04,2025-07-10,spatt,regular,shipped,boysen,shore,NA,FALSE,TRUE,analyzed
+122,BKS_RN_BU_DD,2025-07-22,spatt,regular,shipped,rainbow,buoy,bottom,FALSE,TRUE,analyzed
+123,BKS_LJ_BU_SS,2025-07-22,spatt,regular,shipped,lower jade,buoy,surface,FALSE,TRUE,analyzed
+124,BKS_LJ_BU_DD,2025-07-22,spatt,regular,shipped,lower jade,buoy,bottom,FALSE,TRUE,analyzed
+125,SPATT_BLANK,2025-07-09,spatt,blank,shipped,blank,NA,NA,FALSE,TRUE,analyzed
+126,BKS_BL_SH_01,2025-07-08,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+127,BKS_BL_SH_02,2025-07-08,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+128,BKS_BL_SH_03,2025-07-08,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+129,BKS_BL_SH_04,2025-07-08,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+130,BKS_BL_SH_05,2025-07-08,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+131,BKS_BL_SH_06,2025-07-08,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+132,BKS_BL_SH_07,2025-07-08,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+133,BKS_BL_BON,2025-07-08,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+134,BKS_BL_CREEK,2025-07-08,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+135,BKS_BL_BU_SS,2025-07-08,grab,regular,shipped,brooks,buoy,surface,TRUE,FALSE,analyzed
+136,BKS_BL_BU_DD,2025-07-08,grab,regular,shipped,brooks,buoy,bottom,TRUE,FALSE,analyzed
+137,BKS_UB_SH_08,2025-07-09,grab,regular,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+138,BKS_UB_SH_09,2025-07-09,grab,regular,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+139,BKS_UB_BU_SS,2025-07-09,grab,regular,shipped,upper brooks,buoy,surface,TRUE,FALSE,analyzed
+140,BKS_UB_BU_DD,2025-07-09,grab,regular,shipped,upper brooks,buoy,bottom,TRUE,FALSE,analyzed
+141,BKS_RN_SH_10,2025-07-09,grab,regular,shipped,rainbow,shore,NA,TRUE,FALSE,analyzed
+142,BKS_RN_BU_SS,2025-07-09,grab,regular,shipped,rainbow,buoy,surface,TRUE,FALSE,analyzed
+143,BKS_RN_BU_DD,2025-07-09,grab,regular,shipped,rainbow,buoy,bottom,TRUE,FALSE,analyzed
+144,BKS_LJ_BU_SS,2025-07-09,grab,regular,shipped,lower jade,buoy,surface,TRUE,FALSE,analyzed
+145,BKS_LJ_BU_DD,2025-07-09,grab,regular,shipped,lower jade,buoy,bottom,TRUE,FALSE,analyzed
+146,BKS_RN_BU_SS,2025-07-09,grab,duplicate,shipped,rainbow,buoy,surface,TRUE,FALSE,analyzed
+148,BYS_BR_SH_01,2025-07-10,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+149,BYS_PC_SH_02,2025-07-10,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+150,BYS_FR_SH_03,2025-07-10,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+151,BYS_CR_SH_04,2025-07-10,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+152,BKS_LJ_BU_SS,2025-07-22,spatt,duplicate,collected,lower jade,buoy,surface,FALSE,FALSE,collected
+153,BKS_BL_SH_03,2025-07-21,spatt,duplicate,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+154,BYS_PC_SH_02,2025-07-10,grab,duplicate,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+155,GRAB_BLANK,2025-07-09,grab,blank,shipped,blank,NA,NA,TRUE,FALSE,analyzed
+156,BYS_BR_SH_01,2025-07-21,spatt,regular,shipped,boysen,shore,NA,FALSE,TRUE,analyzed
+157,BYS_PC_SH_02,2025-07-21,spatt,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+158,BYS_FR_SH_03,2025-07-21,spatt,regular,shipped,boysen,shore,NA,FALSE,TRUE,analyzed
+159,BYS_CR_SH_04,2025-07-21,spatt,regular,lost,boysen,shore,NA,FALSE,FALSE,lost
+160,BYS_BY_BU_SS,2025-07-30,spatt,regular,collected,boysen,buoy,surface,FALSE,FALSE,collected
+161,BYS_BY_BU_DD,2025-07-30,spatt,regular,collected,boysen,buoy,bottom,FALSE,FALSE,collected
+162,BYS_PC_SH_02,2025-07-21,spatt,duplicate,shipped,boysen,shore,NA,FALSE,TRUE,analyzed
+163,SPATT_BLANK,2025-07-22,spatt,blank,shipped,blank,NA,NA,FALSE,TRUE,analyzed
+164,BKS_BL_SH_01,2025-07-21,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+165,BKS_BL_SH_02,2025-07-21,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+166,BKS_BL_SH_03,2025-07-21,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+167,BKS_BL_SH_04,2025-07-21,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+168,BKS_BL_SH_05,2025-07-23,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+169,BKS_BL_SH_06,2025-07-23,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+170,BKS_BL_SH_07,2025-07-23,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+171,BKS_BL_BON,2025-07-23,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+172,BKS_BL_CREEK,2025-07-23,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+173,BKS_BL_BU_SS,2025-07-23,grab,regular,shipped,brooks,buoy,surface,TRUE,FALSE,analyzed
+174,BKS_BL_BU_DD,2025-07-23,grab,regular,shipped,brooks,buoy,bottom,TRUE,FALSE,analyzed
+175,BKS_UB_SH_08,2025-07-22,grab,regular,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+176,BKS_UB_SH_09,2025-07-22,grab,regular,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+177,BKS_UB_BU_SS,2025-07-22,grab,regular,shipped,upper brooks,buoy,surface,TRUE,FALSE,analyzed
+178,BKS_UB_BU_DD,2025-07-22,grab,regular,shipped,upper brooks,buoy,bottom,TRUE,FALSE,analyzed
+179,BKS_RN_SH_10,2025-07-22,grab,regular,shipped,rainbow,shore,NA,TRUE,FALSE,analyzed
+180,BKS_RN_BU_SS,2025-07-22,grab,regular,shipped,rainbow,buoy,surface,TRUE,FALSE,analyzed
+181,BKS_RN_BU_DD,2025-07-22,grab,regular,shipped,rainbow,buoy,bottom,TRUE,FALSE,analyzed
+182,BKS_LJ_BU_SS,2025-07-22,grab,regular,shipped,lower jade,buoy,surface,TRUE,FALSE,analyzed
+183,BKS_LJ_BU_DD,2025-07-22,grab,regular,shipped,lower jade,buoy,bottom,TRUE,FALSE,analyzed
+184,BKS_BL_BU_SS,2025-07-23,grab,duplicate,shipped,brooks,buoy,surface,TRUE,FALSE,analyzed
+185,BYS_BR_SH_01,2025-07-21,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+186,BYS_PC_SH_02,2025-07-21,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+187,BYS_FR_SH_03,2025-07-21,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+188,BYS_CR_SH_04,2025-07-21,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+189,BYS_BY_BU_SS,2025-07-30,grab,regular,collected,boysen,buoy,surface,FALSE,FALSE,collected
+190,BYS_BY_BU_DD,2025-07-30,grab,regular,collected,boysen,buoy,bottom,FALSE,FALSE,collected
+191,BYS_CR_SH_04,2025-07-21,grab,duplicate,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+192,GRAB_BLANK,2025-07-22,grab,blank,shipped,blank,NA,NA,TRUE,FALSE,analyzed
+194,BKS_BL_SH_01,2025-08-04,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+195,BKS_BL_SH_02,2025-08-04,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+196,BKS_BL_SH_03,2025-08-04,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+197,BKS_BL_SH_04,2025-08-04,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+198,BKS_BL_SH_05,2025-08-06,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+199,BKS_BL_SH_06,2025-08-06,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+200,BKS_BL_SH_07,2025-08-06,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+201,BKS_BL_BON,2025-08-06,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+202,BKS_BL_CREEK,2025-08-06,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+203,BKS_BL_BU_SS,2025-08-06,spatt,regular,shipped,brooks,buoy,surface,FALSE,TRUE,analyzed
+204,BKS_BL_BU_DD,2025-08-06,spatt,regular,shipped,brooks,buoy,bottom,FALSE,TRUE,analyzed
+205,BKS_UB_SH_08,2025-08-05,spatt,regular,shipped,upper brooks,shore,NA,FALSE,TRUE,analyzed
+206,BKS_UB_SH_09,2025-08-05,spatt,regular,shipped,upper brooks,shore,NA,FALSE,TRUE,analyzed
+207,BKS_UB_BU_SS,2025-08-05,spatt,regular,shipped,upper brooks,buoy,surface,FALSE,TRUE,analyzed
+208,BKS_UB_BU_DD,2025-08-05,spatt,regular,shipped,upper brooks,buoy,bottom,FALSE,TRUE,analyzed
+209,BKS_RN_SH_10,2025-08-05,spatt,regular,shipped,rainbow,shore,NA,FALSE,TRUE,analyzed
+210,BKS_RN_BU_SS,2025-08-05,spatt,regular,shipped,rainbow,buoy,surface,FALSE,TRUE,analyzed
+211,BKS_RN_BU_DD,2025-08-05,spatt,regular,shipped,rainbow,buoy,bottom,FALSE,TRUE,analyzed
+212,BKS_LJ_BU_SS,2025-08-05,spatt,regular,shipped,lower jade,buoy,surface,FALSE,TRUE,analyzed
+213,BKS_LJ_BU_DD,2025-08-05,spatt,regular,shipped,lower jade,buoy,bottom,FALSE,TRUE,analyzed
+214,BKS_RN_SH_10,2025-08-05,spatt,duplicate,shipped,rainbow,shore,NA,FALSE,TRUE,analyzed
+215,BYS_BR_SH_01,2025-08-04,spatt,regular,shipped,boysen,shore,NA,FALSE,TRUE,analyzed
+216,BYS_PC_SH_02,2025-08-04,spatt,regular,shipped,boysen,shore,NA,FALSE,TRUE,analyzed
+217,BYS_FR_SH_03,2025-08-04,spatt,regular,lost,boysen,shore,NA,FALSE,FALSE,lost
+218,BYS_CR_SH_04,2025-08-04,spatt,regular,shipped,boysen,shore,NA,FALSE,TRUE,analyzed
+219,BYS_BY_BU_SS,2025-08-04,spatt,regular,not collected,boysen,buoy,surface,FALSE,FALSE,not collected
+220,BYS_BY_BU_DD,2025-08-04,spatt,regular,not collected,boysen,buoy,bottom,FALSE,FALSE,not collected
+221,BYS_CR_SH_04,2025-08-04,spatt,duplicate,shipped,boysen,shore,NA,FALSE,TRUE,analyzed
+222,SPATT_BLANK,2025-08-07,spatt,blank,shipped,blank,NA,NA,FALSE,TRUE,analyzed
+223,BKS_BL_SH_01,2025-08-04,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+224,BKS_BL_SH_02,2025-08-04,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+225,BKS_BL_SH_03,2025-08-04,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+226,BKS_BL_SH_04,2025-08-04,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+227,BKS_BL_SH_05,2025-08-06,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+228,BKS_BL_SH_06,2025-08-06,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+229,BKS_BL_SH_07,2025-08-06,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+230,BKS_BL_BON,2025-08-06,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+231,BKS_BL_CREEK,2025-08-06,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+232,BKS_BL_BU_SS,2025-08-06,grab,regular,shipped,brooks,buoy,surface,TRUE,FALSE,analyzed
+233,BKS_BL_BU_DD,2025-08-06,grab,regular,shipped,brooks,buoy,bottom,TRUE,FALSE,analyzed
+234,BKS_UB_SH_08,2025-08-05,grab,regular,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+235,BKS_UB_SH_09,2025-08-05,grab,regular,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+236,BKS_UB_BU_SS,2025-08-05,grab,regular,shipped,upper brooks,buoy,surface,TRUE,FALSE,analyzed
+237,BKS_UB_BU_DD,2025-08-05,grab,regular,shipped,upper brooks,buoy,bottom,TRUE,FALSE,analyzed
+238,BKS_RN_SH_10,2025-08-05,grab,regular,shipped,rainbow,shore,NA,TRUE,FALSE,analyzed
+239,BKS_RN_BU_SS,2025-08-05,grab,regular,shipped,rainbow,buoy,surface,TRUE,FALSE,analyzed
+240,BKS_RN_BU_DD,2025-08-05,grab,regular,shipped,rainbow,buoy,bottom,TRUE,FALSE,analyzed
+241,BKS_LJ_BU_SS,2025-08-05,grab,regular,shipped,lower jade,buoy,surface,TRUE,FALSE,analyzed
+242,BKS_LJ_BU_DD,2025-08-05,grab,regular,shipped,lower jade,buoy,bottom,TRUE,FALSE,analyzed
+243,BKS_UB_SH_09,2025-08-05,grab,duplicate,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+245,BYS_BR_SH_01,2025-08-04,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+246,BYS_PC_SH_02,2025-08-04,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+247,BYS_FR_SH_03,2025-08-04,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+248,BYS_CR_SH_04,2025-08-04,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+249,BYS_BY_BU_SS,2025-08-04,grab,regular,not collected,boysen,buoy,surface,FALSE,FALSE,not collected
+250,BYS_BY_BU_DD,2025-08-04,grab,regular,not collected,boysen,buoy,bottom,FALSE,FALSE,not collected
+251,BYS_CR_SH_04,2025-08-04,grab,duplicate,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+252,GRAB_BLANK,2025-08-07,grab,blank,shipped,blank,NA,NA,TRUE,FALSE,analyzed
+253,BKS_BL_SH_01,2025-08-18,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+254,BKS_BL_SH_02,2025-08-18,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+255,BKS_BL_SH_03,2025-08-18,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+256,BKS_BL_SH_04,2025-08-20,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+257,BKS_BL_SH_05,2025-08-20,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+258,BKS_BL_SH_06,2025-08-20,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+259,BKS_BL_SH_07,2025-08-20,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+260,BKS_BL_BON,2025-08-20,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+261,BKS_BL_CREEK,2025-08-20,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+262,BKS_BL_BU_SS,2025-08-20,spatt,regular,shipped,brooks,buoy,surface,FALSE,TRUE,analyzed
+263,BKS_BL_BU_DD,2025-08-20,spatt,regular,shipped,brooks,buoy,bottom,FALSE,TRUE,analyzed
+264,BKS_UB_SH_08,2025-08-19,spatt,regular,shipped,upper brooks,shore,NA,FALSE,TRUE,analyzed
+265,BKS_UB_SH_09,2025-08-19,spatt,regular,shipped,upper brooks,shore,NA,FALSE,TRUE,analyzed
+266,BKS_UB_BU_SS,2025-08-19,spatt,regular,shipped,upper brooks,buoy,surface,FALSE,TRUE,analyzed
+267,BKS_UB_BU_DD,2025-08-19,spatt,regular,shipped,upper brooks,buoy,bottom,FALSE,TRUE,analyzed
+268,BKS_RN_SH_10,2025-08-19,spatt,regular,shipped,rainbow,shore,NA,FALSE,TRUE,analyzed
+269,BKS_RN_BU_SS,2025-08-19,spatt,regular,shipped,rainbow,buoy,surface,FALSE,TRUE,analyzed
+270,BKS_RN_BU_DD,2025-08-19,spatt,regular,shipped,rainbow,buoy,bottom,FALSE,TRUE,analyzed
+271,BKS_LJ_BU_SS,2025-08-19,spatt,regular,shipped,lower jade,buoy,surface,FALSE,TRUE,analyzed
+272,BKS_LJ_BU_DD,2025-08-19,spatt,regular,shipped,lower jade,buoy,bottom,FALSE,TRUE,analyzed
+273,BKS_RN_BU_SS,2025-08-19,spatt,duplicate,shipped,rainbow,buoy,surface,FALSE,FALSE,missing
+274,BYS_BR_SH_01,2025-08-18,spatt,regular,shipped,boysen,shore,NA,FALSE,FALSE,missing
+275,BYS_PC_SH_02,2025-08-18,spatt,regular,shipped,boysen,shore,NA,FALSE,FALSE,missing
+276,BYS_FR_SH_03,2025-08-18,spatt,regular,shipped,boysen,shore,NA,FALSE,FALSE,missing
+277,BYS_CR_SH_04,2025-08-18,spatt,regular,shipped,boysen,shore,NA,FALSE,FALSE,missing
+278,BYS_BY_BU_SS,2025-08-18,spatt,regular,not collected,boysen,buoy,surface,FALSE,FALSE,not collected
+279,BYS_BY_BU_DD,2025-08-18,spatt,regular,not collected,boysen,buoy,bottom,FALSE,FALSE,not collected
+280,BYS_BR_SH_01,2025-08-18,spatt,duplicate,shipped,boysen,shore,NA,FALSE,FALSE,missing
+281,SPATT_BLANK,2025-08-19,spatt,blank,shipped,blank,NA,NA,FALSE,FALSE,missing
+282,BKS_BL_SH_01,2025-08-18,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+283,BKS_BL_SH_02,2025-08-18,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+284,BKS_BL_SH_03,2025-08-18,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+285,BKS_BL_SH_04,2025-08-20,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+286,BKS_BL_SH_05,2025-08-20,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+287,BKS_BL_SH_06,2025-08-20,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+288,BKS_BL_SH_07,2025-08-20,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+289,BKS_BL_BON,2025-08-20,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+290,BKS_BL_CREEK,2025-08-20,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+291,BKS_BL_BU_SS,2025-08-20,grab,regular,shipped,brooks,buoy,surface,TRUE,FALSE,analyzed
+292,BKS_BL_BU_DD,2025-08-20,grab,regular,shipped,brooks,buoy,bottom,TRUE,FALSE,analyzed
+293,BKS_UB_SH_08,2025-08-19,grab,regular,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+294,BKS_UB_SH_09,2025-08-19,grab,regular,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+295,BKS_UB_BU_SS,2025-08-19,grab,regular,shipped,upper brooks,buoy,surface,TRUE,FALSE,analyzed
+296,BKS_UB_BU_DD,2025-08-19,grab,regular,shipped,upper brooks,buoy,bottom,TRUE,FALSE,analyzed
+297,BKS_RN_SH_10,2025-08-19,grab,regular,shipped,rainbow,shore,NA,TRUE,FALSE,analyzed
+298,BKS_RN_BU_SS,2025-08-19,grab,regular,shipped,rainbow,buoy,surface,TRUE,FALSE,analyzed
+299,BKS_RN_BU_DD,2025-08-19,grab,regular,shipped,rainbow,buoy,bottom,TRUE,FALSE,analyzed
+300,BKS_LJ_BU_SS,2025-08-19,grab,regular,shipped,lower jade,buoy,surface,TRUE,FALSE,analyzed
+301,BKS_LJ_BU_DD,2025-08-19,grab,regular,shipped,lower jade,buoy,bottom,TRUE,FALSE,analyzed
+302,BKS_BL_SH_06,2025-08-20,grab,duplicate,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+304,BYS_BR_SH_01,2025-08-18,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+305,BYS_PC_SH_02,2025-08-18,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+306,BYS_FR_SH_03,2025-08-18,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+307,BYS_CR_SH_04,2025-08-18,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+308,BYS_BY_BU_SS,2025-08-18,grab,regular,not collected,boysen,buoy,surface,FALSE,FALSE,not collected
+309,BYS_BY_BU_DD,2025-08-18,grab,regular,not collected,boysen,buoy,bottom,FALSE,FALSE,not collected
+310,BYS_FR_SH_03,2025-08-18,grab,duplicate,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+311,GRAB_BLANK,2025-08-19,grab,blank,shipped,blank,NA,NA,TRUE,FALSE,analyzed
+312,BKS_BL_SH_01,2025-09-01,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+313,BKS_BL_SH_02,2025-09-01,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+314,BKS_BL_SH_03,2025-09-01,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+315,BKS_BL_SH_04,2025-09-02,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+316,BKS_BL_SH_05,2025-09-02,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+317,BKS_BL_SH_06,2025-09-02,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+318,BKS_BL_SH_07,2025-09-02,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+319,BKS_BL_BON,2025-09-02,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+320,BKS_BL_CREEK,2025-09-02,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+321,BKS_BL_BU_SS,2025-09-02,spatt,regular,shipped,brooks,buoy,surface,FALSE,TRUE,analyzed
+322,BKS_BL_BU_DD,2025-09-02,spatt,regular,shipped,brooks,buoy,bottom,FALSE,TRUE,analyzed
+323,BKS_UB_SH_08,2025-09-02,spatt,regular,lost,upper brooks,shore,NA,FALSE,FALSE,lost
+324,BKS_UB_SH_09,2025-09-02,spatt,regular,shipped,upper brooks,shore,NA,FALSE,TRUE,analyzed
+325,BKS_UB_BU_SS,2025-09-02,spatt,regular,shipped,upper brooks,buoy,surface,FALSE,TRUE,analyzed
+326,BKS_UB_BU_DD,2025-09-02,spatt,regular,shipped,upper brooks,buoy,bottom,FALSE,TRUE,analyzed
+327,BKS_RN_SH_10,2025-09-02,spatt,regular,shipped,rainbow,shore,NA,FALSE,TRUE,analyzed
+328,BKS_RN_BU_SS,2025-09-02,spatt,regular,shipped,rainbow,buoy,surface,FALSE,TRUE,analyzed
+329,BKS_RN_BU_DD,2025-09-02,spatt,regular,shipped,rainbow,buoy,bottom,FALSE,TRUE,analyzed
+330,BKS_LJ_BU_SS,2025-09-02,spatt,regular,shipped,lower jade,buoy,surface,FALSE,TRUE,analyzed
+331,BKS_LJ_BU_DD,2025-09-02,spatt,regular,shipped,lower jade,buoy,bottom,FALSE,TRUE,analyzed
+332,Brooks Dup,2025-09-02,spatt,duplicate,not collected,NA,NA,NA,FALSE,FALSE,not collected
+333,BYS_BR_SH_01,2025-09-01,spatt,regular,shipped,boysen,shore,NA,FALSE,FALSE,missing
+334,BYS_PC_SH_02,2025-09-01,spatt,regular,lost,boysen,shore,NA,FALSE,FALSE,lost
+335,BYS_FR_SH_03,2025-09-01,spatt,regular,shipped,boysen,shore,NA,FALSE,FALSE,missing
+336,BYS_CR_SH_04,2025-09-01,spatt,regular,shipped,boysen,shore,NA,FALSE,FALSE,missing
+337,BYS_CR_SH_04,2025-09-01,spatt,duplicate,shipped,boysen,shore,NA,FALSE,FALSE,missing
+338,SPATT_BLANK,2025-09-01,spatt,blank,shipped,blank,NA,NA,FALSE,FALSE,missing
+339,BKS_BL_SH_01,2025-09-01,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+340,BKS_BL_SH_02,2025-09-01,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+341,BKS_BL_SH_03,2025-09-01,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+342,BKS_BL_SH_04,2025-09-02,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+343,BKS_BL_SH_05,2025-09-02,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+344,BKS_BL_SH_06,2025-09-02,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+345,BKS_BL_SH_07,2025-09-02,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+346,BKS_BL_BON,2025-09-02,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+347,BKS_BL_CREEK,2025-09-02,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+348,BKS_BL_BU_SS,2025-09-02,grab,regular,shipped,brooks,buoy,surface,TRUE,FALSE,analyzed
+349,BKS_BL_BU_DD,2025-09-02,grab,regular,shipped,brooks,buoy,bottom,TRUE,FALSE,analyzed
+350,BKS_UB_SH_08,2025-09-02,grab,regular,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+351,BKS_UB_SH_09,2025-09-02,grab,regular,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+352,BKS_UB_BU_SS,2025-09-02,grab,regular,shipped,upper brooks,buoy,surface,TRUE,FALSE,analyzed
+353,BKS_UB_BU_DD,2025-09-02,grab,regular,shipped,upper brooks,buoy,bottom,TRUE,FALSE,analyzed
+354,BKS_RN_SH_10,2025-09-02,grab,regular,shipped,rainbow,shore,NA,TRUE,FALSE,analyzed
+355,BKS_RN_BU_SS,2025-09-02,grab,regular,shipped,rainbow,buoy,surface,TRUE,FALSE,analyzed
+356,BKS_RN_BU_DD,2025-09-02,grab,regular,shipped,rainbow,buoy,bottom,TRUE,FALSE,analyzed
+357,BKS_LJ_BU_SS,2025-09-02,grab,regular,shipped,lower jade,buoy,surface,TRUE,FALSE,analyzed
+358,BKS_LJ_BU_DD,2025-09-02,grab,regular,shipped,lower jade,buoy,bottom,TRUE,FALSE,analyzed
+359,BKS_BL_SH_06,2025-09-02,grab,duplicate,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+361,BYS_BR_SH_01,2025-09-01,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+362,BYS_PC_SH_02,2025-09-01,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+363,BYS_FR_SH_03,2025-09-01,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+364,BYS_CR_SH_04,2025-09-01,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+365,BYS_CR_SH_04,2025-09-01,grab,duplicate,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+366,GRAB_BLANK,2025-09-01,grab,blank,shipped,blank,NA,NA,TRUE,FALSE,analyzed
+367,BKS_BL_SH_01,2025-09-16,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+368,BKS_BL_SH_02,2025-09-16,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+369,BKS_BL_SH_03,2025-09-16,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+370,BKS_BL_SH_04,2025-09-17,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+371,BKS_BL_SH_05,2025-09-17,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+372,BKS_BL_SH_06,2025-09-17,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+373,BKS_BL_SH_07,2025-09-17,spatt,regular,shipped,brooks,shore,NA,FALSE,TRUE,analyzed
+374,BKS_BL_BON,2025-09-17,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+375,BKS_BL_CREEK,2025-09-17,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+376,BKS_BL_BU_SS,2025-09-17,spatt,regular,shipped,brooks,buoy,surface,FALSE,TRUE,analyzed
+377,BKS_BL_BU_DD,2025-09-17,spatt,regular,shipped,brooks,buoy,bottom,FALSE,TRUE,analyzed
+378,BKS_UB_SH_08,2025-09-17,spatt,regular,shipped,upper brooks,shore,NA,FALSE,TRUE,analyzed
+379,BKS_UB_SH_09,2025-09-17,spatt,regular,shipped,upper brooks,shore,NA,FALSE,TRUE,analyzed
+380,BKS_UB_BU_SS,2025-09-17,spatt,regular,shipped,upper brooks,buoy,surface,FALSE,TRUE,analyzed
+381,BKS_UB_BU_DD,2025-09-17,spatt,regular,shipped,upper brooks,buoy,bottom,FALSE,TRUE,analyzed
+382,BKS_RN_SH_10,2025-09-17,spatt,regular,shipped,rainbow,shore,NA,FALSE,TRUE,analyzed
+383,BKS_RN_BU_SS,2025-09-17,spatt,regular,shipped,rainbow,buoy,surface,FALSE,TRUE,analyzed
+384,BKS_RN_BU_DD,2025-09-17,spatt,regular,shipped,rainbow,buoy,bottom,FALSE,TRUE,analyzed
+385,BKS_LJ_BU_SS,2025-09-17,spatt,regular,shipped,lower jade,buoy,surface,FALSE,TRUE,analyzed
+386,BKS_LJ_BU_DD,2025-09-17,spatt,regular,shipped,lower jade,buoy,bottom,FALSE,TRUE,analyzed
+387,BKS_UB_SH_08,2025-09-17,spatt,duplicate,shipped,upper brooks,shore,NA,FALSE,FALSE,missing
+388,BYS_BR_SH_01,2025-09-16,spatt,regular,shipped,boysen,shore,NA,FALSE,FALSE,missing
+389,BYS_PC_SH_02,2025-09-16,spatt,regular,lost,boysen,shore,NA,FALSE,FALSE,lost
+390,BYS_FR_SH_03,2025-09-16,spatt,regular,lost,boysen,shore,NA,FALSE,FALSE,lost
+391,BYS_CR_SH_04,2025-09-16,spatt,regular,shipped,boysen,shore,NA,FALSE,FALSE,missing
+392,Boysen Dup,2025-09-16,spatt,duplicate,lost,NA,NA,NA,FALSE,FALSE,lost
+393,SPATT_BLANK,2025-09-16,spatt,blank,shipped,blank,NA,NA,FALSE,FALSE,missing
+394,BKS_BL_SH_01,2025-09-16,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+395,BKS_BL_SH_02,2025-09-16,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+396,BKS_BL_SH_03,2025-09-16,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+397,BKS_BL_SH_04,2025-09-17,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+398,BKS_BL_SH_05,2025-09-17,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+399,BKS_BL_SH_06,2025-09-17,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+400,BKS_BL_SH_07,2025-09-17,grab,regular,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+401,BKS_BL_BON,2025-09-17,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+402,BKS_BL_CREEK,2025-09-17,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+403,BKS_BL_BU_SS,2025-09-17,grab,regular,shipped,brooks,buoy,surface,TRUE,FALSE,analyzed
+404,BKS_BL_BU_DD,2025-09-17,grab,regular,shipped,brooks,buoy,bottom,TRUE,FALSE,analyzed
+405,BKS_UB_SH_08,2025-09-17,grab,regular,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+406,BKS_UB_SH_09,2025-09-17,grab,regular,shipped,upper brooks,shore,NA,TRUE,FALSE,analyzed
+407,BKS_UB_BU_SS,2025-09-17,grab,regular,shipped,upper brooks,buoy,surface,TRUE,FALSE,analyzed
+408,BKS_UB_BU_DD,2025-09-17,grab,regular,shipped,upper brooks,buoy,bottom,TRUE,FALSE,analyzed
+409,BKS_RN_SH_10,2025-09-17,grab,regular,shipped,rainbow,shore,NA,TRUE,FALSE,analyzed
+410,BKS_RN_BU_SS,2025-09-17,grab,regular,shipped,rainbow,buoy,surface,TRUE,FALSE,analyzed
+411,BKS_RN_BU_DD,2025-09-17,grab,regular,shipped,rainbow,buoy,bottom,TRUE,FALSE,analyzed
+412,BKS_LJ_BU_SS,2025-09-17,grab,regular,shipped,lower jade,buoy,surface,TRUE,FALSE,analyzed
+413,BKS_LJ_BU_DD,2025-09-17,grab,regular,shipped,lower jade,buoy,bottom,TRUE,FALSE,analyzed
+414,BKS_BL_SH_07,2025-09-17,grab,duplicate,shipped,brooks,shore,NA,TRUE,FALSE,analyzed
+416,BYS_BR_SH_01,2025-09-16,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+417,BYS_PC_SH_02,2025-09-16,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+418,BYS_FR_SH_03,2025-09-16,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+419,BYS_CR_SH_04,2025-09-16,grab,regular,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+420,BYS_CR_SH_04,2025-09-16,grab,duplicate,shipped,boysen,shore,NA,TRUE,FALSE,analyzed
+421,GRAB_BLANK,2025-09-16,grab,blank,shipped,blank,NA,NA,TRUE,FALSE,analyzed
+422,BKS_BL_SH_01,2015-09-29,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+423,BKS_BL_SH_02,2015-09-29,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+424,BKS_BL_SH_03,2015-09-29,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+425,BKS_BL_SH_04,2025-09-30,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+426,BKS_BL_SH_05,2025-09-30,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+427,BKS_BL_SH_06,2025-09-30,spatt,regular,lost,brooks,shore,NA,FALSE,FALSE,lost
+428,BKS_BL_SH_07,2025-09-30,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+429,BKS_BL_BON,2025-09-30,spatt,regular,lost,brooks,NA,NA,FALSE,FALSE,lost
+430,BKS_BL_CREEK,2025-09-30,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+431,BKS_BL_BU_SS,2025-09-30,spatt,regular,collected,brooks,buoy,surface,FALSE,TRUE,analyzed
+432,BKS_BL_BU_DD,2025-09-30,spatt,regular,collected,brooks,buoy,bottom,FALSE,TRUE,analyzed
+433,BKS_UB_SH_08,2025-09-30,spatt,regular,collected,upper brooks,shore,NA,FALSE,TRUE,analyzed
+434,BKS_UB_SH_09,2025-09-30,spatt,regular,collected,upper brooks,shore,NA,FALSE,TRUE,analyzed
+435,BKS_UB_BU_SS,2025-09-30,spatt,regular,collected,upper brooks,buoy,surface,FALSE,TRUE,analyzed
+436,BKS_UB_BU_DD,2025-09-30,spatt,regular,collected,upper brooks,buoy,bottom,FALSE,TRUE,analyzed
+437,BKS_RN_SH_10,2025-09-30,spatt,regular,collected,rainbow,shore,NA,FALSE,TRUE,analyzed
+438,BKS_RN_BU_SS,2025-09-30,spatt,regular,collected,rainbow,buoy,surface,FALSE,TRUE,analyzed
+439,BKS_RN_BU_DD,2025-09-30,spatt,regular,collected,rainbow,buoy,bottom,FALSE,TRUE,analyzed
+440,BKS_LJ_BU_SS,2025-10-01,spatt,regular,collected,lower jade,buoy,surface,FALSE,TRUE,analyzed
+441,BKS_LJ_BU_DD,2025-10-01,spatt,regular,collected,lower jade,buoy,bottom,FALSE,TRUE,analyzed
+442,BKS_BL_BU_SS,2025-10-01,spatt,duplicate,collected,brooks,buoy,surface,FALSE,FALSE,collected
+443,BYS_BR_SH_01,2015-09-29,spatt,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+444,BYS_PC_SH_02,2025-09-29,spatt,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+445,BYS_FR_SH_03,2025-09-29,spatt,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+446,BYS_CR_SH_04,2025-09-29,spatt,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+447,Boysen Dup,2025-09-29,spatt,duplicate,not collected,NA,NA,NA,FALSE,FALSE,not collected
+448,SPATT_BLANK,2025-09-29,spatt,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+449,BKS_BL_SH_01,2025-09-29,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+450,BKS_BL_SH_02,2025-09-29,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+451,BKS_BL_SH_03,2025-09-29,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+452,BKS_BL_SH_04,2025-09-30,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+453,BKS_BL_SH_05,2025-09-30,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+454,BKS_BL_SH_06,2025-09-30,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+455,BKS_BL_SH_07,2025-09-30,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+456,BKS_BL_BON,2025-09-30,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+457,BKS_BL_CREEK,2025-09-30,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+458,BKS_BL_BU_SS,2025-09-30,grab,regular,collected,brooks,buoy,surface,TRUE,FALSE,analyzed
+459,BKS_BL_BU_DD,2025-09-30,grab,regular,collected,brooks,buoy,bottom,TRUE,FALSE,analyzed
+460,BKS_UB_SH_08,2025-09-30,grab,regular,collected,upper brooks,shore,NA,TRUE,FALSE,analyzed
+461,BKS_UB_SH_09,2025-09-30,grab,regular,collected,upper brooks,shore,NA,TRUE,FALSE,analyzed
+462,BKS_UB_BU_SS,2025-09-30,grab,regular,collected,upper brooks,buoy,surface,TRUE,FALSE,analyzed
+463,BKS_UB_BU_DD,2025-09-30,grab,regular,collected,upper brooks,buoy,bottom,TRUE,FALSE,analyzed
+464,BKS_RN_SH_10,2025-09-30,grab,regular,collected,rainbow,shore,NA,TRUE,FALSE,analyzed
+465,BKS_RN_BU_SS,2025-09-30,grab,regular,collected,rainbow,buoy,surface,TRUE,FALSE,analyzed
+466,BKS_RN_BU_DD,2025-09-30,grab,regular,collected,rainbow,buoy,bottom,TRUE,FALSE,analyzed
+467,BKS_LJ_BU_SS,2025-10-01,grab,regular,collected,lower jade,buoy,surface,TRUE,FALSE,analyzed
+468,BKS_LJ_BU_DD,2025-10-01,grab,regular,collected,lower jade,buoy,bottom,TRUE,FALSE,analyzed
+469,BKS_BL_SH_03,2025-09-30,grab,duplicate,collected,brooks,shore,NA,FALSE,FALSE,collected
+471,BYS_BR_SH_01,2025-09-29,grab,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+472,BYS_PC_SH_02,2025-09-29,grab,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+473,BYS_FR_SH_03,2025-09-29,grab,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+474,BYS_CR_SH_04,2025-09-29,grab,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+475,BYS_CR_SH_04,2025-09-29,grab,duplicate,collected,boysen,shore,NA,FALSE,FALSE,collected
+476,GRAB_BLANK,2025-09-29,grab,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+477,BKS_BL_SH_01,2025-10-14,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+478,BKS_BL_SH_02,2025-10-14,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+479,BKS_BL_SH_03,2025-10-14,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+480,BKS_BL_SH_04,2025-10-14,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+481,BKS_BL_SH_05,2025-10-14,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+482,BKS_BL_SH_06,2025-10-14,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+483,BKS_BL_SH_07,2025-10-14,spatt,regular,collected,brooks,shore,NA,FALSE,TRUE,analyzed
+484,BKS_BL_BON,2025-10-14,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+485,BKS_BL_CREEK,2025-10-14,spatt,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+486,BKS_BL_BU_SS,2025-10-14,spatt,regular,collected,brooks,buoy,surface,FALSE,TRUE,analyzed
+487,BKS_BL_BU_DD,2025-10-14,spatt,regular,collected,brooks,buoy,bottom,FALSE,TRUE,analyzed
+488,BKS_UB_SH_08,2025-10-15,spatt,regular,collected,upper brooks,shore,NA,FALSE,TRUE,analyzed
+489,BKS_UB_SH_09,2025-10-15,spatt,regular,collected,upper brooks,shore,NA,FALSE,TRUE,analyzed
+490,BKS_UB_BU_SS,2025-10-14,spatt,regular,collected,upper brooks,buoy,surface,FALSE,TRUE,analyzed
+491,BKS_UB_BU_DD,2025-10-14,spatt,regular,collected,upper brooks,buoy,bottom,FALSE,TRUE,analyzed
+492,BKS_RN_SH_10,2025-10-15,spatt,regular,collected,rainbow,shore,NA,FALSE,TRUE,analyzed
+493,BKS_RN_BU_SS,2025-10-15,spatt,regular,lost,rainbow,buoy,surface,FALSE,FALSE,lost
+494,BKS_RN_BU_DD,2025-10-14,spatt,regular,collected,rainbow,buoy,bottom,FALSE,TRUE,analyzed
+495,BKS_LJ_BU_SS,2025-10-14,spatt,regular,collected,lower jade,buoy,surface,FALSE,TRUE,analyzed
+496,BKS_LJ_BU_DD,2025-10-14,spatt,regular,collected,lower jade,buoy,bottom,FALSE,TRUE,analyzed
+497,BYS_BR_SH_01,2025-10-14,spatt,duplicate,collected,boysen,shore,NA,FALSE,FALSE,collected
+498,BYS_BR_SH_01,2025-10-14,spatt,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+499,BYS_PC_SH_02,2025-10-14,spatt,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+500,BYS_FR_SH_03,2025-10-14,spatt,regular,lost,boysen,shore,NA,FALSE,FALSE,lost
+501,BYS_CR_SH_04,2025-10-14,spatt,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+502,Brooks Dup,2025-10-14,spatt,duplicate,not collected,NA,NA,NA,FALSE,FALSE,not collected
+503,SPATT_BLANK,2025-10-17,spatt,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+504,BKS_BL_SH_01,2025-10-14,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+505,BKS_BL_SH_02,2025-10-14,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+506,BKS_BL_SH_03,2025-10-14,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+507,BKS_BL_SH_04,2025-10-14,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+508,BKS_BL_SH_05,2025-10-14,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+509,BKS_BL_SH_06,2025-10-14,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+510,BKS_BL_SH_07,2025-10-14,grab,regular,collected,brooks,shore,NA,TRUE,FALSE,analyzed
+511,BKS_BL_BON,2025-10-14,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+512,BKS_BL_CREEK,2025-10-14,grab,regular,collected,brooks,NA,NA,FALSE,FALSE,collected
+513,BKS_BL_BU_SS,2025-10-14,grab,regular,collected,brooks,buoy,surface,TRUE,FALSE,analyzed
+514,BKS_BL_BU_DD,2025-10-14,grab,regular,collected,brooks,buoy,bottom,TRUE,FALSE,analyzed
+515,BKS_UB_SH_08,2025-10-15,grab,regular,collected,upper brooks,shore,NA,TRUE,FALSE,analyzed
+516,BKS_UB_SH_09,2025-10-15,grab,regular,collected,upper brooks,shore,NA,TRUE,FALSE,analyzed
+517,BKS_UB_BU_SS,2025-10-14,grab,regular,collected,upper brooks,buoy,surface,TRUE,FALSE,analyzed
+518,BKS_UB_BU_DD,2025-10-14,grab,regular,collected,upper brooks,buoy,bottom,TRUE,FALSE,analyzed
+519,BKS_RN_SH_10,2025-10-15,grab,regular,collected,rainbow,shore,NA,TRUE,FALSE,analyzed
+520,BKS_RN_BU_SS,2025-10-14,grab,regular,collected,rainbow,buoy,surface,TRUE,FALSE,analyzed
+521,BKS_RN_BU_DD,2025-10-14,grab,regular,collected,rainbow,buoy,bottom,TRUE,FALSE,analyzed
+522,BKS_LJ_BU_SS,2025-10-14,grab,regular,collected,lower jade,buoy,surface,TRUE,FALSE,analyzed
+523,BKS_LJ_BU_DD,2025-10-14,grab,regular,collected,lower jade,buoy,bottom,TRUE,FALSE,analyzed
+524,BYS_CR_SH_04,2025-10-14,grab,duplicate,collected,boysen,shore,NA,FALSE,FALSE,collected
+526,BYS_BR_SH_01,2025-10-14,grab,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+527,BYS_PC_SH_02,2025-10-14,grab,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+528,BYS_FR_SH_03,2025-10-14,grab,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+529,BYS_CR_SH_04,2025-10-14,grab,regular,collected,boysen,shore,NA,FALSE,FALSE,collected
+530,Brooks Dup,2025-10-14,grab,duplicate,not collected,NA,NA,NA,FALSE,FALSE,not collected
+531,GRAB_BLANK,2025-10-17,grab,blank,collected,blank,NA,NA,FALSE,FALSE,collected
+532,BKS_RN_INFLOW,2025-09-30,grab,regular,collected,rainbow,NA,NA,FALSE,FALSE,collected
+533,BKS_RN_INFLOW,2025-10-15,grab,regular,collected,rainbow,NA,NA,FALSE,FALSE,collected

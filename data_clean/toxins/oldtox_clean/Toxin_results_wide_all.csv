@@ -1,0 +1,344 @@
+sample_number,site_id,date,sample_type,method,rr,yr,lr,la,dm_lr,ly,nod,lf,wr,atx,hatx,cyl,ng_m_l,lake,site_type,depth_category,ng_g_resin
+126,BKS_BL_SH_01,2025-07-08,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+127,BKS_BL_SH_02,2025-07-08,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+128,BKS_BL_SH_03,2025-07-08,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+129,BKS_BL_SH_04,2025-07-08,regular,grab,0,0,0.378075963,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+130,BKS_BL_SH_05,2025-07-08,regular,grab,0,0,0.366535489,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+131,BKS_BL_SH_06,2025-07-08,regular,grab,0,0,0.316108635,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+132,BKS_BL_SH_07,2025-07-08,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+135,BKS_BL_BU_SS,2025-07-08,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+136,BKS_BL_BU_DD,2025-07-08,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+137,BKS_UB_SH_08,2025-07-09,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+138,BKS_UB_SH_09,2025-07-09,regular,grab,0,0,0.286504811,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+139,BKS_UB_BU_SS,2025-07-09,regular,grab,0,0,0.376068924,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+140,BKS_UB_BU_DD,2025-07-09,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+141,BKS_RN_SH_10,2025-07-09,regular,grab,0.054788951,0,0.536381161,0,0,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+142,BKS_RN_BU_SS,2025-07-09,regular,grab,0,0,0.428502817,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+143,BKS_RN_BU_DD,2025-07-09,regular,grab,0,0,0.417464103,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+144,BKS_LJ_BU_SS,2025-07-09,regular,grab,0,0,0.267939701,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+145,BKS_LJ_BU_DD,2025-07-09,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+146,BKS_RN_BU_SS,2025-07-09,duplicate,grab,0,0,0.32714735,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+148,BYS_BR_SH_01,2025-07-10,regular,grab,0,0,0.46086632,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+149,BYS_PC_SH_02,2025-07-10,regular,grab,0,0,0.321627993,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+150,BYS_FR_SH_03,2025-07-10,regular,grab,0,0,0.251883389,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+151,BYS_CR_SH_04,2025-07-10,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+154,BYS_PC_SH_02,2025-07-10,duplicate,grab,0,0,0.273208177,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+155,GRAB_BLANK,2025-07-09,blank,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,blank,NA,NA,NA
+164,BKS_BL_SH_01,2025-07-21,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+165,BKS_BL_SH_02,2025-07-21,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+166,BKS_BL_SH_03,2025-07-21,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+167,BKS_BL_SH_04,2025-07-21,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+168,BKS_BL_SH_05,2025-07-23,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+169,BKS_BL_SH_06,2025-07-23,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+170,BKS_BL_SH_07,2025-07-23,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+173,BKS_BL_BU_SS,2025-07-23,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+174,BKS_BL_BU_DD,2025-07-23,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+175,BKS_UB_SH_08,2025-07-22,regular,grab,0,1.085715908,0,0,0,0,0,0,4.926004937,0,0,0,NA,upper brooks,shore,NA,NA
+176,BKS_UB_SH_09,2025-07-22,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+177,BKS_UB_BU_SS,2025-07-22,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+178,BKS_UB_BU_DD,2025-07-22,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+179,BKS_RN_SH_10,2025-07-22,regular,grab,0,0,3.035646419,0,0.234958371,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+180,BKS_RN_BU_SS,2025-07-22,regular,grab,0,0,1.005777396,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+181,BKS_RN_BU_DD,2025-07-22,regular,grab,0,0,0.695940758,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+182,BKS_LJ_BU_SS,2025-07-22,regular,grab,0,0,0.488713986,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+183,BKS_LJ_BU_DD,2025-07-22,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+184,BKS_BL_BU_SS,2025-07-23,duplicate,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+185,BYS_BR_SH_01,2025-07-21,regular,grab,0,0,0.837687884,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+186,BYS_PC_SH_02,2025-07-21,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+187,BYS_FR_SH_03,2025-07-21,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+188,BYS_CR_SH_04,2025-07-21,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+191,BYS_CR_SH_04,2025-07-21,duplicate,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+192,GRAB_BLANK,2025-07-22,blank,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,blank,NA,NA,NA
+223,BKS_BL_SH_01,2025-08-04,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+224,BKS_BL_SH_02,2025-08-04,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+225,BKS_BL_SH_03,2025-08-04,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+226,BKS_BL_SH_04,2025-08-04,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+227,BKS_BL_SH_05,2025-08-06,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+228,BKS_BL_SH_06,2025-08-06,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+229,BKS_BL_SH_07,2025-08-06,regular,grab,0,0,0.380646375,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+232,BKS_BL_BU_SS,2025-08-06,regular,grab,0,0,0.389763654,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+233,BKS_BL_BU_DD,2025-08-06,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+234,BKS_UB_SH_08,2025-08-05,regular,grab,0,0,0,0,0.70079048,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+235,BKS_UB_SH_09,2025-08-05,regular,grab,0,0,0,0,0,0,0,0,0,1.920470741,0,0,NA,upper brooks,shore,NA,NA
+236,BKS_UB_BU_SS,2025-08-05,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+237,BKS_UB_BU_DD,2025-08-05,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+238,BKS_RN_SH_10,2025-08-05,regular,grab,0,0,1.562600222,0,0,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+239,BKS_RN_BU_SS,2025-08-05,regular,grab,0,0,1.499539046,0,0.358557772,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+240,BKS_RN_BU_DD,2025-08-05,regular,grab,0,0,0.576161346,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+241,BKS_LJ_BU_SS,2025-08-05,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+242,BKS_LJ_BU_DD,2025-08-05,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+243,BKS_UB_SH_09,2025-08-05,duplicate,grab,0,0,0,0,0,0,0,0,0,1.452834852,0,0,NA,upper brooks,shore,NA,NA
+245,BYS_BR_SH_01,2025-08-04,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+246,BYS_PC_SH_02,2025-08-04,regular,grab,0,0,1.044941413,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+247,BYS_FR_SH_03,2025-08-04,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+248,BYS_CR_SH_04,2025-08-04,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+251,BYS_CR_SH_04,2025-08-04,duplicate,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+252,GRAB_BLANK,2025-08-07,blank,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,blank,NA,NA,NA
+282,BKS_BL_SH_01,2025-08-18,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+283,BKS_BL_SH_02,2025-08-18,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+284,BKS_BL_SH_03,2025-08-18,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+285,BKS_BL_SH_04,2025-08-20,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+286,BKS_BL_SH_05,2025-08-20,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+287,BKS_BL_SH_06,2025-08-20,regular,grab,0,0,0.47511151,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+288,BKS_BL_SH_07,2025-08-20,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+291,BKS_BL_BU_SS,2025-08-20,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+292,BKS_BL_BU_DD,2025-08-20,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+293,BKS_UB_SH_08,2025-08-19,regular,grab,0,0,0.385964787,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+294,BKS_UB_SH_09,2025-08-19,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+295,BKS_UB_BU_SS,2025-08-19,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+296,BKS_UB_BU_DD,2025-08-19,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+297,BKS_RN_SH_10,2025-08-19,regular,grab,0,0,1.277685271,0,0,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+298,BKS_RN_BU_SS,2025-08-19,regular,grab,0,0,1.098632052,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+299,BKS_RN_BU_DD,2025-08-19,regular,grab,0,0,1.274646178,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+300,BKS_LJ_BU_SS,2025-08-19,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+301,BKS_LJ_BU_DD,2025-08-19,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+302,BKS_BL_SH_06,2025-08-20,duplicate,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+304,BYS_BR_SH_01,2025-08-18,regular,grab,0,0,3.144448032,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+305,BYS_PC_SH_02,2025-08-18,regular,grab,0,0,0.374821447,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+306,BYS_FR_SH_03,2025-08-18,regular,grab,0,0,0,1.30658236,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+307,BYS_CR_SH_04,2025-08-18,regular,grab,0,0,6.259771425,1.93930139,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+310,BYS_FR_SH_03,2025-08-18,duplicate,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+311,GRAB_BLANK,2025-08-19,blank,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,blank,NA,NA,NA
+339,BKS_BL_SH_01,2025-09-01,regular,grab,0.085108061,0,0.412708287,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+340,BKS_BL_SH_02,2025-09-01,regular,grab,0,0,0,0,0.875881504,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+341,BKS_BL_SH_03,2025-09-01,regular,grab,0,0,0,0,2.564694913,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+342,BKS_BL_SH_04,2025-09-02,regular,grab,0,0,0,0,4.218424949,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+343,BKS_BL_SH_05,2025-09-02,regular,grab,0,0,0,0,1.769805886,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+344,BKS_BL_SH_06,2025-09-02,regular,grab,0.148297681,0,0,0,3.185169451,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+345,BKS_BL_SH_07,2025-09-02,regular,grab,0,0,0,0,1.97990518,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+348,BKS_BL_BU_SS,2025-09-02,regular,grab,0,0,0.260458471,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+349,BKS_BL_BU_DD,2025-09-02,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+350,BKS_UB_SH_08,2025-09-02,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+351,BKS_UB_SH_09,2025-09-02,regular,grab,0,0,0,0,1.482322691,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+352,BKS_UB_BU_SS,2025-09-02,regular,grab,0,0,0,0,1.498962235,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+353,BKS_UB_BU_DD,2025-09-02,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+354,BKS_RN_SH_10,2025-09-02,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+355,BKS_RN_BU_SS,2025-09-02,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+356,BKS_RN_BU_DD,2025-09-02,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+357,BKS_LJ_BU_SS,2025-09-02,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+358,BKS_LJ_BU_DD,2025-09-02,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+359,BKS_BL_SH_06,2025-09-02,duplicate,grab,0,0,0,0,6.489622375,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+361,BYS_BR_SH_01,2025-09-01,regular,grab,0,0,33.06520294,23.06285852,39.38018572,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+362,BYS_PC_SH_02,2025-09-01,regular,grab,0,0,0,0,0.983938297,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+363,BYS_FR_SH_03,2025-09-01,regular,grab,0,0,23.01434731,22.25518774,1.982511373,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+364,BYS_CR_SH_04,2025-09-01,regular,grab,0.346003488,0,3.547681161,11.19224528,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+365,BYS_CR_SH_04,2025-09-01,duplicate,grab,0,0,0.62959916,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+366,GRAB_BLANK,2025-09-01,blank,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,blank,NA,NA,NA
+394,BKS_BL_SH_01,2025-09-16,regular,grab,0,0,0,0,0.788072829,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+395,BKS_BL_SH_02,2025-09-16,regular,grab,0,0,0,0,1.660345757,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+396,BKS_BL_SH_03,2025-09-16,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+397,BKS_BL_SH_04,2025-09-17,regular,grab,0,0,0,0,14.01009453,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+398,BKS_BL_SH_05,2025-09-17,regular,grab,0,0,4.777281926,0,11.24071319,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+399,BKS_BL_SH_06,2025-09-17,regular,grab,0,0,0,0,12.04482413,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+400,BKS_BL_SH_07,2025-09-17,regular,grab,0,0,0,0,11.46504631,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+403,BKS_BL_BU_SS,2025-09-17,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+404,BKS_BL_BU_DD,2025-09-17,regular,grab,0,0,0,0,1.713872963,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+405,BKS_UB_SH_08,2025-09-17,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+406,BKS_UB_SH_09,2025-09-17,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+407,BKS_UB_BU_SS,2025-09-17,regular,grab,0,0,0,0,1.523219882,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+408,BKS_UB_BU_DD,2025-09-17,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+409,BKS_RN_SH_10,2025-09-17,regular,grab,0,0,313.5373033,2.10754174,0,4.221431924,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+410,BKS_RN_BU_SS,2025-09-17,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+411,BKS_RN_BU_DD,2025-09-17,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+412,BKS_LJ_BU_SS,2025-09-17,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+413,BKS_LJ_BU_DD,2025-09-17,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+414,BKS_BL_SH_07,2025-09-17,duplicate,grab,0,0,2.951468042,0,9.204474131,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+416,BYS_BR_SH_01,2025-09-16,regular,grab,0,0,2487.70729,4609.90731,96.78961735,0,0,0,13.07438628,0,0,0,NA,boysen,shore,NA,NA
+417,BYS_PC_SH_02,2025-09-16,regular,grab,0,0,0,0,5.041982105,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+418,BYS_FR_SH_03,2025-09-16,regular,grab,0,0,0,5.719054712,4.604342068,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+419,BYS_CR_SH_04,2025-09-16,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+420,BYS_CR_SH_04,2025-09-16,duplicate,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+421,GRAB_BLANK,2025-09-16,blank,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,blank,NA,NA,NA
+449,BKS_BL_SH_01,2025-09-29,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+450,BKS_BL_SH_02,2025-09-29,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+451,BKS_BL_SH_03,2025-09-29,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+452,BKS_BL_SH_04,2025-09-30,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+453,BKS_BL_SH_05,2025-09-30,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+454,BKS_BL_SH_06,2025-09-30,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+455,BKS_BL_SH_07,2025-09-30,regular,grab,0,0,0,0,0,0,0,0,0,1.318490774,0,0,NA,brooks,shore,NA,NA
+458,BKS_BL_BU_SS,2025-09-30,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+459,BKS_BL_BU_DD,2025-09-30,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+460,BKS_UB_SH_08,2025-09-30,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+461,BKS_UB_SH_09,2025-09-30,regular,grab,0.199061964,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+462,BKS_UB_BU_SS,2025-09-30,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+463,BKS_UB_BU_DD,2025-09-30,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+464,BKS_RN_SH_10,2025-09-30,regular,grab,0,0.844950339,37.45085004,0,2.096181507,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+465,BKS_RN_BU_SS,2025-09-30,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+466,BKS_RN_BU_DD,2025-09-30,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+467,BKS_LJ_BU_SS,2025-10-01,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+468,BKS_LJ_BU_DD,2025-10-01,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+469,BKS_BL_SH_03,2025-09-30,regular,grab,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Thawed in broken bottle - no sample to analyze,brooks,shore,NA,NA
+504,BKS_BL_SH_01,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+505,BKS_BL_SH_02,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+506,BKS_BL_SH_03,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+507,BKS_BL_SH_04,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+508,BKS_BL_SH_05,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+509,BKS_BL_SH_06,2025-10-14,regular,grab,0,0,20.62286498,0,2.422156175,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+510,BKS_BL_SH_07,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+513,BKS_BL_BU_SS,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+514,BKS_BL_BU_DD,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+515,BKS_UB_SH_08,2025-10-15,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+516,BKS_UB_SH_09,2025-10-15,regular,grab,0,0,238.3808274,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+517,BKS_UB_BU_SS,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+518,BKS_UB_BU_DD,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+519,BKS_RN_SH_10,2025-10-15,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+520,BKS_RN_BU_SS,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+521,BKS_RN_BU_DD,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+522,BKS_LJ_BU_SS,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+523,BKS_LJ_BU_DD,2025-10-14,regular,grab,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+064,BKS_BL_SH_01,2025-07-21,regular,spatt,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,brooks,shore,NA,NA
+065,BKS_BL_SH_02,2025-07-21,regular,spatt,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,brooks,shore,NA,NA
+066,BKS_BL_SH_03,2025-07-21,regular,spatt,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,brooks,shore,NA,NA
+067,BKS_BL_SH_04,2025-07-21,regular,spatt,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,brooks,shore,NA,NA
+072,BKS_BL_SH_05,2025-07-23,regular,spatt,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,brooks,shore,NA,NA
+073,BKS_BL_SH_06,2025-07-23,regular,spatt,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,brooks,shore,NA,NA
+074,BKS_BL_SH_07,2025-07-23,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+079,BKS_BL_BU_SS,2025-07-23,regular,spatt,0,0,2.466857431,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+088,BKS_BL_BU_DD,2025-07-23,regular,spatt,0.503122303,0,2.357149166,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+090,BKS_UB_SH_09,2025-07-22,regular,spatt,0,0,0,0,11.83345515,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+091,BKS_UB_BU_SS,2025-07-22,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+095,BKS_UB_BU_DD,2025-07-22,regular,spatt,0,0,5.861104874,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+096,BKS_BL_SH_01,2025-07-08,regular,spatt,0,0,5.080913362,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+097,BKS_BL_SH_02,2025-07-08,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+098,BKS_BL_SH_03,2025-07-08,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+099,BKS_BL_SH_04,2025-07-08,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+100,BKS_BL_SH_05,2025-07-08,regular,spatt,0,0,3.280592837,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+101,BKS_BL_SH_06,2025-07-08,regular,spatt,0,0,0,0,0,0,0.424888747,0,0,0,0,0,NA,brooks,shore,NA,NA
+102,BKS_BL_SH_07,2025-07-08,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+103,BKS_RN_SH_10,2025-07-22,regular,spatt,0,0,76.00336048,0,9.12134324,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+104,BKS_RN_BU_SS,2025-07-22,regular,spatt,0,0,66.48360336,0,7.41495473,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+105,BKS_BL_BU_SS,2025-07-08,regular,spatt,0,0,2.496454985,0,0,0,0.758347213,0,0,0,0,0,NA,brooks,buoy,surface,NA
+106,BKS_BL_BU_DD,2025-07-08,regular,spatt,0,0,2.406478422,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+107,BKS_UB_SH_08,2025-07-09,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+109,BKS_UB_BU_SS,2025-07-09,regular,spatt,0.446676819,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+110,BKS_UB_BU_DD,2025-07-09,regular,spatt,0.770932913,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+111,BKS_RN_SH_10,2025-07-09,regular,spatt,0.492492959,0,0,0,0,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+112,BKS_RN_BU_SS,2025-07-09,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+113,BKS_RN_BU_DD,2025-07-09,regular,spatt,0.266588846,2.132104962,0,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+114,BKS_LJ_BU_SS,2025-07-09,regular,spatt,0.65785868,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+115,BKS_LJ_BU_DD,2025-07-09,regular,spatt,0,0,0,0,0,0,0,0.455559046,0,0,0,0,NA,lower jade,buoy,bottom,NA
+117,BKS_RN_SH_10,2025-07-09,duplicate,spatt,0,0.772837025,5.354394757,0,0,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+118,BYS_BR_SH_01,2025-07-10,regular,spatt,0,0,55.21601203,0,0,0,1.474531672,0,0,0,0,0,NA,boysen,shore,NA,NA
+119,BYS_PC_SH_02,2025-07-10,regular,spatt,0,0,8.355586689,0,0,0,0,0,0,0,0,0,NA,boysen,shore,NA,NA
+120,BYS_FR_SH_03,2025-07-10,regular,spatt,0,0,8.087235536,0,0,0,0.492558802,0,0,0,0,0,NA,boysen,shore,NA,NA
+121,BYS_CR_SH_04,2025-07-10,regular,spatt,0,0,55.33637541,0,0,0,1.229591695,0,0,0,0,0,NA,boysen,shore,NA,NA
+122,BKS_RN_BU_DD,2025-07-22,regular,spatt,0,0,19.97400768,0,0,0,0.399032031,0.391932272,0,0,0,0,NA,rainbow,buoy,bottom,NA
+123,BKS_LJ_BU_SS,2025-07-22,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+124,BKS_LJ_BU_DD,2025-07-22,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+125,SPATT_BLANK,2025-07-09,blank,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,blank,NA,NA,NA
+153,BKS_BL_SH_03,2025-07-21,duplicate,spatt,0,0,0,1.487297145,0,0,0,0.761789948,0,0,0,0,NA,brooks,shore,NA,NA
+156,BYS_BR_SH_01,2025-07-21,regular,spatt,0,0,106.3511134,15.46049708,0,0,6.029972646,0,0,6.204989728,0,0,NA,boysen,shore,NA,NA
+158,BYS_FR_SH_03,2025-07-21,regular,spatt,0,0,40.06324851,10.5322031,0,0,4.35872028,0,0,0,0,0,NA,boysen,shore,NA,NA
+162,BYS_PC_SH_02,2025-07-21,duplicate,spatt,0,0,15.02648063,0,0,0,1.838971608,0,0,0,0,0,NA,boysen,shore,NA,NA
+163,SPATT_BLANK,2025-07-22,blank,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,blank,NA,NA,NA
+194,BKS_BL_SH_01,2025-08-04,regular,spatt,0,0,13.09198453,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+195,BKS_BL_SH_02,2025-08-04,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+196,BKS_BL_SH_03,2025-08-04,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+197,BKS_BL_SH_04,2025-08-04,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+198,BKS_BL_SH_05,2025-08-06,regular,spatt,0,0,3.321634778,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+199,BKS_BL_SH_06,2025-08-06,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+200,BKS_BL_SH_07,2025-08-06,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+203,BKS_BL_BU_SS,2025-08-06,regular,spatt,0,0,5.353605489,0,0,0,0,1.098968567,0,0,0,0,NA,brooks,buoy,surface,NA
+204,BKS_BL_BU_DD,2025-08-06,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+205,BKS_UB_SH_08,2025-08-05,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+206,BKS_UB_SH_09,2025-08-05,regular,spatt,0,0,2.164173117,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+207,BKS_UB_BU_SS,2025-08-05,regular,spatt,0,0,15.59554292,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+208,BKS_UB_BU_DD,2025-08-05,regular,spatt,0,0,16.90099235,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+209,BKS_RN_SH_10,2025-08-05,regular,spatt,0,0,64.58659749,0,0,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+210,BKS_RN_BU_SS,2025-08-05,regular,spatt,0,0,139.0548315,0,11.74691616,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+211,BKS_RN_BU_DD,2025-08-05,regular,spatt,0,0,63.80285427,0,6.11486511,0,0,1.130998372,0,0,0,0,NA,rainbow,buoy,bottom,NA
+212,BKS_LJ_BU_SS,2025-08-05,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+213,BKS_LJ_BU_DD,2025-08-05,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+214,BKS_RN_SH_10,2025-08-05,duplicate,spatt,0,0,153.4719972,0,12.55550441,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+215,BYS_BR_SH_01,2025-08-04,regular,spatt,0,0,39.68203202,40.57466162,0,0,5.903717328,0,0,4.438027763,0,0,NA,boysen,shore,NA,NA
+216,BYS_PC_SH_02,2025-08-04,regular,spatt,0,0,5.363865974,5.47885347,0,0,9.226887758,0,0,9.423189383,0,0,NA,boysen,shore,NA,NA
+218,BYS_CR_SH_04,2025-08-04,regular,spatt,2.954285783,0,43.8742295,20.40255505,0,0,7.423440016,0,0,0,0,0,NA,boysen,shore,NA,NA
+221,BYS_CR_SH_04,2025-08-04,duplicate,spatt,3.117024712,0,49.4144969,26.14685684,0,0,9.449348696,0,0,0,0,0,NA,boysen,shore,NA,NA
+222,SPATT_BLANK,2025-08-07,blank,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,blank,NA,NA,NA
+253,BKS_BL_SH_01,2025-08-18,regular,spatt,0,0,5.055656783,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+254,BKS_BL_SH_02,2025-08-18,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+255,BKS_BL_SH_03,2025-08-18,regular,spatt,0,0,0,0,0,0,1.496078935,0,0,0,0,0,NA,brooks,shore,NA,NA
+256,BKS_BL_SH_04,2025-08-20,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+257,BKS_BL_SH_05,2025-08-20,regular,spatt,0.150643468,0,2.807821248,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+258,BKS_BL_SH_06,2025-08-20,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+259,BKS_BL_SH_07,2025-08-20,regular,spatt,0,0,1.785324431,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+262,BKS_BL_BU_SS,2025-08-20,regular,spatt,0,0,4.027635089,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+263,BKS_BL_BU_DD,2025-08-20,regular,spatt,0,0,0,0,0,0.797720004,0.575719593,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+264,BKS_UB_SH_08,2025-08-19,regular,spatt,0.2912345,0,1.9700546,0,0,0,0,2.926798512,0,0,0,0,NA,upper brooks,shore,NA,NA
+265,BKS_UB_SH_09,2025-08-19,regular,spatt,0,0,1.036395007,0,0,1.198475471,1.314848976,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+266,BKS_UB_BU_SS,2025-08-19,regular,spatt,0,0,4.900663334,0,0,0.863248938,1.24846011,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+267,BKS_UB_BU_DD,2025-08-19,regular,spatt,0,0,12.90109277,0,0,0,0.751358911,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+268,BKS_RN_SH_10,2025-08-19,regular,spatt,0,0,33.0864632,0,4.26317167,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+269,BKS_RN_BU_SS,2025-08-19,regular,spatt,0,0,64.38086997,0,5.151332434,1.025717371,0.234923411,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+270,BKS_RN_BU_DD,2025-08-19,regular,spatt,0.73038022,0,31.2164939,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+271,BKS_LJ_BU_SS,2025-08-19,regular,spatt,0.317613063,0,1.591483275,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+272,BKS_LJ_BU_DD,2025-08-19,regular,spatt,0.166252378,0,1.591483275,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+312,BKS_BL_SH_01,2025-09-01,regular,spatt,0,0,1.454226465,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+313,BKS_BL_SH_02,2025-09-01,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+314,BKS_BL_SH_03,2025-09-01,regular,spatt,0,0,1.331100642,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+315,BKS_BL_SH_04,2025-09-02,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+316,BKS_BL_SH_05,2025-09-02,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+317,BKS_BL_SH_06,2025-09-02,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+318,BKS_BL_SH_07,2025-09-02,regular,spatt,0,0.867173939,4.827952938,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+321,BKS_BL_BU_SS,2025-09-02,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+322,BKS_BL_BU_DD,2025-09-02,regular,spatt,0,0,1.46251378,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+324,BKS_UB_SH_09,2025-09-02,regular,spatt,0,0,2.215475543,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+325,BKS_UB_BU_SS,2025-09-02,regular,spatt,0,0,2.131418491,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+326,BKS_UB_BU_DD,2025-09-02,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+327,BKS_RN_SH_10,2025-09-02,regular,spatt,0,0,45.33121841,0,3.974779266,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+328,BKS_RN_BU_SS,2025-09-02,regular,spatt,0,0,146.6890272,0,10.57312669,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+329,BKS_RN_BU_DD,2025-09-02,regular,spatt,0,13.92149794,39.53286035,0,3.641988399,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+330,BKS_LJ_BU_SS,2025-09-02,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+331,BKS_LJ_BU_DD,2025-09-02,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+367,BKS_BL_SH_01,2025-09-16,regular,spatt,0,5.066527236,12.79008948,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+368,BKS_BL_SH_02,2025-09-16,regular,spatt,0,0,0.857749518,0,0,0,0.544388707,0,0,0,0,0,NA,brooks,shore,NA,NA
+369,BKS_BL_SH_03,2025-09-16,regular,spatt,0,0,0.830434654,0,0,0,1.17706296,0,0,0,0,0,NA,brooks,shore,NA,NA
+370,BKS_BL_SH_04,2025-09-17,regular,spatt,0,0,1.627903094,0,0,0,1.857141193,0,0,0,0,0,NA,brooks,shore,NA,NA
+371,BKS_BL_SH_05,2025-09-17,regular,spatt,0,0,2.215329649,0,0,0,0.700344308,0,0,0,0,0,NA,brooks,shore,NA,NA
+372,BKS_BL_SH_06,2025-09-17,regular,spatt,0,0,1.687242281,0,0,0,0.436419445,0,0,0,0,0,NA,brooks,shore,NA,NA
+373,BKS_BL_SH_07,2025-09-17,regular,spatt,0,0,1.856468851,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+376,BKS_BL_BU_SS,2025-09-17,regular,spatt,0,0,6.665369063,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+377,BKS_BL_BU_DD,2025-09-17,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+378,BKS_UB_SH_08,2025-09-17,regular,spatt,0.31393219,0,2.976724621,0,0,0,0,3.927617551,0,0,0,0,NA,upper brooks,shore,NA,NA
+379,BKS_UB_SH_09,2025-09-17,regular,spatt,0.373737525,0,1.963699021,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+380,BKS_UB_BU_SS,2025-09-17,regular,spatt,1.148885522,0,7.981473612,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+381,BKS_UB_BU_DD,2025-09-17,regular,spatt,0,0,23.32050441,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+382,BKS_RN_SH_10,2025-09-17,regular,spatt,0,0,84.25673695,0,4.804751668,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+383,BKS_RN_BU_SS,2025-09-17,regular,spatt,0,0,147.4968431,0,10.68906889,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+384,BKS_RN_BU_DD,2025-09-17,regular,spatt,0,0,142.7561043,0,3.919982376,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+385,BKS_LJ_BU_SS,2025-09-17,regular,spatt,0,0,44.3852806,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+386,BKS_LJ_BU_DD,2025-09-17,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+422,BKS_BL_SH_01,2015-09-29,regular,spatt,0,0,4.313250901459399,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+423,BKS_BL_SH_02,2015-09-29,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+424,BKS_BL_SH_03,2015-09-29,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+425,BKS_BL_SH_04,2025-09-30,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+426,BKS_BL_SH_05,2025-09-30,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+428,BKS_BL_SH_07,2025-09-30,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+431,BKS_BL_BU_SS,2025-09-30,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,surface,NA
+432,BKS_BL_BU_DD,2025-09-30,regular,spatt,0,0,0,0,0,0,0,0,0,0,7.674894635292163,0,NA,brooks,buoy,bottom,NA
+433,BKS_UB_SH_08,2025-09-30,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+434,BKS_UB_SH_09,2025-09-30,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+435,BKS_UB_BU_SS,2025-09-30,regular,spatt,0,0,20.08392280214428,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+436,BKS_UB_BU_DD,2025-09-30,regular,spatt,0,0,25.156817375219337,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+437,BKS_RN_SH_10,2025-09-30,regular,spatt,0,0,106.92204652026548,0,68.71958562130534,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+438,BKS_RN_BU_SS,2025-09-30,regular,spatt,0,0,201.57306140614642,0,156.33259634087702,0,0,0,0,0,0,0,NA,rainbow,buoy,surface,NA
+439,BKS_RN_BU_DD,2025-09-30,regular,spatt,0,0,42.254372662154886,0,0,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+440,BKS_LJ_BU_SS,2025-10-01,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+441,BKS_LJ_BU_DD,2025-10-01,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA
+477,BKS_BL_SH_01,2025-10-14,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+478,BKS_BL_SH_02,2025-10-14,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+479,BKS_BL_SH_03,2025-10-14,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+480,BKS_BL_SH_04,2025-10-14,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+481,BKS_BL_SH_05,2025-10-14,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,shore,NA,NA
+482,BKS_BL_SH_06,2025-10-14,regular,spatt,0,0,0,0,0,0,0.6750699500929912,0,0,0,0,0,NA,brooks,shore,NA,NA
+483,BKS_BL_SH_07,2025-10-14,regular,spatt,0,0,0,0,0,0,0.41242627558303685,0,0,0,0,0,NA,brooks,shore,NA,NA
+486,BKS_BL_BU_SS,2025-10-14,regular,spatt,0,0,0,0,0,0,0.942023077355437,0,0,0,0,0,NA,brooks,buoy,surface,NA
+487,BKS_BL_BU_DD,2025-10-14,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,brooks,buoy,bottom,NA
+488,BKS_UB_SH_08,2025-10-15,regular,spatt,0,0,0,0,0,0,0,0,0,0,40.250378322090704,0,NA,upper brooks,shore,NA,NA
+489,BKS_UB_SH_09,2025-10-15,regular,spatt,0,0,11.46504676581313,0,0,0,0,0,0,0,0,0,NA,upper brooks,shore,NA,NA
+490,BKS_UB_BU_SS,2025-10-14,regular,spatt,0,0,11.135965607684648,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,surface,NA
+491,BKS_UB_BU_DD,2025-10-14,regular,spatt,0,0,23.647502188294947,0,0,0,0,0,0,0,0,0,NA,upper brooks,buoy,bottom,NA
+492,BKS_RN_SH_10,2025-10-15,regular,spatt,0,0,28.30508578105812,0,119.09155620273873,0,0,0,0,0,0,0,NA,rainbow,shore,NA,NA
+494,BKS_RN_BU_DD,2025-10-14,regular,spatt,0,0,122.51204641256608,0,101.14280235938573,0,0,0,0,0,0,0,NA,rainbow,buoy,bottom,NA
+495,BKS_LJ_BU_SS,2025-10-14,regular,spatt,0,0,109.82042442100133,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,surface,NA
+496,BKS_LJ_BU_DD,2025-10-14,regular,spatt,0,0,0,0,0,0,0,0,0,0,0,0,NA,lower jade,buoy,bottom,NA

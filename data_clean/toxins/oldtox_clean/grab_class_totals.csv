@@ -1,0 +1,677 @@
+sample_number,site_id,date,lake,site_type,depth_category,method,toxin_class,total
+126,BKS_BL_SH_01,2025-07-08,brooks,shore,NA,grab,anatoxin,0
+126,BKS_BL_SH_01,2025-07-08,brooks,shore,NA,grab,cylindrospermopsin,0
+126,BKS_BL_SH_01,2025-07-08,brooks,shore,NA,grab,microcystin,0
+126,BKS_BL_SH_01,2025-07-08,brooks,shore,NA,grab,nodularin,0
+127,BKS_BL_SH_02,2025-07-08,brooks,shore,NA,grab,anatoxin,0
+127,BKS_BL_SH_02,2025-07-08,brooks,shore,NA,grab,cylindrospermopsin,0
+127,BKS_BL_SH_02,2025-07-08,brooks,shore,NA,grab,microcystin,0
+127,BKS_BL_SH_02,2025-07-08,brooks,shore,NA,grab,nodularin,0
+128,BKS_BL_SH_03,2025-07-08,brooks,shore,NA,grab,anatoxin,0
+128,BKS_BL_SH_03,2025-07-08,brooks,shore,NA,grab,cylindrospermopsin,0
+128,BKS_BL_SH_03,2025-07-08,brooks,shore,NA,grab,microcystin,0
+128,BKS_BL_SH_03,2025-07-08,brooks,shore,NA,grab,nodularin,0
+129,BKS_BL_SH_04,2025-07-08,brooks,shore,NA,grab,anatoxin,0
+129,BKS_BL_SH_04,2025-07-08,brooks,shore,NA,grab,cylindrospermopsin,0
+129,BKS_BL_SH_04,2025-07-08,brooks,shore,NA,grab,microcystin,0.378075963
+129,BKS_BL_SH_04,2025-07-08,brooks,shore,NA,grab,nodularin,0
+130,BKS_BL_SH_05,2025-07-08,brooks,shore,NA,grab,anatoxin,0
+130,BKS_BL_SH_05,2025-07-08,brooks,shore,NA,grab,cylindrospermopsin,0
+130,BKS_BL_SH_05,2025-07-08,brooks,shore,NA,grab,microcystin,0.366535489
+130,BKS_BL_SH_05,2025-07-08,brooks,shore,NA,grab,nodularin,0
+131,BKS_BL_SH_06,2025-07-08,brooks,shore,NA,grab,anatoxin,0
+131,BKS_BL_SH_06,2025-07-08,brooks,shore,NA,grab,cylindrospermopsin,0
+131,BKS_BL_SH_06,2025-07-08,brooks,shore,NA,grab,microcystin,0.316108635
+131,BKS_BL_SH_06,2025-07-08,brooks,shore,NA,grab,nodularin,0
+132,BKS_BL_SH_07,2025-07-08,brooks,shore,NA,grab,anatoxin,0
+132,BKS_BL_SH_07,2025-07-08,brooks,shore,NA,grab,cylindrospermopsin,0
+132,BKS_BL_SH_07,2025-07-08,brooks,shore,NA,grab,microcystin,0
+132,BKS_BL_SH_07,2025-07-08,brooks,shore,NA,grab,nodularin,0
+135,BKS_BL_BU_SS,2025-07-08,brooks,buoy,surface,grab,anatoxin,0
+135,BKS_BL_BU_SS,2025-07-08,brooks,buoy,surface,grab,cylindrospermopsin,0
+135,BKS_BL_BU_SS,2025-07-08,brooks,buoy,surface,grab,microcystin,0
+135,BKS_BL_BU_SS,2025-07-08,brooks,buoy,surface,grab,nodularin,0
+136,BKS_BL_BU_DD,2025-07-08,brooks,buoy,bottom,grab,anatoxin,0
+136,BKS_BL_BU_DD,2025-07-08,brooks,buoy,bottom,grab,cylindrospermopsin,0
+136,BKS_BL_BU_DD,2025-07-08,brooks,buoy,bottom,grab,microcystin,0
+136,BKS_BL_BU_DD,2025-07-08,brooks,buoy,bottom,grab,nodularin,0
+137,BKS_UB_SH_08,2025-07-09,upper brooks,shore,NA,grab,anatoxin,0
+137,BKS_UB_SH_08,2025-07-09,upper brooks,shore,NA,grab,cylindrospermopsin,0
+137,BKS_UB_SH_08,2025-07-09,upper brooks,shore,NA,grab,microcystin,0
+137,BKS_UB_SH_08,2025-07-09,upper brooks,shore,NA,grab,nodularin,0
+138,BKS_UB_SH_09,2025-07-09,upper brooks,shore,NA,grab,anatoxin,0
+138,BKS_UB_SH_09,2025-07-09,upper brooks,shore,NA,grab,cylindrospermopsin,0
+138,BKS_UB_SH_09,2025-07-09,upper brooks,shore,NA,grab,microcystin,0.286504811
+138,BKS_UB_SH_09,2025-07-09,upper brooks,shore,NA,grab,nodularin,0
+139,BKS_UB_BU_SS,2025-07-09,upper brooks,buoy,surface,grab,anatoxin,0
+139,BKS_UB_BU_SS,2025-07-09,upper brooks,buoy,surface,grab,cylindrospermopsin,0
+139,BKS_UB_BU_SS,2025-07-09,upper brooks,buoy,surface,grab,microcystin,0.376068924
+139,BKS_UB_BU_SS,2025-07-09,upper brooks,buoy,surface,grab,nodularin,0
+140,BKS_UB_BU_DD,2025-07-09,upper brooks,buoy,bottom,grab,anatoxin,0
+140,BKS_UB_BU_DD,2025-07-09,upper brooks,buoy,bottom,grab,cylindrospermopsin,0
+140,BKS_UB_BU_DD,2025-07-09,upper brooks,buoy,bottom,grab,microcystin,0
+140,BKS_UB_BU_DD,2025-07-09,upper brooks,buoy,bottom,grab,nodularin,0
+141,BKS_RN_SH_10,2025-07-09,rainbow,shore,NA,grab,anatoxin,0
+141,BKS_RN_SH_10,2025-07-09,rainbow,shore,NA,grab,cylindrospermopsin,0
+141,BKS_RN_SH_10,2025-07-09,rainbow,shore,NA,grab,microcystin,0.591170112
+141,BKS_RN_SH_10,2025-07-09,rainbow,shore,NA,grab,nodularin,0
+142,BKS_RN_BU_SS,2025-07-09,rainbow,buoy,surface,grab,anatoxin,0
+142,BKS_RN_BU_SS,2025-07-09,rainbow,buoy,surface,grab,cylindrospermopsin,0
+142,BKS_RN_BU_SS,2025-07-09,rainbow,buoy,surface,grab,microcystin,0.428502817
+142,BKS_RN_BU_SS,2025-07-09,rainbow,buoy,surface,grab,nodularin,0
+143,BKS_RN_BU_DD,2025-07-09,rainbow,buoy,bottom,grab,anatoxin,0
+143,BKS_RN_BU_DD,2025-07-09,rainbow,buoy,bottom,grab,cylindrospermopsin,0
+143,BKS_RN_BU_DD,2025-07-09,rainbow,buoy,bottom,grab,microcystin,0.417464103
+143,BKS_RN_BU_DD,2025-07-09,rainbow,buoy,bottom,grab,nodularin,0
+144,BKS_LJ_BU_SS,2025-07-09,lower jade,buoy,surface,grab,anatoxin,0
+144,BKS_LJ_BU_SS,2025-07-09,lower jade,buoy,surface,grab,cylindrospermopsin,0
+144,BKS_LJ_BU_SS,2025-07-09,lower jade,buoy,surface,grab,microcystin,0.267939701
+144,BKS_LJ_BU_SS,2025-07-09,lower jade,buoy,surface,grab,nodularin,0
+145,BKS_LJ_BU_DD,2025-07-09,lower jade,buoy,bottom,grab,anatoxin,0
+145,BKS_LJ_BU_DD,2025-07-09,lower jade,buoy,bottom,grab,cylindrospermopsin,0
+145,BKS_LJ_BU_DD,2025-07-09,lower jade,buoy,bottom,grab,microcystin,0
+145,BKS_LJ_BU_DD,2025-07-09,lower jade,buoy,bottom,grab,nodularin,0
+148,BYS_BR_SH_01,2025-07-10,boysen,shore,NA,grab,anatoxin,0
+148,BYS_BR_SH_01,2025-07-10,boysen,shore,NA,grab,cylindrospermopsin,0
+148,BYS_BR_SH_01,2025-07-10,boysen,shore,NA,grab,microcystin,0.46086632
+148,BYS_BR_SH_01,2025-07-10,boysen,shore,NA,grab,nodularin,0
+149,BYS_PC_SH_02,2025-07-10,boysen,shore,NA,grab,anatoxin,0
+149,BYS_PC_SH_02,2025-07-10,boysen,shore,NA,grab,cylindrospermopsin,0
+149,BYS_PC_SH_02,2025-07-10,boysen,shore,NA,grab,microcystin,0.321627993
+149,BYS_PC_SH_02,2025-07-10,boysen,shore,NA,grab,nodularin,0
+150,BYS_FR_SH_03,2025-07-10,boysen,shore,NA,grab,anatoxin,0
+150,BYS_FR_SH_03,2025-07-10,boysen,shore,NA,grab,cylindrospermopsin,0
+150,BYS_FR_SH_03,2025-07-10,boysen,shore,NA,grab,microcystin,0.251883389
+150,BYS_FR_SH_03,2025-07-10,boysen,shore,NA,grab,nodularin,0
+151,BYS_CR_SH_04,2025-07-10,boysen,shore,NA,grab,anatoxin,0
+151,BYS_CR_SH_04,2025-07-10,boysen,shore,NA,grab,cylindrospermopsin,0
+151,BYS_CR_SH_04,2025-07-10,boysen,shore,NA,grab,microcystin,0
+151,BYS_CR_SH_04,2025-07-10,boysen,shore,NA,grab,nodularin,0
+164,BKS_BL_SH_01,2025-07-21,brooks,shore,NA,grab,anatoxin,0
+164,BKS_BL_SH_01,2025-07-21,brooks,shore,NA,grab,cylindrospermopsin,0
+164,BKS_BL_SH_01,2025-07-21,brooks,shore,NA,grab,microcystin,0
+164,BKS_BL_SH_01,2025-07-21,brooks,shore,NA,grab,nodularin,0
+165,BKS_BL_SH_02,2025-07-21,brooks,shore,NA,grab,anatoxin,0
+165,BKS_BL_SH_02,2025-07-21,brooks,shore,NA,grab,cylindrospermopsin,0
+165,BKS_BL_SH_02,2025-07-21,brooks,shore,NA,grab,microcystin,0
+165,BKS_BL_SH_02,2025-07-21,brooks,shore,NA,grab,nodularin,0
+166,BKS_BL_SH_03,2025-07-21,brooks,shore,NA,grab,anatoxin,0
+166,BKS_BL_SH_03,2025-07-21,brooks,shore,NA,grab,cylindrospermopsin,0
+166,BKS_BL_SH_03,2025-07-21,brooks,shore,NA,grab,microcystin,0
+166,BKS_BL_SH_03,2025-07-21,brooks,shore,NA,grab,nodularin,0
+167,BKS_BL_SH_04,2025-07-21,brooks,shore,NA,grab,anatoxin,0
+167,BKS_BL_SH_04,2025-07-21,brooks,shore,NA,grab,cylindrospermopsin,0
+167,BKS_BL_SH_04,2025-07-21,brooks,shore,NA,grab,microcystin,0
+167,BKS_BL_SH_04,2025-07-21,brooks,shore,NA,grab,nodularin,0
+168,BKS_BL_SH_05,2025-07-23,brooks,shore,NA,grab,anatoxin,0
+168,BKS_BL_SH_05,2025-07-23,brooks,shore,NA,grab,cylindrospermopsin,0
+168,BKS_BL_SH_05,2025-07-23,brooks,shore,NA,grab,microcystin,0
+168,BKS_BL_SH_05,2025-07-23,brooks,shore,NA,grab,nodularin,0
+169,BKS_BL_SH_06,2025-07-23,brooks,shore,NA,grab,anatoxin,0
+169,BKS_BL_SH_06,2025-07-23,brooks,shore,NA,grab,cylindrospermopsin,0
+169,BKS_BL_SH_06,2025-07-23,brooks,shore,NA,grab,microcystin,0
+169,BKS_BL_SH_06,2025-07-23,brooks,shore,NA,grab,nodularin,0
+170,BKS_BL_SH_07,2025-07-23,brooks,shore,NA,grab,anatoxin,0
+170,BKS_BL_SH_07,2025-07-23,brooks,shore,NA,grab,cylindrospermopsin,0
+170,BKS_BL_SH_07,2025-07-23,brooks,shore,NA,grab,microcystin,0
+170,BKS_BL_SH_07,2025-07-23,brooks,shore,NA,grab,nodularin,0
+173,BKS_BL_BU_SS,2025-07-23,brooks,buoy,surface,grab,anatoxin,0
+173,BKS_BL_BU_SS,2025-07-23,brooks,buoy,surface,grab,cylindrospermopsin,0
+173,BKS_BL_BU_SS,2025-07-23,brooks,buoy,surface,grab,microcystin,0
+173,BKS_BL_BU_SS,2025-07-23,brooks,buoy,surface,grab,nodularin,0
+174,BKS_BL_BU_DD,2025-07-23,brooks,buoy,bottom,grab,anatoxin,0
+174,BKS_BL_BU_DD,2025-07-23,brooks,buoy,bottom,grab,cylindrospermopsin,0
+174,BKS_BL_BU_DD,2025-07-23,brooks,buoy,bottom,grab,microcystin,0
+174,BKS_BL_BU_DD,2025-07-23,brooks,buoy,bottom,grab,nodularin,0
+175,BKS_UB_SH_08,2025-07-22,upper brooks,shore,NA,grab,anatoxin,0
+175,BKS_UB_SH_08,2025-07-22,upper brooks,shore,NA,grab,cylindrospermopsin,0
+175,BKS_UB_SH_08,2025-07-22,upper brooks,shore,NA,grab,microcystin,6.011720845
+175,BKS_UB_SH_08,2025-07-22,upper brooks,shore,NA,grab,nodularin,0
+176,BKS_UB_SH_09,2025-07-22,upper brooks,shore,NA,grab,anatoxin,0
+176,BKS_UB_SH_09,2025-07-22,upper brooks,shore,NA,grab,cylindrospermopsin,0
+176,BKS_UB_SH_09,2025-07-22,upper brooks,shore,NA,grab,microcystin,0
+176,BKS_UB_SH_09,2025-07-22,upper brooks,shore,NA,grab,nodularin,0
+177,BKS_UB_BU_SS,2025-07-22,upper brooks,buoy,surface,grab,anatoxin,0
+177,BKS_UB_BU_SS,2025-07-22,upper brooks,buoy,surface,grab,cylindrospermopsin,0
+177,BKS_UB_BU_SS,2025-07-22,upper brooks,buoy,surface,grab,microcystin,0
+177,BKS_UB_BU_SS,2025-07-22,upper brooks,buoy,surface,grab,nodularin,0
+178,BKS_UB_BU_DD,2025-07-22,upper brooks,buoy,bottom,grab,anatoxin,0
+178,BKS_UB_BU_DD,2025-07-22,upper brooks,buoy,bottom,grab,cylindrospermopsin,0
+178,BKS_UB_BU_DD,2025-07-22,upper brooks,buoy,bottom,grab,microcystin,0
+178,BKS_UB_BU_DD,2025-07-22,upper brooks,buoy,bottom,grab,nodularin,0
+179,BKS_RN_SH_10,2025-07-22,rainbow,shore,NA,grab,anatoxin,0
+179,BKS_RN_SH_10,2025-07-22,rainbow,shore,NA,grab,cylindrospermopsin,0
+179,BKS_RN_SH_10,2025-07-22,rainbow,shore,NA,grab,microcystin,3.2706047899999997
+179,BKS_RN_SH_10,2025-07-22,rainbow,shore,NA,grab,nodularin,0
+180,BKS_RN_BU_SS,2025-07-22,rainbow,buoy,surface,grab,anatoxin,0
+180,BKS_RN_BU_SS,2025-07-22,rainbow,buoy,surface,grab,cylindrospermopsin,0
+180,BKS_RN_BU_SS,2025-07-22,rainbow,buoy,surface,grab,microcystin,1.005777396
+180,BKS_RN_BU_SS,2025-07-22,rainbow,buoy,surface,grab,nodularin,0
+181,BKS_RN_BU_DD,2025-07-22,rainbow,buoy,bottom,grab,anatoxin,0
+181,BKS_RN_BU_DD,2025-07-22,rainbow,buoy,bottom,grab,cylindrospermopsin,0
+181,BKS_RN_BU_DD,2025-07-22,rainbow,buoy,bottom,grab,microcystin,0.695940758
+181,BKS_RN_BU_DD,2025-07-22,rainbow,buoy,bottom,grab,nodularin,0
+182,BKS_LJ_BU_SS,2025-07-22,lower jade,buoy,surface,grab,anatoxin,0
+182,BKS_LJ_BU_SS,2025-07-22,lower jade,buoy,surface,grab,cylindrospermopsin,0
+182,BKS_LJ_BU_SS,2025-07-22,lower jade,buoy,surface,grab,microcystin,0.488713986
+182,BKS_LJ_BU_SS,2025-07-22,lower jade,buoy,surface,grab,nodularin,0
+183,BKS_LJ_BU_DD,2025-07-22,lower jade,buoy,bottom,grab,anatoxin,0
+183,BKS_LJ_BU_DD,2025-07-22,lower jade,buoy,bottom,grab,cylindrospermopsin,0
+183,BKS_LJ_BU_DD,2025-07-22,lower jade,buoy,bottom,grab,microcystin,0
+183,BKS_LJ_BU_DD,2025-07-22,lower jade,buoy,bottom,grab,nodularin,0
+185,BYS_BR_SH_01,2025-07-21,boysen,shore,NA,grab,anatoxin,0
+185,BYS_BR_SH_01,2025-07-21,boysen,shore,NA,grab,cylindrospermopsin,0
+185,BYS_BR_SH_01,2025-07-21,boysen,shore,NA,grab,microcystin,0.837687884
+185,BYS_BR_SH_01,2025-07-21,boysen,shore,NA,grab,nodularin,0
+186,BYS_PC_SH_02,2025-07-21,boysen,shore,NA,grab,anatoxin,0
+186,BYS_PC_SH_02,2025-07-21,boysen,shore,NA,grab,cylindrospermopsin,0
+186,BYS_PC_SH_02,2025-07-21,boysen,shore,NA,grab,microcystin,0
+186,BYS_PC_SH_02,2025-07-21,boysen,shore,NA,grab,nodularin,0
+187,BYS_FR_SH_03,2025-07-21,boysen,shore,NA,grab,anatoxin,0
+187,BYS_FR_SH_03,2025-07-21,boysen,shore,NA,grab,cylindrospermopsin,0
+187,BYS_FR_SH_03,2025-07-21,boysen,shore,NA,grab,microcystin,0
+187,BYS_FR_SH_03,2025-07-21,boysen,shore,NA,grab,nodularin,0
+188,BYS_CR_SH_04,2025-07-21,boysen,shore,NA,grab,anatoxin,0
+188,BYS_CR_SH_04,2025-07-21,boysen,shore,NA,grab,cylindrospermopsin,0
+188,BYS_CR_SH_04,2025-07-21,boysen,shore,NA,grab,microcystin,0
+188,BYS_CR_SH_04,2025-07-21,boysen,shore,NA,grab,nodularin,0
+223,BKS_BL_SH_01,2025-08-04,brooks,shore,NA,grab,anatoxin,0
+223,BKS_BL_SH_01,2025-08-04,brooks,shore,NA,grab,cylindrospermopsin,0
+223,BKS_BL_SH_01,2025-08-04,brooks,shore,NA,grab,microcystin,0
+223,BKS_BL_SH_01,2025-08-04,brooks,shore,NA,grab,nodularin,0
+224,BKS_BL_SH_02,2025-08-04,brooks,shore,NA,grab,anatoxin,0
+224,BKS_BL_SH_02,2025-08-04,brooks,shore,NA,grab,cylindrospermopsin,0
+224,BKS_BL_SH_02,2025-08-04,brooks,shore,NA,grab,microcystin,0
+224,BKS_BL_SH_02,2025-08-04,brooks,shore,NA,grab,nodularin,0
+225,BKS_BL_SH_03,2025-08-04,brooks,shore,NA,grab,anatoxin,0
+225,BKS_BL_SH_03,2025-08-04,brooks,shore,NA,grab,cylindrospermopsin,0
+225,BKS_BL_SH_03,2025-08-04,brooks,shore,NA,grab,microcystin,0
+225,BKS_BL_SH_03,2025-08-04,brooks,shore,NA,grab,nodularin,0
+226,BKS_BL_SH_04,2025-08-04,brooks,shore,NA,grab,anatoxin,0
+226,BKS_BL_SH_04,2025-08-04,brooks,shore,NA,grab,cylindrospermopsin,0
+226,BKS_BL_SH_04,2025-08-04,brooks,shore,NA,grab,microcystin,0
+226,BKS_BL_SH_04,2025-08-04,brooks,shore,NA,grab,nodularin,0
+227,BKS_BL_SH_05,2025-08-06,brooks,shore,NA,grab,anatoxin,0
+227,BKS_BL_SH_05,2025-08-06,brooks,shore,NA,grab,cylindrospermopsin,0
+227,BKS_BL_SH_05,2025-08-06,brooks,shore,NA,grab,microcystin,0
+227,BKS_BL_SH_05,2025-08-06,brooks,shore,NA,grab,nodularin,0
+228,BKS_BL_SH_06,2025-08-06,brooks,shore,NA,grab,anatoxin,0
+228,BKS_BL_SH_06,2025-08-06,brooks,shore,NA,grab,cylindrospermopsin,0
+228,BKS_BL_SH_06,2025-08-06,brooks,shore,NA,grab,microcystin,0
+228,BKS_BL_SH_06,2025-08-06,brooks,shore,NA,grab,nodularin,0
+229,BKS_BL_SH_07,2025-08-06,brooks,shore,NA,grab,anatoxin,0
+229,BKS_BL_SH_07,2025-08-06,brooks,shore,NA,grab,cylindrospermopsin,0
+229,BKS_BL_SH_07,2025-08-06,brooks,shore,NA,grab,microcystin,0.380646375
+229,BKS_BL_SH_07,2025-08-06,brooks,shore,NA,grab,nodularin,0
+232,BKS_BL_BU_SS,2025-08-06,brooks,buoy,surface,grab,anatoxin,0
+232,BKS_BL_BU_SS,2025-08-06,brooks,buoy,surface,grab,cylindrospermopsin,0
+232,BKS_BL_BU_SS,2025-08-06,brooks,buoy,surface,grab,microcystin,0.389763654
+232,BKS_BL_BU_SS,2025-08-06,brooks,buoy,surface,grab,nodularin,0
+233,BKS_BL_BU_DD,2025-08-06,brooks,buoy,bottom,grab,anatoxin,0
+233,BKS_BL_BU_DD,2025-08-06,brooks,buoy,bottom,grab,cylindrospermopsin,0
+233,BKS_BL_BU_DD,2025-08-06,brooks,buoy,bottom,grab,microcystin,0
+233,BKS_BL_BU_DD,2025-08-06,brooks,buoy,bottom,grab,nodularin,0
+234,BKS_UB_SH_08,2025-08-05,upper brooks,shore,NA,grab,anatoxin,0
+234,BKS_UB_SH_08,2025-08-05,upper brooks,shore,NA,grab,cylindrospermopsin,0
+234,BKS_UB_SH_08,2025-08-05,upper brooks,shore,NA,grab,microcystin,0.70079048
+234,BKS_UB_SH_08,2025-08-05,upper brooks,shore,NA,grab,nodularin,0
+235,BKS_UB_SH_09,2025-08-05,upper brooks,shore,NA,grab,anatoxin,1.920470741
+235,BKS_UB_SH_09,2025-08-05,upper brooks,shore,NA,grab,cylindrospermopsin,0
+235,BKS_UB_SH_09,2025-08-05,upper brooks,shore,NA,grab,microcystin,0
+235,BKS_UB_SH_09,2025-08-05,upper brooks,shore,NA,grab,nodularin,0
+236,BKS_UB_BU_SS,2025-08-05,upper brooks,buoy,surface,grab,anatoxin,0
+236,BKS_UB_BU_SS,2025-08-05,upper brooks,buoy,surface,grab,cylindrospermopsin,0
+236,BKS_UB_BU_SS,2025-08-05,upper brooks,buoy,surface,grab,microcystin,0
+236,BKS_UB_BU_SS,2025-08-05,upper brooks,buoy,surface,grab,nodularin,0
+237,BKS_UB_BU_DD,2025-08-05,upper brooks,buoy,bottom,grab,anatoxin,0
+237,BKS_UB_BU_DD,2025-08-05,upper brooks,buoy,bottom,grab,cylindrospermopsin,0
+237,BKS_UB_BU_DD,2025-08-05,upper brooks,buoy,bottom,grab,microcystin,0
+237,BKS_UB_BU_DD,2025-08-05,upper brooks,buoy,bottom,grab,nodularin,0
+238,BKS_RN_SH_10,2025-08-05,rainbow,shore,NA,grab,anatoxin,0
+238,BKS_RN_SH_10,2025-08-05,rainbow,shore,NA,grab,cylindrospermopsin,0
+238,BKS_RN_SH_10,2025-08-05,rainbow,shore,NA,grab,microcystin,1.562600222
+238,BKS_RN_SH_10,2025-08-05,rainbow,shore,NA,grab,nodularin,0
+239,BKS_RN_BU_SS,2025-08-05,rainbow,buoy,surface,grab,anatoxin,0
+239,BKS_RN_BU_SS,2025-08-05,rainbow,buoy,surface,grab,cylindrospermopsin,0
+239,BKS_RN_BU_SS,2025-08-05,rainbow,buoy,surface,grab,microcystin,1.858096818
+239,BKS_RN_BU_SS,2025-08-05,rainbow,buoy,surface,grab,nodularin,0
+240,BKS_RN_BU_DD,2025-08-05,rainbow,buoy,bottom,grab,anatoxin,0
+240,BKS_RN_BU_DD,2025-08-05,rainbow,buoy,bottom,grab,cylindrospermopsin,0
+240,BKS_RN_BU_DD,2025-08-05,rainbow,buoy,bottom,grab,microcystin,0.576161346
+240,BKS_RN_BU_DD,2025-08-05,rainbow,buoy,bottom,grab,nodularin,0
+241,BKS_LJ_BU_SS,2025-08-05,lower jade,buoy,surface,grab,anatoxin,0
+241,BKS_LJ_BU_SS,2025-08-05,lower jade,buoy,surface,grab,cylindrospermopsin,0
+241,BKS_LJ_BU_SS,2025-08-05,lower jade,buoy,surface,grab,microcystin,0
+241,BKS_LJ_BU_SS,2025-08-05,lower jade,buoy,surface,grab,nodularin,0
+242,BKS_LJ_BU_DD,2025-08-05,lower jade,buoy,bottom,grab,anatoxin,0
+242,BKS_LJ_BU_DD,2025-08-05,lower jade,buoy,bottom,grab,cylindrospermopsin,0
+242,BKS_LJ_BU_DD,2025-08-05,lower jade,buoy,bottom,grab,microcystin,0
+242,BKS_LJ_BU_DD,2025-08-05,lower jade,buoy,bottom,grab,nodularin,0
+245,BYS_BR_SH_01,2025-08-04,boysen,shore,NA,grab,anatoxin,0
+245,BYS_BR_SH_01,2025-08-04,boysen,shore,NA,grab,cylindrospermopsin,0
+245,BYS_BR_SH_01,2025-08-04,boysen,shore,NA,grab,microcystin,0
+245,BYS_BR_SH_01,2025-08-04,boysen,shore,NA,grab,nodularin,0
+246,BYS_PC_SH_02,2025-08-04,boysen,shore,NA,grab,anatoxin,0
+246,BYS_PC_SH_02,2025-08-04,boysen,shore,NA,grab,cylindrospermopsin,0
+246,BYS_PC_SH_02,2025-08-04,boysen,shore,NA,grab,microcystin,1.044941413
+246,BYS_PC_SH_02,2025-08-04,boysen,shore,NA,grab,nodularin,0
+247,BYS_FR_SH_03,2025-08-04,boysen,shore,NA,grab,anatoxin,0
+247,BYS_FR_SH_03,2025-08-04,boysen,shore,NA,grab,cylindrospermopsin,0
+247,BYS_FR_SH_03,2025-08-04,boysen,shore,NA,grab,microcystin,0
+247,BYS_FR_SH_03,2025-08-04,boysen,shore,NA,grab,nodularin,0
+248,BYS_CR_SH_04,2025-08-04,boysen,shore,NA,grab,anatoxin,0
+248,BYS_CR_SH_04,2025-08-04,boysen,shore,NA,grab,cylindrospermopsin,0
+248,BYS_CR_SH_04,2025-08-04,boysen,shore,NA,grab,microcystin,0
+248,BYS_CR_SH_04,2025-08-04,boysen,shore,NA,grab,nodularin,0
+282,BKS_BL_SH_01,2025-08-18,brooks,shore,NA,grab,anatoxin,0
+282,BKS_BL_SH_01,2025-08-18,brooks,shore,NA,grab,cylindrospermopsin,0
+282,BKS_BL_SH_01,2025-08-18,brooks,shore,NA,grab,microcystin,0
+282,BKS_BL_SH_01,2025-08-18,brooks,shore,NA,grab,nodularin,0
+283,BKS_BL_SH_02,2025-08-18,brooks,shore,NA,grab,anatoxin,0
+283,BKS_BL_SH_02,2025-08-18,brooks,shore,NA,grab,cylindrospermopsin,0
+283,BKS_BL_SH_02,2025-08-18,brooks,shore,NA,grab,microcystin,0
+283,BKS_BL_SH_02,2025-08-18,brooks,shore,NA,grab,nodularin,0
+284,BKS_BL_SH_03,2025-08-18,brooks,shore,NA,grab,anatoxin,0
+284,BKS_BL_SH_03,2025-08-18,brooks,shore,NA,grab,cylindrospermopsin,0
+284,BKS_BL_SH_03,2025-08-18,brooks,shore,NA,grab,microcystin,0
+284,BKS_BL_SH_03,2025-08-18,brooks,shore,NA,grab,nodularin,0
+285,BKS_BL_SH_04,2025-08-20,brooks,shore,NA,grab,anatoxin,0
+285,BKS_BL_SH_04,2025-08-20,brooks,shore,NA,grab,cylindrospermopsin,0
+285,BKS_BL_SH_04,2025-08-20,brooks,shore,NA,grab,microcystin,0
+285,BKS_BL_SH_04,2025-08-20,brooks,shore,NA,grab,nodularin,0
+286,BKS_BL_SH_05,2025-08-20,brooks,shore,NA,grab,anatoxin,0
+286,BKS_BL_SH_05,2025-08-20,brooks,shore,NA,grab,cylindrospermopsin,0
+286,BKS_BL_SH_05,2025-08-20,brooks,shore,NA,grab,microcystin,0
+286,BKS_BL_SH_05,2025-08-20,brooks,shore,NA,grab,nodularin,0
+287,BKS_BL_SH_06,2025-08-20,brooks,shore,NA,grab,anatoxin,0
+287,BKS_BL_SH_06,2025-08-20,brooks,shore,NA,grab,cylindrospermopsin,0
+287,BKS_BL_SH_06,2025-08-20,brooks,shore,NA,grab,microcystin,0.47511151
+287,BKS_BL_SH_06,2025-08-20,brooks,shore,NA,grab,nodularin,0
+288,BKS_BL_SH_07,2025-08-20,brooks,shore,NA,grab,anatoxin,0
+288,BKS_BL_SH_07,2025-08-20,brooks,shore,NA,grab,cylindrospermopsin,0
+288,BKS_BL_SH_07,2025-08-20,brooks,shore,NA,grab,microcystin,0
+288,BKS_BL_SH_07,2025-08-20,brooks,shore,NA,grab,nodularin,0
+291,BKS_BL_BU_SS,2025-08-20,brooks,buoy,surface,grab,anatoxin,0
+291,BKS_BL_BU_SS,2025-08-20,brooks,buoy,surface,grab,cylindrospermopsin,0
+291,BKS_BL_BU_SS,2025-08-20,brooks,buoy,surface,grab,microcystin,0
+291,BKS_BL_BU_SS,2025-08-20,brooks,buoy,surface,grab,nodularin,0
+292,BKS_BL_BU_DD,2025-08-20,brooks,buoy,bottom,grab,anatoxin,0
+292,BKS_BL_BU_DD,2025-08-20,brooks,buoy,bottom,grab,cylindrospermopsin,0
+292,BKS_BL_BU_DD,2025-08-20,brooks,buoy,bottom,grab,microcystin,0
+292,BKS_BL_BU_DD,2025-08-20,brooks,buoy,bottom,grab,nodularin,0
+293,BKS_UB_SH_08,2025-08-19,upper brooks,shore,NA,grab,anatoxin,0
+293,BKS_UB_SH_08,2025-08-19,upper brooks,shore,NA,grab,cylindrospermopsin,0
+293,BKS_UB_SH_08,2025-08-19,upper brooks,shore,NA,grab,microcystin,0.385964787
+293,BKS_UB_SH_08,2025-08-19,upper brooks,shore,NA,grab,nodularin,0
+294,BKS_UB_SH_09,2025-08-19,upper brooks,shore,NA,grab,anatoxin,0
+294,BKS_UB_SH_09,2025-08-19,upper brooks,shore,NA,grab,cylindrospermopsin,0
+294,BKS_UB_SH_09,2025-08-19,upper brooks,shore,NA,grab,microcystin,0
+294,BKS_UB_SH_09,2025-08-19,upper brooks,shore,NA,grab,nodularin,0
+295,BKS_UB_BU_SS,2025-08-19,upper brooks,buoy,surface,grab,anatoxin,0
+295,BKS_UB_BU_SS,2025-08-19,upper brooks,buoy,surface,grab,cylindrospermopsin,0
+295,BKS_UB_BU_SS,2025-08-19,upper brooks,buoy,surface,grab,microcystin,0
+295,BKS_UB_BU_SS,2025-08-19,upper brooks,buoy,surface,grab,nodularin,0
+296,BKS_UB_BU_DD,2025-08-19,upper brooks,buoy,bottom,grab,anatoxin,0
+296,BKS_UB_BU_DD,2025-08-19,upper brooks,buoy,bottom,grab,cylindrospermopsin,0
+296,BKS_UB_BU_DD,2025-08-19,upper brooks,buoy,bottom,grab,microcystin,0
+296,BKS_UB_BU_DD,2025-08-19,upper brooks,buoy,bottom,grab,nodularin,0
+297,BKS_RN_SH_10,2025-08-19,rainbow,shore,NA,grab,anatoxin,0
+297,BKS_RN_SH_10,2025-08-19,rainbow,shore,NA,grab,cylindrospermopsin,0
+297,BKS_RN_SH_10,2025-08-19,rainbow,shore,NA,grab,microcystin,1.277685271
+297,BKS_RN_SH_10,2025-08-19,rainbow,shore,NA,grab,nodularin,0
+298,BKS_RN_BU_SS,2025-08-19,rainbow,buoy,surface,grab,anatoxin,0
+298,BKS_RN_BU_SS,2025-08-19,rainbow,buoy,surface,grab,cylindrospermopsin,0
+298,BKS_RN_BU_SS,2025-08-19,rainbow,buoy,surface,grab,microcystin,1.098632052
+298,BKS_RN_BU_SS,2025-08-19,rainbow,buoy,surface,grab,nodularin,0
+299,BKS_RN_BU_DD,2025-08-19,rainbow,buoy,bottom,grab,anatoxin,0
+299,BKS_RN_BU_DD,2025-08-19,rainbow,buoy,bottom,grab,cylindrospermopsin,0
+299,BKS_RN_BU_DD,2025-08-19,rainbow,buoy,bottom,grab,microcystin,1.274646178
+299,BKS_RN_BU_DD,2025-08-19,rainbow,buoy,bottom,grab,nodularin,0
+300,BKS_LJ_BU_SS,2025-08-19,lower jade,buoy,surface,grab,anatoxin,0
+300,BKS_LJ_BU_SS,2025-08-19,lower jade,buoy,surface,grab,cylindrospermopsin,0
+300,BKS_LJ_BU_SS,2025-08-19,lower jade,buoy,surface,grab,microcystin,0
+300,BKS_LJ_BU_SS,2025-08-19,lower jade,buoy,surface,grab,nodularin,0
+301,BKS_LJ_BU_DD,2025-08-19,lower jade,buoy,bottom,grab,anatoxin,0
+301,BKS_LJ_BU_DD,2025-08-19,lower jade,buoy,bottom,grab,cylindrospermopsin,0
+301,BKS_LJ_BU_DD,2025-08-19,lower jade,buoy,bottom,grab,microcystin,0
+301,BKS_LJ_BU_DD,2025-08-19,lower jade,buoy,bottom,grab,nodularin,0
+304,BYS_BR_SH_01,2025-08-18,boysen,shore,NA,grab,anatoxin,0
+304,BYS_BR_SH_01,2025-08-18,boysen,shore,NA,grab,cylindrospermopsin,0
+304,BYS_BR_SH_01,2025-08-18,boysen,shore,NA,grab,microcystin,3.144448032
+304,BYS_BR_SH_01,2025-08-18,boysen,shore,NA,grab,nodularin,0
+305,BYS_PC_SH_02,2025-08-18,boysen,shore,NA,grab,anatoxin,0
+305,BYS_PC_SH_02,2025-08-18,boysen,shore,NA,grab,cylindrospermopsin,0
+305,BYS_PC_SH_02,2025-08-18,boysen,shore,NA,grab,microcystin,0.374821447
+305,BYS_PC_SH_02,2025-08-18,boysen,shore,NA,grab,nodularin,0
+306,BYS_FR_SH_03,2025-08-18,boysen,shore,NA,grab,anatoxin,0
+306,BYS_FR_SH_03,2025-08-18,boysen,shore,NA,grab,cylindrospermopsin,0
+306,BYS_FR_SH_03,2025-08-18,boysen,shore,NA,grab,microcystin,1.30658236
+306,BYS_FR_SH_03,2025-08-18,boysen,shore,NA,grab,nodularin,0
+307,BYS_CR_SH_04,2025-08-18,boysen,shore,NA,grab,anatoxin,0
+307,BYS_CR_SH_04,2025-08-18,boysen,shore,NA,grab,cylindrospermopsin,0
+307,BYS_CR_SH_04,2025-08-18,boysen,shore,NA,grab,microcystin,8.199072815000001
+307,BYS_CR_SH_04,2025-08-18,boysen,shore,NA,grab,nodularin,0
+339,BKS_BL_SH_01,2025-09-01,brooks,shore,NA,grab,anatoxin,0
+339,BKS_BL_SH_01,2025-09-01,brooks,shore,NA,grab,cylindrospermopsin,0
+339,BKS_BL_SH_01,2025-09-01,brooks,shore,NA,grab,microcystin,0.497816348
+339,BKS_BL_SH_01,2025-09-01,brooks,shore,NA,grab,nodularin,0
+340,BKS_BL_SH_02,2025-09-01,brooks,shore,NA,grab,anatoxin,0
+340,BKS_BL_SH_02,2025-09-01,brooks,shore,NA,grab,cylindrospermopsin,0
+340,BKS_BL_SH_02,2025-09-01,brooks,shore,NA,grab,microcystin,0.875881504
+340,BKS_BL_SH_02,2025-09-01,brooks,shore,NA,grab,nodularin,0
+341,BKS_BL_SH_03,2025-09-01,brooks,shore,NA,grab,anatoxin,0
+341,BKS_BL_SH_03,2025-09-01,brooks,shore,NA,grab,cylindrospermopsin,0
+341,BKS_BL_SH_03,2025-09-01,brooks,shore,NA,grab,microcystin,2.564694913
+341,BKS_BL_SH_03,2025-09-01,brooks,shore,NA,grab,nodularin,0
+342,BKS_BL_SH_04,2025-09-02,brooks,shore,NA,grab,anatoxin,0
+342,BKS_BL_SH_04,2025-09-02,brooks,shore,NA,grab,cylindrospermopsin,0
+342,BKS_BL_SH_04,2025-09-02,brooks,shore,NA,grab,microcystin,4.218424949
+342,BKS_BL_SH_04,2025-09-02,brooks,shore,NA,grab,nodularin,0
+343,BKS_BL_SH_05,2025-09-02,brooks,shore,NA,grab,anatoxin,0
+343,BKS_BL_SH_05,2025-09-02,brooks,shore,NA,grab,cylindrospermopsin,0
+343,BKS_BL_SH_05,2025-09-02,brooks,shore,NA,grab,microcystin,1.769805886
+343,BKS_BL_SH_05,2025-09-02,brooks,shore,NA,grab,nodularin,0
+344,BKS_BL_SH_06,2025-09-02,brooks,shore,NA,grab,anatoxin,0
+344,BKS_BL_SH_06,2025-09-02,brooks,shore,NA,grab,cylindrospermopsin,0
+344,BKS_BL_SH_06,2025-09-02,brooks,shore,NA,grab,microcystin,3.333467132
+344,BKS_BL_SH_06,2025-09-02,brooks,shore,NA,grab,nodularin,0
+345,BKS_BL_SH_07,2025-09-02,brooks,shore,NA,grab,anatoxin,0
+345,BKS_BL_SH_07,2025-09-02,brooks,shore,NA,grab,cylindrospermopsin,0
+345,BKS_BL_SH_07,2025-09-02,brooks,shore,NA,grab,microcystin,1.97990518
+345,BKS_BL_SH_07,2025-09-02,brooks,shore,NA,grab,nodularin,0
+348,BKS_BL_BU_SS,2025-09-02,brooks,buoy,surface,grab,anatoxin,0
+348,BKS_BL_BU_SS,2025-09-02,brooks,buoy,surface,grab,cylindrospermopsin,0
+348,BKS_BL_BU_SS,2025-09-02,brooks,buoy,surface,grab,microcystin,0.260458471
+348,BKS_BL_BU_SS,2025-09-02,brooks,buoy,surface,grab,nodularin,0
+349,BKS_BL_BU_DD,2025-09-02,brooks,buoy,bottom,grab,anatoxin,0
+349,BKS_BL_BU_DD,2025-09-02,brooks,buoy,bottom,grab,cylindrospermopsin,0
+349,BKS_BL_BU_DD,2025-09-02,brooks,buoy,bottom,grab,microcystin,0
+349,BKS_BL_BU_DD,2025-09-02,brooks,buoy,bottom,grab,nodularin,0
+350,BKS_UB_SH_08,2025-09-02,upper brooks,shore,NA,grab,anatoxin,0
+350,BKS_UB_SH_08,2025-09-02,upper brooks,shore,NA,grab,cylindrospermopsin,0
+350,BKS_UB_SH_08,2025-09-02,upper brooks,shore,NA,grab,microcystin,0
+350,BKS_UB_SH_08,2025-09-02,upper brooks,shore,NA,grab,nodularin,0
+351,BKS_UB_SH_09,2025-09-02,upper brooks,shore,NA,grab,anatoxin,0
+351,BKS_UB_SH_09,2025-09-02,upper brooks,shore,NA,grab,cylindrospermopsin,0
+351,BKS_UB_SH_09,2025-09-02,upper brooks,shore,NA,grab,microcystin,1.482322691
+351,BKS_UB_SH_09,2025-09-02,upper brooks,shore,NA,grab,nodularin,0
+352,BKS_UB_BU_SS,2025-09-02,upper brooks,buoy,surface,grab,anatoxin,0
+352,BKS_UB_BU_SS,2025-09-02,upper brooks,buoy,surface,grab,cylindrospermopsin,0
+352,BKS_UB_BU_SS,2025-09-02,upper brooks,buoy,surface,grab,microcystin,1.498962235
+352,BKS_UB_BU_SS,2025-09-02,upper brooks,buoy,surface,grab,nodularin,0
+353,BKS_UB_BU_DD,2025-09-02,upper brooks,buoy,bottom,grab,anatoxin,0
+353,BKS_UB_BU_DD,2025-09-02,upper brooks,buoy,bottom,grab,cylindrospermopsin,0
+353,BKS_UB_BU_DD,2025-09-02,upper brooks,buoy,bottom,grab,microcystin,0
+353,BKS_UB_BU_DD,2025-09-02,upper brooks,buoy,bottom,grab,nodularin,0
+354,BKS_RN_SH_10,2025-09-02,rainbow,shore,NA,grab,anatoxin,0
+354,BKS_RN_SH_10,2025-09-02,rainbow,shore,NA,grab,cylindrospermopsin,0
+354,BKS_RN_SH_10,2025-09-02,rainbow,shore,NA,grab,microcystin,0
+354,BKS_RN_SH_10,2025-09-02,rainbow,shore,NA,grab,nodularin,0
+355,BKS_RN_BU_SS,2025-09-02,rainbow,buoy,surface,grab,anatoxin,0
+355,BKS_RN_BU_SS,2025-09-02,rainbow,buoy,surface,grab,cylindrospermopsin,0
+355,BKS_RN_BU_SS,2025-09-02,rainbow,buoy,surface,grab,microcystin,0
+355,BKS_RN_BU_SS,2025-09-02,rainbow,buoy,surface,grab,nodularin,0
+356,BKS_RN_BU_DD,2025-09-02,rainbow,buoy,bottom,grab,anatoxin,0
+356,BKS_RN_BU_DD,2025-09-02,rainbow,buoy,bottom,grab,cylindrospermopsin,0
+356,BKS_RN_BU_DD,2025-09-02,rainbow,buoy,bottom,grab,microcystin,0
+356,BKS_RN_BU_DD,2025-09-02,rainbow,buoy,bottom,grab,nodularin,0
+357,BKS_LJ_BU_SS,2025-09-02,lower jade,buoy,surface,grab,anatoxin,0
+357,BKS_LJ_BU_SS,2025-09-02,lower jade,buoy,surface,grab,cylindrospermopsin,0
+357,BKS_LJ_BU_SS,2025-09-02,lower jade,buoy,surface,grab,microcystin,0
+357,BKS_LJ_BU_SS,2025-09-02,lower jade,buoy,surface,grab,nodularin,0
+358,BKS_LJ_BU_DD,2025-09-02,lower jade,buoy,bottom,grab,anatoxin,0
+358,BKS_LJ_BU_DD,2025-09-02,lower jade,buoy,bottom,grab,cylindrospermopsin,0
+358,BKS_LJ_BU_DD,2025-09-02,lower jade,buoy,bottom,grab,microcystin,0
+358,BKS_LJ_BU_DD,2025-09-02,lower jade,buoy,bottom,grab,nodularin,0
+361,BYS_BR_SH_01,2025-09-01,boysen,shore,NA,grab,anatoxin,0
+361,BYS_BR_SH_01,2025-09-01,boysen,shore,NA,grab,cylindrospermopsin,0
+361,BYS_BR_SH_01,2025-09-01,boysen,shore,NA,grab,microcystin,95.50824718
+361,BYS_BR_SH_01,2025-09-01,boysen,shore,NA,grab,nodularin,0
+362,BYS_PC_SH_02,2025-09-01,boysen,shore,NA,grab,anatoxin,0
+362,BYS_PC_SH_02,2025-09-01,boysen,shore,NA,grab,cylindrospermopsin,0
+362,BYS_PC_SH_02,2025-09-01,boysen,shore,NA,grab,microcystin,0.983938297
+362,BYS_PC_SH_02,2025-09-01,boysen,shore,NA,grab,nodularin,0
+363,BYS_FR_SH_03,2025-09-01,boysen,shore,NA,grab,anatoxin,0
+363,BYS_FR_SH_03,2025-09-01,boysen,shore,NA,grab,cylindrospermopsin,0
+363,BYS_FR_SH_03,2025-09-01,boysen,shore,NA,grab,microcystin,47.252046423
+363,BYS_FR_SH_03,2025-09-01,boysen,shore,NA,grab,nodularin,0
+364,BYS_CR_SH_04,2025-09-01,boysen,shore,NA,grab,anatoxin,0
+364,BYS_CR_SH_04,2025-09-01,boysen,shore,NA,grab,cylindrospermopsin,0
+364,BYS_CR_SH_04,2025-09-01,boysen,shore,NA,grab,microcystin,15.085929928999999
+364,BYS_CR_SH_04,2025-09-01,boysen,shore,NA,grab,nodularin,0
+394,BKS_BL_SH_01,2025-09-16,brooks,shore,NA,grab,anatoxin,0
+394,BKS_BL_SH_01,2025-09-16,brooks,shore,NA,grab,cylindrospermopsin,0
+394,BKS_BL_SH_01,2025-09-16,brooks,shore,NA,grab,microcystin,0.788072829
+394,BKS_BL_SH_01,2025-09-16,brooks,shore,NA,grab,nodularin,0
+395,BKS_BL_SH_02,2025-09-16,brooks,shore,NA,grab,anatoxin,0
+395,BKS_BL_SH_02,2025-09-16,brooks,shore,NA,grab,cylindrospermopsin,0
+395,BKS_BL_SH_02,2025-09-16,brooks,shore,NA,grab,microcystin,1.660345757
+395,BKS_BL_SH_02,2025-09-16,brooks,shore,NA,grab,nodularin,0
+396,BKS_BL_SH_03,2025-09-16,brooks,shore,NA,grab,anatoxin,0
+396,BKS_BL_SH_03,2025-09-16,brooks,shore,NA,grab,cylindrospermopsin,0
+396,BKS_BL_SH_03,2025-09-16,brooks,shore,NA,grab,microcystin,0
+396,BKS_BL_SH_03,2025-09-16,brooks,shore,NA,grab,nodularin,0
+397,BKS_BL_SH_04,2025-09-17,brooks,shore,NA,grab,anatoxin,0
+397,BKS_BL_SH_04,2025-09-17,brooks,shore,NA,grab,cylindrospermopsin,0
+397,BKS_BL_SH_04,2025-09-17,brooks,shore,NA,grab,microcystin,14.01009453
+397,BKS_BL_SH_04,2025-09-17,brooks,shore,NA,grab,nodularin,0
+398,BKS_BL_SH_05,2025-09-17,brooks,shore,NA,grab,anatoxin,0
+398,BKS_BL_SH_05,2025-09-17,brooks,shore,NA,grab,cylindrospermopsin,0
+398,BKS_BL_SH_05,2025-09-17,brooks,shore,NA,grab,microcystin,16.017995115999998
+398,BKS_BL_SH_05,2025-09-17,brooks,shore,NA,grab,nodularin,0
+399,BKS_BL_SH_06,2025-09-17,brooks,shore,NA,grab,anatoxin,0
+399,BKS_BL_SH_06,2025-09-17,brooks,shore,NA,grab,cylindrospermopsin,0
+399,BKS_BL_SH_06,2025-09-17,brooks,shore,NA,grab,microcystin,12.04482413
+399,BKS_BL_SH_06,2025-09-17,brooks,shore,NA,grab,nodularin,0
+400,BKS_BL_SH_07,2025-09-17,brooks,shore,NA,grab,anatoxin,0
+400,BKS_BL_SH_07,2025-09-17,brooks,shore,NA,grab,cylindrospermopsin,0
+400,BKS_BL_SH_07,2025-09-17,brooks,shore,NA,grab,microcystin,11.46504631
+400,BKS_BL_SH_07,2025-09-17,brooks,shore,NA,grab,nodularin,0
+403,BKS_BL_BU_SS,2025-09-17,brooks,buoy,surface,grab,anatoxin,0
+403,BKS_BL_BU_SS,2025-09-17,brooks,buoy,surface,grab,cylindrospermopsin,0
+403,BKS_BL_BU_SS,2025-09-17,brooks,buoy,surface,grab,microcystin,0
+403,BKS_BL_BU_SS,2025-09-17,brooks,buoy,surface,grab,nodularin,0
+404,BKS_BL_BU_DD,2025-09-17,brooks,buoy,bottom,grab,anatoxin,0
+404,BKS_BL_BU_DD,2025-09-17,brooks,buoy,bottom,grab,cylindrospermopsin,0
+404,BKS_BL_BU_DD,2025-09-17,brooks,buoy,bottom,grab,microcystin,1.713872963
+404,BKS_BL_BU_DD,2025-09-17,brooks,buoy,bottom,grab,nodularin,0
+405,BKS_UB_SH_08,2025-09-17,upper brooks,shore,NA,grab,anatoxin,0
+405,BKS_UB_SH_08,2025-09-17,upper brooks,shore,NA,grab,cylindrospermopsin,0
+405,BKS_UB_SH_08,2025-09-17,upper brooks,shore,NA,grab,microcystin,0
+405,BKS_UB_SH_08,2025-09-17,upper brooks,shore,NA,grab,nodularin,0
+406,BKS_UB_SH_09,2025-09-17,upper brooks,shore,NA,grab,anatoxin,0
+406,BKS_UB_SH_09,2025-09-17,upper brooks,shore,NA,grab,cylindrospermopsin,0
+406,BKS_UB_SH_09,2025-09-17,upper brooks,shore,NA,grab,microcystin,0
+406,BKS_UB_SH_09,2025-09-17,upper brooks,shore,NA,grab,nodularin,0
+407,BKS_UB_BU_SS,2025-09-17,upper brooks,buoy,surface,grab,anatoxin,0
+407,BKS_UB_BU_SS,2025-09-17,upper brooks,buoy,surface,grab,cylindrospermopsin,0
+407,BKS_UB_BU_SS,2025-09-17,upper brooks,buoy,surface,grab,microcystin,1.523219882
+407,BKS_UB_BU_SS,2025-09-17,upper brooks,buoy,surface,grab,nodularin,0
+408,BKS_UB_BU_DD,2025-09-17,upper brooks,buoy,bottom,grab,anatoxin,0
+408,BKS_UB_BU_DD,2025-09-17,upper brooks,buoy,bottom,grab,cylindrospermopsin,0
+408,BKS_UB_BU_DD,2025-09-17,upper brooks,buoy,bottom,grab,microcystin,0
+408,BKS_UB_BU_DD,2025-09-17,upper brooks,buoy,bottom,grab,nodularin,0
+409,BKS_RN_SH_10,2025-09-17,rainbow,shore,NA,grab,anatoxin,0
+409,BKS_RN_SH_10,2025-09-17,rainbow,shore,NA,grab,cylindrospermopsin,0
+409,BKS_RN_SH_10,2025-09-17,rainbow,shore,NA,grab,microcystin,319.866276964
+409,BKS_RN_SH_10,2025-09-17,rainbow,shore,NA,grab,nodularin,0
+410,BKS_RN_BU_SS,2025-09-17,rainbow,buoy,surface,grab,anatoxin,0
+410,BKS_RN_BU_SS,2025-09-17,rainbow,buoy,surface,grab,cylindrospermopsin,0
+410,BKS_RN_BU_SS,2025-09-17,rainbow,buoy,surface,grab,microcystin,0
+410,BKS_RN_BU_SS,2025-09-17,rainbow,buoy,surface,grab,nodularin,0
+411,BKS_RN_BU_DD,2025-09-17,rainbow,buoy,bottom,grab,anatoxin,0
+411,BKS_RN_BU_DD,2025-09-17,rainbow,buoy,bottom,grab,cylindrospermopsin,0
+411,BKS_RN_BU_DD,2025-09-17,rainbow,buoy,bottom,grab,microcystin,0
+411,BKS_RN_BU_DD,2025-09-17,rainbow,buoy,bottom,grab,nodularin,0
+412,BKS_LJ_BU_SS,2025-09-17,lower jade,buoy,surface,grab,anatoxin,0
+412,BKS_LJ_BU_SS,2025-09-17,lower jade,buoy,surface,grab,cylindrospermopsin,0
+412,BKS_LJ_BU_SS,2025-09-17,lower jade,buoy,surface,grab,microcystin,0
+412,BKS_LJ_BU_SS,2025-09-17,lower jade,buoy,surface,grab,nodularin,0
+413,BKS_LJ_BU_DD,2025-09-17,lower jade,buoy,bottom,grab,anatoxin,0
+413,BKS_LJ_BU_DD,2025-09-17,lower jade,buoy,bottom,grab,cylindrospermopsin,0
+413,BKS_LJ_BU_DD,2025-09-17,lower jade,buoy,bottom,grab,microcystin,0
+413,BKS_LJ_BU_DD,2025-09-17,lower jade,buoy,bottom,grab,nodularin,0
+416,BYS_BR_SH_01,2025-09-16,boysen,shore,NA,grab,anatoxin,0
+416,BYS_BR_SH_01,2025-09-16,boysen,shore,NA,grab,cylindrospermopsin,0
+416,BYS_BR_SH_01,2025-09-16,boysen,shore,NA,grab,microcystin,7207.478603629999
+416,BYS_BR_SH_01,2025-09-16,boysen,shore,NA,grab,nodularin,0
+417,BYS_PC_SH_02,2025-09-16,boysen,shore,NA,grab,anatoxin,0
+417,BYS_PC_SH_02,2025-09-16,boysen,shore,NA,grab,cylindrospermopsin,0
+417,BYS_PC_SH_02,2025-09-16,boysen,shore,NA,grab,microcystin,5.041982105
+417,BYS_PC_SH_02,2025-09-16,boysen,shore,NA,grab,nodularin,0
+418,BYS_FR_SH_03,2025-09-16,boysen,shore,NA,grab,anatoxin,0
+418,BYS_FR_SH_03,2025-09-16,boysen,shore,NA,grab,cylindrospermopsin,0
+418,BYS_FR_SH_03,2025-09-16,boysen,shore,NA,grab,microcystin,10.32339678
+418,BYS_FR_SH_03,2025-09-16,boysen,shore,NA,grab,nodularin,0
+419,BYS_CR_SH_04,2025-09-16,boysen,shore,NA,grab,anatoxin,0
+419,BYS_CR_SH_04,2025-09-16,boysen,shore,NA,grab,cylindrospermopsin,0
+419,BYS_CR_SH_04,2025-09-16,boysen,shore,NA,grab,microcystin,0
+419,BYS_CR_SH_04,2025-09-16,boysen,shore,NA,grab,nodularin,0
+449,BKS_BL_SH_01,2025-09-29,brooks,shore,NA,grab,anatoxin,0
+449,BKS_BL_SH_01,2025-09-29,brooks,shore,NA,grab,cylindrospermopsin,0
+449,BKS_BL_SH_01,2025-09-29,brooks,shore,NA,grab,microcystin,0
+449,BKS_BL_SH_01,2025-09-29,brooks,shore,NA,grab,nodularin,0
+450,BKS_BL_SH_02,2025-09-29,brooks,shore,NA,grab,anatoxin,0
+450,BKS_BL_SH_02,2025-09-29,brooks,shore,NA,grab,cylindrospermopsin,0
+450,BKS_BL_SH_02,2025-09-29,brooks,shore,NA,grab,microcystin,0
+450,BKS_BL_SH_02,2025-09-29,brooks,shore,NA,grab,nodularin,0
+451,BKS_BL_SH_03,2025-09-29,brooks,shore,NA,grab,anatoxin,0
+451,BKS_BL_SH_03,2025-09-29,brooks,shore,NA,grab,cylindrospermopsin,0
+451,BKS_BL_SH_03,2025-09-29,brooks,shore,NA,grab,microcystin,0
+451,BKS_BL_SH_03,2025-09-29,brooks,shore,NA,grab,nodularin,0
+452,BKS_BL_SH_04,2025-09-30,brooks,shore,NA,grab,anatoxin,0
+452,BKS_BL_SH_04,2025-09-30,brooks,shore,NA,grab,cylindrospermopsin,0
+452,BKS_BL_SH_04,2025-09-30,brooks,shore,NA,grab,microcystin,0
+452,BKS_BL_SH_04,2025-09-30,brooks,shore,NA,grab,nodularin,0
+453,BKS_BL_SH_05,2025-09-30,brooks,shore,NA,grab,anatoxin,0
+453,BKS_BL_SH_05,2025-09-30,brooks,shore,NA,grab,cylindrospermopsin,0
+453,BKS_BL_SH_05,2025-09-30,brooks,shore,NA,grab,microcystin,0
+453,BKS_BL_SH_05,2025-09-30,brooks,shore,NA,grab,nodularin,0
+454,BKS_BL_SH_06,2025-09-30,brooks,shore,NA,grab,anatoxin,0
+454,BKS_BL_SH_06,2025-09-30,brooks,shore,NA,grab,cylindrospermopsin,0
+454,BKS_BL_SH_06,2025-09-30,brooks,shore,NA,grab,microcystin,0
+454,BKS_BL_SH_06,2025-09-30,brooks,shore,NA,grab,nodularin,0
+455,BKS_BL_SH_07,2025-09-30,brooks,shore,NA,grab,anatoxin,1.318490774
+455,BKS_BL_SH_07,2025-09-30,brooks,shore,NA,grab,cylindrospermopsin,0
+455,BKS_BL_SH_07,2025-09-30,brooks,shore,NA,grab,microcystin,0
+455,BKS_BL_SH_07,2025-09-30,brooks,shore,NA,grab,nodularin,0
+458,BKS_BL_BU_SS,2025-09-30,brooks,buoy,surface,grab,anatoxin,0
+458,BKS_BL_BU_SS,2025-09-30,brooks,buoy,surface,grab,cylindrospermopsin,0
+458,BKS_BL_BU_SS,2025-09-30,brooks,buoy,surface,grab,microcystin,0
+458,BKS_BL_BU_SS,2025-09-30,brooks,buoy,surface,grab,nodularin,0
+459,BKS_BL_BU_DD,2025-09-30,brooks,buoy,bottom,grab,anatoxin,0
+459,BKS_BL_BU_DD,2025-09-30,brooks,buoy,bottom,grab,cylindrospermopsin,0
+459,BKS_BL_BU_DD,2025-09-30,brooks,buoy,bottom,grab,microcystin,0
+459,BKS_BL_BU_DD,2025-09-30,brooks,buoy,bottom,grab,nodularin,0
+460,BKS_UB_SH_08,2025-09-30,upper brooks,shore,NA,grab,anatoxin,0
+460,BKS_UB_SH_08,2025-09-30,upper brooks,shore,NA,grab,cylindrospermopsin,0
+460,BKS_UB_SH_08,2025-09-30,upper brooks,shore,NA,grab,microcystin,0
+460,BKS_UB_SH_08,2025-09-30,upper brooks,shore,NA,grab,nodularin,0
+461,BKS_UB_SH_09,2025-09-30,upper brooks,shore,NA,grab,anatoxin,0
+461,BKS_UB_SH_09,2025-09-30,upper brooks,shore,NA,grab,cylindrospermopsin,0
+461,BKS_UB_SH_09,2025-09-30,upper brooks,shore,NA,grab,microcystin,0.199061964
+461,BKS_UB_SH_09,2025-09-30,upper brooks,shore,NA,grab,nodularin,0
+462,BKS_UB_BU_SS,2025-09-30,upper brooks,buoy,surface,grab,anatoxin,0
+462,BKS_UB_BU_SS,2025-09-30,upper brooks,buoy,surface,grab,cylindrospermopsin,0
+462,BKS_UB_BU_SS,2025-09-30,upper brooks,buoy,surface,grab,microcystin,0
+462,BKS_UB_BU_SS,2025-09-30,upper brooks,buoy,surface,grab,nodularin,0
+463,BKS_UB_BU_DD,2025-09-30,upper brooks,buoy,bottom,grab,anatoxin,0
+463,BKS_UB_BU_DD,2025-09-30,upper brooks,buoy,bottom,grab,cylindrospermopsin,0
+463,BKS_UB_BU_DD,2025-09-30,upper brooks,buoy,bottom,grab,microcystin,0
+463,BKS_UB_BU_DD,2025-09-30,upper brooks,buoy,bottom,grab,nodularin,0
+464,BKS_RN_SH_10,2025-09-30,rainbow,shore,NA,grab,anatoxin,0
+464,BKS_RN_SH_10,2025-09-30,rainbow,shore,NA,grab,cylindrospermopsin,0
+464,BKS_RN_SH_10,2025-09-30,rainbow,shore,NA,grab,microcystin,40.391981885999996
+464,BKS_RN_SH_10,2025-09-30,rainbow,shore,NA,grab,nodularin,0
+465,BKS_RN_BU_SS,2025-09-30,rainbow,buoy,surface,grab,anatoxin,0
+465,BKS_RN_BU_SS,2025-09-30,rainbow,buoy,surface,grab,cylindrospermopsin,0
+465,BKS_RN_BU_SS,2025-09-30,rainbow,buoy,surface,grab,microcystin,0
+465,BKS_RN_BU_SS,2025-09-30,rainbow,buoy,surface,grab,nodularin,0
+466,BKS_RN_BU_DD,2025-09-30,rainbow,buoy,bottom,grab,anatoxin,0
+466,BKS_RN_BU_DD,2025-09-30,rainbow,buoy,bottom,grab,cylindrospermopsin,0
+466,BKS_RN_BU_DD,2025-09-30,rainbow,buoy,bottom,grab,microcystin,0
+466,BKS_RN_BU_DD,2025-09-30,rainbow,buoy,bottom,grab,nodularin,0
+467,BKS_LJ_BU_SS,2025-10-01,lower jade,buoy,surface,grab,anatoxin,0
+467,BKS_LJ_BU_SS,2025-10-01,lower jade,buoy,surface,grab,cylindrospermopsin,0
+467,BKS_LJ_BU_SS,2025-10-01,lower jade,buoy,surface,grab,microcystin,0
+467,BKS_LJ_BU_SS,2025-10-01,lower jade,buoy,surface,grab,nodularin,0
+468,BKS_LJ_BU_DD,2025-10-01,lower jade,buoy,bottom,grab,anatoxin,0
+468,BKS_LJ_BU_DD,2025-10-01,lower jade,buoy,bottom,grab,cylindrospermopsin,0
+468,BKS_LJ_BU_DD,2025-10-01,lower jade,buoy,bottom,grab,microcystin,0
+468,BKS_LJ_BU_DD,2025-10-01,lower jade,buoy,bottom,grab,nodularin,0
+469,BKS_BL_SH_03,2025-09-30,brooks,shore,NA,grab,anatoxin,0
+469,BKS_BL_SH_03,2025-09-30,brooks,shore,NA,grab,cylindrospermopsin,0
+469,BKS_BL_SH_03,2025-09-30,brooks,shore,NA,grab,microcystin,0
+469,BKS_BL_SH_03,2025-09-30,brooks,shore,NA,grab,nodularin,0
+504,BKS_BL_SH_01,2025-10-14,brooks,shore,NA,grab,anatoxin,0
+504,BKS_BL_SH_01,2025-10-14,brooks,shore,NA,grab,cylindrospermopsin,0
+504,BKS_BL_SH_01,2025-10-14,brooks,shore,NA,grab,microcystin,0
+504,BKS_BL_SH_01,2025-10-14,brooks,shore,NA,grab,nodularin,0
+505,BKS_BL_SH_02,2025-10-14,brooks,shore,NA,grab,anatoxin,0
+505,BKS_BL_SH_02,2025-10-14,brooks,shore,NA,grab,cylindrospermopsin,0
+505,BKS_BL_SH_02,2025-10-14,brooks,shore,NA,grab,microcystin,0
+505,BKS_BL_SH_02,2025-10-14,brooks,shore,NA,grab,nodularin,0
+506,BKS_BL_SH_03,2025-10-14,brooks,shore,NA,grab,anatoxin,0
+506,BKS_BL_SH_03,2025-10-14,brooks,shore,NA,grab,cylindrospermopsin,0
+506,BKS_BL_SH_03,2025-10-14,brooks,shore,NA,grab,microcystin,0
+506,BKS_BL_SH_03,2025-10-14,brooks,shore,NA,grab,nodularin,0
+507,BKS_BL_SH_04,2025-10-14,brooks,shore,NA,grab,anatoxin,0
+507,BKS_BL_SH_04,2025-10-14,brooks,shore,NA,grab,cylindrospermopsin,0
+507,BKS_BL_SH_04,2025-10-14,brooks,shore,NA,grab,microcystin,0
+507,BKS_BL_SH_04,2025-10-14,brooks,shore,NA,grab,nodularin,0
+508,BKS_BL_SH_05,2025-10-14,brooks,shore,NA,grab,anatoxin,0
+508,BKS_BL_SH_05,2025-10-14,brooks,shore,NA,grab,cylindrospermopsin,0
+508,BKS_BL_SH_05,2025-10-14,brooks,shore,NA,grab,microcystin,0
+508,BKS_BL_SH_05,2025-10-14,brooks,shore,NA,grab,nodularin,0
+509,BKS_BL_SH_06,2025-10-14,brooks,shore,NA,grab,anatoxin,0
+509,BKS_BL_SH_06,2025-10-14,brooks,shore,NA,grab,cylindrospermopsin,0
+509,BKS_BL_SH_06,2025-10-14,brooks,shore,NA,grab,microcystin,23.045021155
+509,BKS_BL_SH_06,2025-10-14,brooks,shore,NA,grab,nodularin,0
+510,BKS_BL_SH_07,2025-10-14,brooks,shore,NA,grab,anatoxin,0
+510,BKS_BL_SH_07,2025-10-14,brooks,shore,NA,grab,cylindrospermopsin,0
+510,BKS_BL_SH_07,2025-10-14,brooks,shore,NA,grab,microcystin,0
+510,BKS_BL_SH_07,2025-10-14,brooks,shore,NA,grab,nodularin,0
+513,BKS_BL_BU_SS,2025-10-14,brooks,buoy,surface,grab,anatoxin,0
+513,BKS_BL_BU_SS,2025-10-14,brooks,buoy,surface,grab,cylindrospermopsin,0
+513,BKS_BL_BU_SS,2025-10-14,brooks,buoy,surface,grab,microcystin,0
+513,BKS_BL_BU_SS,2025-10-14,brooks,buoy,surface,grab,nodularin,0
+514,BKS_BL_BU_DD,2025-10-14,brooks,buoy,bottom,grab,anatoxin,0
+514,BKS_BL_BU_DD,2025-10-14,brooks,buoy,bottom,grab,cylindrospermopsin,0
+514,BKS_BL_BU_DD,2025-10-14,brooks,buoy,bottom,grab,microcystin,0
+514,BKS_BL_BU_DD,2025-10-14,brooks,buoy,bottom,grab,nodularin,0
+515,BKS_UB_SH_08,2025-10-15,upper brooks,shore,NA,grab,anatoxin,0
+515,BKS_UB_SH_08,2025-10-15,upper brooks,shore,NA,grab,cylindrospermopsin,0
+515,BKS_UB_SH_08,2025-10-15,upper brooks,shore,NA,grab,microcystin,0
+515,BKS_UB_SH_08,2025-10-15,upper brooks,shore,NA,grab,nodularin,0
+516,BKS_UB_SH_09,2025-10-15,upper brooks,shore,NA,grab,anatoxin,0
+516,BKS_UB_SH_09,2025-10-15,upper brooks,shore,NA,grab,cylindrospermopsin,0
+516,BKS_UB_SH_09,2025-10-15,upper brooks,shore,NA,grab,microcystin,238.3808274
+516,BKS_UB_SH_09,2025-10-15,upper brooks,shore,NA,grab,nodularin,0
+517,BKS_UB_BU_SS,2025-10-14,upper brooks,buoy,surface,grab,anatoxin,0
+517,BKS_UB_BU_SS,2025-10-14,upper brooks,buoy,surface,grab,cylindrospermopsin,0
+517,BKS_UB_BU_SS,2025-10-14,upper brooks,buoy,surface,grab,microcystin,0
+517,BKS_UB_BU_SS,2025-10-14,upper brooks,buoy,surface,grab,nodularin,0
+518,BKS_UB_BU_DD,2025-10-14,upper brooks,buoy,bottom,grab,anatoxin,0
+518,BKS_UB_BU_DD,2025-10-14,upper brooks,buoy,bottom,grab,cylindrospermopsin,0
+518,BKS_UB_BU_DD,2025-10-14,upper brooks,buoy,bottom,grab,microcystin,0
+518,BKS_UB_BU_DD,2025-10-14,upper brooks,buoy,bottom,grab,nodularin,0
+519,BKS_RN_SH_10,2025-10-15,rainbow,shore,NA,grab,anatoxin,0
+519,BKS_RN_SH_10,2025-10-15,rainbow,shore,NA,grab,cylindrospermopsin,0
+519,BKS_RN_SH_10,2025-10-15,rainbow,shore,NA,grab,microcystin,0
+519,BKS_RN_SH_10,2025-10-15,rainbow,shore,NA,grab,nodularin,0
+520,BKS_RN_BU_SS,2025-10-14,rainbow,buoy,surface,grab,anatoxin,0
+520,BKS_RN_BU_SS,2025-10-14,rainbow,buoy,surface,grab,cylindrospermopsin,0
+520,BKS_RN_BU_SS,2025-10-14,rainbow,buoy,surface,grab,microcystin,0
+520,BKS_RN_BU_SS,2025-10-14,rainbow,buoy,surface,grab,nodularin,0
+521,BKS_RN_BU_DD,2025-10-14,rainbow,buoy,bottom,grab,anatoxin,0
+521,BKS_RN_BU_DD,2025-10-14,rainbow,buoy,bottom,grab,cylindrospermopsin,0
+521,BKS_RN_BU_DD,2025-10-14,rainbow,buoy,bottom,grab,microcystin,0
+521,BKS_RN_BU_DD,2025-10-14,rainbow,buoy,bottom,grab,nodularin,0
+522,BKS_LJ_BU_SS,2025-10-14,lower jade,buoy,surface,grab,anatoxin,0
+522,BKS_LJ_BU_SS,2025-10-14,lower jade,buoy,surface,grab,cylindrospermopsin,0
+522,BKS_LJ_BU_SS,2025-10-14,lower jade,buoy,surface,grab,microcystin,0
+522,BKS_LJ_BU_SS,2025-10-14,lower jade,buoy,surface,grab,nodularin,0
+523,BKS_LJ_BU_DD,2025-10-14,lower jade,buoy,bottom,grab,anatoxin,0
+523,BKS_LJ_BU_DD,2025-10-14,lower jade,buoy,bottom,grab,cylindrospermopsin,0
+523,BKS_LJ_BU_DD,2025-10-14,lower jade,buoy,bottom,grab,microcystin,0
+523,BKS_LJ_BU_DD,2025-10-14,lower jade,buoy,bottom,grab,nodularin,0

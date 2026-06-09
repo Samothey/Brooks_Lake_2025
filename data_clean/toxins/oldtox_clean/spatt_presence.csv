@@ -1,0 +1,593 @@
+sample_number,site_id,date,lake,site_type,depth_category,method,toxin_class,detected
+064,BKS_BL_SH_01,2025-07-21,brooks,shore,NA,spatt,anatoxin,FALSE
+064,BKS_BL_SH_01,2025-07-21,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+064,BKS_BL_SH_01,2025-07-21,brooks,shore,NA,spatt,microcystin,FALSE
+064,BKS_BL_SH_01,2025-07-21,brooks,shore,NA,spatt,nodularin,FALSE
+065,BKS_BL_SH_02,2025-07-21,brooks,shore,NA,spatt,anatoxin,FALSE
+065,BKS_BL_SH_02,2025-07-21,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+065,BKS_BL_SH_02,2025-07-21,brooks,shore,NA,spatt,microcystin,FALSE
+065,BKS_BL_SH_02,2025-07-21,brooks,shore,NA,spatt,nodularin,FALSE
+066,BKS_BL_SH_03,2025-07-21,brooks,shore,NA,spatt,anatoxin,FALSE
+066,BKS_BL_SH_03,2025-07-21,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+066,BKS_BL_SH_03,2025-07-21,brooks,shore,NA,spatt,microcystin,FALSE
+066,BKS_BL_SH_03,2025-07-21,brooks,shore,NA,spatt,nodularin,FALSE
+067,BKS_BL_SH_04,2025-07-21,brooks,shore,NA,spatt,anatoxin,FALSE
+067,BKS_BL_SH_04,2025-07-21,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+067,BKS_BL_SH_04,2025-07-21,brooks,shore,NA,spatt,microcystin,FALSE
+067,BKS_BL_SH_04,2025-07-21,brooks,shore,NA,spatt,nodularin,FALSE
+072,BKS_BL_SH_05,2025-07-23,brooks,shore,NA,spatt,anatoxin,FALSE
+072,BKS_BL_SH_05,2025-07-23,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+072,BKS_BL_SH_05,2025-07-23,brooks,shore,NA,spatt,microcystin,FALSE
+072,BKS_BL_SH_05,2025-07-23,brooks,shore,NA,spatt,nodularin,FALSE
+073,BKS_BL_SH_06,2025-07-23,brooks,shore,NA,spatt,anatoxin,FALSE
+073,BKS_BL_SH_06,2025-07-23,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+073,BKS_BL_SH_06,2025-07-23,brooks,shore,NA,spatt,microcystin,FALSE
+073,BKS_BL_SH_06,2025-07-23,brooks,shore,NA,spatt,nodularin,FALSE
+074,BKS_BL_SH_07,2025-07-23,brooks,shore,NA,spatt,anatoxin,FALSE
+074,BKS_BL_SH_07,2025-07-23,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+074,BKS_BL_SH_07,2025-07-23,brooks,shore,NA,spatt,microcystin,FALSE
+074,BKS_BL_SH_07,2025-07-23,brooks,shore,NA,spatt,nodularin,FALSE
+079,BKS_BL_BU_SS,2025-07-23,brooks,buoy,surface,spatt,anatoxin,FALSE
+079,BKS_BL_BU_SS,2025-07-23,brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+079,BKS_BL_BU_SS,2025-07-23,brooks,buoy,surface,spatt,microcystin,TRUE
+079,BKS_BL_BU_SS,2025-07-23,brooks,buoy,surface,spatt,nodularin,FALSE
+088,BKS_BL_BU_DD,2025-07-23,brooks,buoy,bottom,spatt,anatoxin,FALSE
+088,BKS_BL_BU_DD,2025-07-23,brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+088,BKS_BL_BU_DD,2025-07-23,brooks,buoy,bottom,spatt,microcystin,TRUE
+088,BKS_BL_BU_DD,2025-07-23,brooks,buoy,bottom,spatt,nodularin,FALSE
+090,BKS_UB_SH_09,2025-07-22,upper brooks,shore,NA,spatt,anatoxin,FALSE
+090,BKS_UB_SH_09,2025-07-22,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+090,BKS_UB_SH_09,2025-07-22,upper brooks,shore,NA,spatt,microcystin,TRUE
+090,BKS_UB_SH_09,2025-07-22,upper brooks,shore,NA,spatt,nodularin,FALSE
+091,BKS_UB_BU_SS,2025-07-22,upper brooks,buoy,surface,spatt,anatoxin,FALSE
+091,BKS_UB_BU_SS,2025-07-22,upper brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+091,BKS_UB_BU_SS,2025-07-22,upper brooks,buoy,surface,spatt,microcystin,FALSE
+091,BKS_UB_BU_SS,2025-07-22,upper brooks,buoy,surface,spatt,nodularin,FALSE
+095,BKS_UB_BU_DD,2025-07-22,upper brooks,buoy,bottom,spatt,anatoxin,FALSE
+095,BKS_UB_BU_DD,2025-07-22,upper brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+095,BKS_UB_BU_DD,2025-07-22,upper brooks,buoy,bottom,spatt,microcystin,TRUE
+095,BKS_UB_BU_DD,2025-07-22,upper brooks,buoy,bottom,spatt,nodularin,FALSE
+096,BKS_BL_SH_01,2025-07-08,brooks,shore,NA,spatt,anatoxin,FALSE
+096,BKS_BL_SH_01,2025-07-08,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+096,BKS_BL_SH_01,2025-07-08,brooks,shore,NA,spatt,microcystin,TRUE
+096,BKS_BL_SH_01,2025-07-08,brooks,shore,NA,spatt,nodularin,FALSE
+097,BKS_BL_SH_02,2025-07-08,brooks,shore,NA,spatt,anatoxin,FALSE
+097,BKS_BL_SH_02,2025-07-08,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+097,BKS_BL_SH_02,2025-07-08,brooks,shore,NA,spatt,microcystin,FALSE
+097,BKS_BL_SH_02,2025-07-08,brooks,shore,NA,spatt,nodularin,FALSE
+098,BKS_BL_SH_03,2025-07-08,brooks,shore,NA,spatt,anatoxin,FALSE
+098,BKS_BL_SH_03,2025-07-08,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+098,BKS_BL_SH_03,2025-07-08,brooks,shore,NA,spatt,microcystin,FALSE
+098,BKS_BL_SH_03,2025-07-08,brooks,shore,NA,spatt,nodularin,FALSE
+099,BKS_BL_SH_04,2025-07-08,brooks,shore,NA,spatt,anatoxin,FALSE
+099,BKS_BL_SH_04,2025-07-08,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+099,BKS_BL_SH_04,2025-07-08,brooks,shore,NA,spatt,microcystin,FALSE
+099,BKS_BL_SH_04,2025-07-08,brooks,shore,NA,spatt,nodularin,FALSE
+100,BKS_BL_SH_05,2025-07-08,brooks,shore,NA,spatt,anatoxin,FALSE
+100,BKS_BL_SH_05,2025-07-08,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+100,BKS_BL_SH_05,2025-07-08,brooks,shore,NA,spatt,microcystin,TRUE
+100,BKS_BL_SH_05,2025-07-08,brooks,shore,NA,spatt,nodularin,FALSE
+101,BKS_BL_SH_06,2025-07-08,brooks,shore,NA,spatt,anatoxin,FALSE
+101,BKS_BL_SH_06,2025-07-08,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+101,BKS_BL_SH_06,2025-07-08,brooks,shore,NA,spatt,microcystin,FALSE
+101,BKS_BL_SH_06,2025-07-08,brooks,shore,NA,spatt,nodularin,TRUE
+102,BKS_BL_SH_07,2025-07-08,brooks,shore,NA,spatt,anatoxin,FALSE
+102,BKS_BL_SH_07,2025-07-08,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+102,BKS_BL_SH_07,2025-07-08,brooks,shore,NA,spatt,microcystin,FALSE
+102,BKS_BL_SH_07,2025-07-08,brooks,shore,NA,spatt,nodularin,FALSE
+103,BKS_RN_SH_10,2025-07-22,rainbow,shore,NA,spatt,anatoxin,FALSE
+103,BKS_RN_SH_10,2025-07-22,rainbow,shore,NA,spatt,cylindrospermopsin,FALSE
+103,BKS_RN_SH_10,2025-07-22,rainbow,shore,NA,spatt,microcystin,TRUE
+103,BKS_RN_SH_10,2025-07-22,rainbow,shore,NA,spatt,nodularin,FALSE
+104,BKS_RN_BU_SS,2025-07-22,rainbow,buoy,surface,spatt,anatoxin,FALSE
+104,BKS_RN_BU_SS,2025-07-22,rainbow,buoy,surface,spatt,cylindrospermopsin,FALSE
+104,BKS_RN_BU_SS,2025-07-22,rainbow,buoy,surface,spatt,microcystin,TRUE
+104,BKS_RN_BU_SS,2025-07-22,rainbow,buoy,surface,spatt,nodularin,FALSE
+105,BKS_BL_BU_SS,2025-07-08,brooks,buoy,surface,spatt,anatoxin,FALSE
+105,BKS_BL_BU_SS,2025-07-08,brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+105,BKS_BL_BU_SS,2025-07-08,brooks,buoy,surface,spatt,microcystin,TRUE
+105,BKS_BL_BU_SS,2025-07-08,brooks,buoy,surface,spatt,nodularin,TRUE
+106,BKS_BL_BU_DD,2025-07-08,brooks,buoy,bottom,spatt,anatoxin,FALSE
+106,BKS_BL_BU_DD,2025-07-08,brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+106,BKS_BL_BU_DD,2025-07-08,brooks,buoy,bottom,spatt,microcystin,TRUE
+106,BKS_BL_BU_DD,2025-07-08,brooks,buoy,bottom,spatt,nodularin,FALSE
+107,BKS_UB_SH_08,2025-07-09,upper brooks,shore,NA,spatt,anatoxin,FALSE
+107,BKS_UB_SH_08,2025-07-09,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+107,BKS_UB_SH_08,2025-07-09,upper brooks,shore,NA,spatt,microcystin,FALSE
+107,BKS_UB_SH_08,2025-07-09,upper brooks,shore,NA,spatt,nodularin,FALSE
+109,BKS_UB_BU_SS,2025-07-09,upper brooks,buoy,surface,spatt,anatoxin,FALSE
+109,BKS_UB_BU_SS,2025-07-09,upper brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+109,BKS_UB_BU_SS,2025-07-09,upper brooks,buoy,surface,spatt,microcystin,TRUE
+109,BKS_UB_BU_SS,2025-07-09,upper brooks,buoy,surface,spatt,nodularin,FALSE
+110,BKS_UB_BU_DD,2025-07-09,upper brooks,buoy,bottom,spatt,anatoxin,FALSE
+110,BKS_UB_BU_DD,2025-07-09,upper brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+110,BKS_UB_BU_DD,2025-07-09,upper brooks,buoy,bottom,spatt,microcystin,TRUE
+110,BKS_UB_BU_DD,2025-07-09,upper brooks,buoy,bottom,spatt,nodularin,FALSE
+111,BKS_RN_SH_10,2025-07-09,rainbow,shore,NA,spatt,anatoxin,FALSE
+111,BKS_RN_SH_10,2025-07-09,rainbow,shore,NA,spatt,cylindrospermopsin,FALSE
+111,BKS_RN_SH_10,2025-07-09,rainbow,shore,NA,spatt,microcystin,TRUE
+111,BKS_RN_SH_10,2025-07-09,rainbow,shore,NA,spatt,nodularin,FALSE
+112,BKS_RN_BU_SS,2025-07-09,rainbow,buoy,surface,spatt,anatoxin,FALSE
+112,BKS_RN_BU_SS,2025-07-09,rainbow,buoy,surface,spatt,cylindrospermopsin,FALSE
+112,BKS_RN_BU_SS,2025-07-09,rainbow,buoy,surface,spatt,microcystin,FALSE
+112,BKS_RN_BU_SS,2025-07-09,rainbow,buoy,surface,spatt,nodularin,FALSE
+113,BKS_RN_BU_DD,2025-07-09,rainbow,buoy,bottom,spatt,anatoxin,FALSE
+113,BKS_RN_BU_DD,2025-07-09,rainbow,buoy,bottom,spatt,cylindrospermopsin,FALSE
+113,BKS_RN_BU_DD,2025-07-09,rainbow,buoy,bottom,spatt,microcystin,TRUE
+113,BKS_RN_BU_DD,2025-07-09,rainbow,buoy,bottom,spatt,nodularin,FALSE
+114,BKS_LJ_BU_SS,2025-07-09,lower jade,buoy,surface,spatt,anatoxin,FALSE
+114,BKS_LJ_BU_SS,2025-07-09,lower jade,buoy,surface,spatt,cylindrospermopsin,FALSE
+114,BKS_LJ_BU_SS,2025-07-09,lower jade,buoy,surface,spatt,microcystin,TRUE
+114,BKS_LJ_BU_SS,2025-07-09,lower jade,buoy,surface,spatt,nodularin,FALSE
+115,BKS_LJ_BU_DD,2025-07-09,lower jade,buoy,bottom,spatt,anatoxin,FALSE
+115,BKS_LJ_BU_DD,2025-07-09,lower jade,buoy,bottom,spatt,cylindrospermopsin,FALSE
+115,BKS_LJ_BU_DD,2025-07-09,lower jade,buoy,bottom,spatt,microcystin,TRUE
+115,BKS_LJ_BU_DD,2025-07-09,lower jade,buoy,bottom,spatt,nodularin,FALSE
+118,BYS_BR_SH_01,2025-07-10,boysen,shore,NA,spatt,anatoxin,FALSE
+118,BYS_BR_SH_01,2025-07-10,boysen,shore,NA,spatt,cylindrospermopsin,FALSE
+118,BYS_BR_SH_01,2025-07-10,boysen,shore,NA,spatt,microcystin,TRUE
+118,BYS_BR_SH_01,2025-07-10,boysen,shore,NA,spatt,nodularin,TRUE
+119,BYS_PC_SH_02,2025-07-10,boysen,shore,NA,spatt,anatoxin,FALSE
+119,BYS_PC_SH_02,2025-07-10,boysen,shore,NA,spatt,cylindrospermopsin,FALSE
+119,BYS_PC_SH_02,2025-07-10,boysen,shore,NA,spatt,microcystin,TRUE
+119,BYS_PC_SH_02,2025-07-10,boysen,shore,NA,spatt,nodularin,FALSE
+120,BYS_FR_SH_03,2025-07-10,boysen,shore,NA,spatt,anatoxin,FALSE
+120,BYS_FR_SH_03,2025-07-10,boysen,shore,NA,spatt,cylindrospermopsin,FALSE
+120,BYS_FR_SH_03,2025-07-10,boysen,shore,NA,spatt,microcystin,TRUE
+120,BYS_FR_SH_03,2025-07-10,boysen,shore,NA,spatt,nodularin,TRUE
+121,BYS_CR_SH_04,2025-07-10,boysen,shore,NA,spatt,anatoxin,FALSE
+121,BYS_CR_SH_04,2025-07-10,boysen,shore,NA,spatt,cylindrospermopsin,FALSE
+121,BYS_CR_SH_04,2025-07-10,boysen,shore,NA,spatt,microcystin,TRUE
+121,BYS_CR_SH_04,2025-07-10,boysen,shore,NA,spatt,nodularin,TRUE
+122,BKS_RN_BU_DD,2025-07-22,rainbow,buoy,bottom,spatt,anatoxin,FALSE
+122,BKS_RN_BU_DD,2025-07-22,rainbow,buoy,bottom,spatt,cylindrospermopsin,FALSE
+122,BKS_RN_BU_DD,2025-07-22,rainbow,buoy,bottom,spatt,microcystin,TRUE
+122,BKS_RN_BU_DD,2025-07-22,rainbow,buoy,bottom,spatt,nodularin,TRUE
+123,BKS_LJ_BU_SS,2025-07-22,lower jade,buoy,surface,spatt,anatoxin,FALSE
+123,BKS_LJ_BU_SS,2025-07-22,lower jade,buoy,surface,spatt,cylindrospermopsin,FALSE
+123,BKS_LJ_BU_SS,2025-07-22,lower jade,buoy,surface,spatt,microcystin,FALSE
+123,BKS_LJ_BU_SS,2025-07-22,lower jade,buoy,surface,spatt,nodularin,FALSE
+124,BKS_LJ_BU_DD,2025-07-22,lower jade,buoy,bottom,spatt,anatoxin,FALSE
+124,BKS_LJ_BU_DD,2025-07-22,lower jade,buoy,bottom,spatt,cylindrospermopsin,FALSE
+124,BKS_LJ_BU_DD,2025-07-22,lower jade,buoy,bottom,spatt,microcystin,FALSE
+124,BKS_LJ_BU_DD,2025-07-22,lower jade,buoy,bottom,spatt,nodularin,FALSE
+156,BYS_BR_SH_01,2025-07-21,boysen,shore,NA,spatt,anatoxin,TRUE
+156,BYS_BR_SH_01,2025-07-21,boysen,shore,NA,spatt,cylindrospermopsin,FALSE
+156,BYS_BR_SH_01,2025-07-21,boysen,shore,NA,spatt,microcystin,TRUE
+156,BYS_BR_SH_01,2025-07-21,boysen,shore,NA,spatt,nodularin,TRUE
+158,BYS_FR_SH_03,2025-07-21,boysen,shore,NA,spatt,anatoxin,FALSE
+158,BYS_FR_SH_03,2025-07-21,boysen,shore,NA,spatt,cylindrospermopsin,FALSE
+158,BYS_FR_SH_03,2025-07-21,boysen,shore,NA,spatt,microcystin,TRUE
+158,BYS_FR_SH_03,2025-07-21,boysen,shore,NA,spatt,nodularin,TRUE
+194,BKS_BL_SH_01,2025-08-04,brooks,shore,NA,spatt,anatoxin,FALSE
+194,BKS_BL_SH_01,2025-08-04,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+194,BKS_BL_SH_01,2025-08-04,brooks,shore,NA,spatt,microcystin,TRUE
+194,BKS_BL_SH_01,2025-08-04,brooks,shore,NA,spatt,nodularin,FALSE
+195,BKS_BL_SH_02,2025-08-04,brooks,shore,NA,spatt,anatoxin,FALSE
+195,BKS_BL_SH_02,2025-08-04,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+195,BKS_BL_SH_02,2025-08-04,brooks,shore,NA,spatt,microcystin,FALSE
+195,BKS_BL_SH_02,2025-08-04,brooks,shore,NA,spatt,nodularin,FALSE
+196,BKS_BL_SH_03,2025-08-04,brooks,shore,NA,spatt,anatoxin,FALSE
+196,BKS_BL_SH_03,2025-08-04,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+196,BKS_BL_SH_03,2025-08-04,brooks,shore,NA,spatt,microcystin,FALSE
+196,BKS_BL_SH_03,2025-08-04,brooks,shore,NA,spatt,nodularin,FALSE
+197,BKS_BL_SH_04,2025-08-04,brooks,shore,NA,spatt,anatoxin,FALSE
+197,BKS_BL_SH_04,2025-08-04,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+197,BKS_BL_SH_04,2025-08-04,brooks,shore,NA,spatt,microcystin,FALSE
+197,BKS_BL_SH_04,2025-08-04,brooks,shore,NA,spatt,nodularin,FALSE
+198,BKS_BL_SH_05,2025-08-06,brooks,shore,NA,spatt,anatoxin,FALSE
+198,BKS_BL_SH_05,2025-08-06,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+198,BKS_BL_SH_05,2025-08-06,brooks,shore,NA,spatt,microcystin,TRUE
+198,BKS_BL_SH_05,2025-08-06,brooks,shore,NA,spatt,nodularin,FALSE
+199,BKS_BL_SH_06,2025-08-06,brooks,shore,NA,spatt,anatoxin,FALSE
+199,BKS_BL_SH_06,2025-08-06,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+199,BKS_BL_SH_06,2025-08-06,brooks,shore,NA,spatt,microcystin,FALSE
+199,BKS_BL_SH_06,2025-08-06,brooks,shore,NA,spatt,nodularin,FALSE
+200,BKS_BL_SH_07,2025-08-06,brooks,shore,NA,spatt,anatoxin,FALSE
+200,BKS_BL_SH_07,2025-08-06,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+200,BKS_BL_SH_07,2025-08-06,brooks,shore,NA,spatt,microcystin,FALSE
+200,BKS_BL_SH_07,2025-08-06,brooks,shore,NA,spatt,nodularin,FALSE
+203,BKS_BL_BU_SS,2025-08-06,brooks,buoy,surface,spatt,anatoxin,FALSE
+203,BKS_BL_BU_SS,2025-08-06,brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+203,BKS_BL_BU_SS,2025-08-06,brooks,buoy,surface,spatt,microcystin,TRUE
+203,BKS_BL_BU_SS,2025-08-06,brooks,buoy,surface,spatt,nodularin,FALSE
+204,BKS_BL_BU_DD,2025-08-06,brooks,buoy,bottom,spatt,anatoxin,FALSE
+204,BKS_BL_BU_DD,2025-08-06,brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+204,BKS_BL_BU_DD,2025-08-06,brooks,buoy,bottom,spatt,microcystin,FALSE
+204,BKS_BL_BU_DD,2025-08-06,brooks,buoy,bottom,spatt,nodularin,FALSE
+205,BKS_UB_SH_08,2025-08-05,upper brooks,shore,NA,spatt,anatoxin,FALSE
+205,BKS_UB_SH_08,2025-08-05,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+205,BKS_UB_SH_08,2025-08-05,upper brooks,shore,NA,spatt,microcystin,FALSE
+205,BKS_UB_SH_08,2025-08-05,upper brooks,shore,NA,spatt,nodularin,FALSE
+206,BKS_UB_SH_09,2025-08-05,upper brooks,shore,NA,spatt,anatoxin,FALSE
+206,BKS_UB_SH_09,2025-08-05,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+206,BKS_UB_SH_09,2025-08-05,upper brooks,shore,NA,spatt,microcystin,TRUE
+206,BKS_UB_SH_09,2025-08-05,upper brooks,shore,NA,spatt,nodularin,FALSE
+207,BKS_UB_BU_SS,2025-08-05,upper brooks,buoy,surface,spatt,anatoxin,FALSE
+207,BKS_UB_BU_SS,2025-08-05,upper brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+207,BKS_UB_BU_SS,2025-08-05,upper brooks,buoy,surface,spatt,microcystin,TRUE
+207,BKS_UB_BU_SS,2025-08-05,upper brooks,buoy,surface,spatt,nodularin,FALSE
+208,BKS_UB_BU_DD,2025-08-05,upper brooks,buoy,bottom,spatt,anatoxin,FALSE
+208,BKS_UB_BU_DD,2025-08-05,upper brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+208,BKS_UB_BU_DD,2025-08-05,upper brooks,buoy,bottom,spatt,microcystin,TRUE
+208,BKS_UB_BU_DD,2025-08-05,upper brooks,buoy,bottom,spatt,nodularin,FALSE
+209,BKS_RN_SH_10,2025-08-05,rainbow,shore,NA,spatt,anatoxin,FALSE
+209,BKS_RN_SH_10,2025-08-05,rainbow,shore,NA,spatt,cylindrospermopsin,FALSE
+209,BKS_RN_SH_10,2025-08-05,rainbow,shore,NA,spatt,microcystin,TRUE
+209,BKS_RN_SH_10,2025-08-05,rainbow,shore,NA,spatt,nodularin,FALSE
+210,BKS_RN_BU_SS,2025-08-05,rainbow,buoy,surface,spatt,anatoxin,FALSE
+210,BKS_RN_BU_SS,2025-08-05,rainbow,buoy,surface,spatt,cylindrospermopsin,FALSE
+210,BKS_RN_BU_SS,2025-08-05,rainbow,buoy,surface,spatt,microcystin,TRUE
+210,BKS_RN_BU_SS,2025-08-05,rainbow,buoy,surface,spatt,nodularin,FALSE
+211,BKS_RN_BU_DD,2025-08-05,rainbow,buoy,bottom,spatt,anatoxin,FALSE
+211,BKS_RN_BU_DD,2025-08-05,rainbow,buoy,bottom,spatt,cylindrospermopsin,FALSE
+211,BKS_RN_BU_DD,2025-08-05,rainbow,buoy,bottom,spatt,microcystin,TRUE
+211,BKS_RN_BU_DD,2025-08-05,rainbow,buoy,bottom,spatt,nodularin,FALSE
+212,BKS_LJ_BU_SS,2025-08-05,lower jade,buoy,surface,spatt,anatoxin,FALSE
+212,BKS_LJ_BU_SS,2025-08-05,lower jade,buoy,surface,spatt,cylindrospermopsin,FALSE
+212,BKS_LJ_BU_SS,2025-08-05,lower jade,buoy,surface,spatt,microcystin,FALSE
+212,BKS_LJ_BU_SS,2025-08-05,lower jade,buoy,surface,spatt,nodularin,FALSE
+213,BKS_LJ_BU_DD,2025-08-05,lower jade,buoy,bottom,spatt,anatoxin,FALSE
+213,BKS_LJ_BU_DD,2025-08-05,lower jade,buoy,bottom,spatt,cylindrospermopsin,FALSE
+213,BKS_LJ_BU_DD,2025-08-05,lower jade,buoy,bottom,spatt,microcystin,FALSE
+213,BKS_LJ_BU_DD,2025-08-05,lower jade,buoy,bottom,spatt,nodularin,FALSE
+215,BYS_BR_SH_01,2025-08-04,boysen,shore,NA,spatt,anatoxin,TRUE
+215,BYS_BR_SH_01,2025-08-04,boysen,shore,NA,spatt,cylindrospermopsin,FALSE
+215,BYS_BR_SH_01,2025-08-04,boysen,shore,NA,spatt,microcystin,TRUE
+215,BYS_BR_SH_01,2025-08-04,boysen,shore,NA,spatt,nodularin,TRUE
+216,BYS_PC_SH_02,2025-08-04,boysen,shore,NA,spatt,anatoxin,TRUE
+216,BYS_PC_SH_02,2025-08-04,boysen,shore,NA,spatt,cylindrospermopsin,FALSE
+216,BYS_PC_SH_02,2025-08-04,boysen,shore,NA,spatt,microcystin,TRUE
+216,BYS_PC_SH_02,2025-08-04,boysen,shore,NA,spatt,nodularin,TRUE
+218,BYS_CR_SH_04,2025-08-04,boysen,shore,NA,spatt,anatoxin,FALSE
+218,BYS_CR_SH_04,2025-08-04,boysen,shore,NA,spatt,cylindrospermopsin,FALSE
+218,BYS_CR_SH_04,2025-08-04,boysen,shore,NA,spatt,microcystin,TRUE
+218,BYS_CR_SH_04,2025-08-04,boysen,shore,NA,spatt,nodularin,TRUE
+253,BKS_BL_SH_01,2025-08-18,brooks,shore,NA,spatt,anatoxin,FALSE
+253,BKS_BL_SH_01,2025-08-18,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+253,BKS_BL_SH_01,2025-08-18,brooks,shore,NA,spatt,microcystin,TRUE
+253,BKS_BL_SH_01,2025-08-18,brooks,shore,NA,spatt,nodularin,FALSE
+254,BKS_BL_SH_02,2025-08-18,brooks,shore,NA,spatt,anatoxin,FALSE
+254,BKS_BL_SH_02,2025-08-18,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+254,BKS_BL_SH_02,2025-08-18,brooks,shore,NA,spatt,microcystin,FALSE
+254,BKS_BL_SH_02,2025-08-18,brooks,shore,NA,spatt,nodularin,FALSE
+255,BKS_BL_SH_03,2025-08-18,brooks,shore,NA,spatt,anatoxin,FALSE
+255,BKS_BL_SH_03,2025-08-18,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+255,BKS_BL_SH_03,2025-08-18,brooks,shore,NA,spatt,microcystin,FALSE
+255,BKS_BL_SH_03,2025-08-18,brooks,shore,NA,spatt,nodularin,TRUE
+256,BKS_BL_SH_04,2025-08-20,brooks,shore,NA,spatt,anatoxin,FALSE
+256,BKS_BL_SH_04,2025-08-20,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+256,BKS_BL_SH_04,2025-08-20,brooks,shore,NA,spatt,microcystin,FALSE
+256,BKS_BL_SH_04,2025-08-20,brooks,shore,NA,spatt,nodularin,FALSE
+257,BKS_BL_SH_05,2025-08-20,brooks,shore,NA,spatt,anatoxin,FALSE
+257,BKS_BL_SH_05,2025-08-20,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+257,BKS_BL_SH_05,2025-08-20,brooks,shore,NA,spatt,microcystin,TRUE
+257,BKS_BL_SH_05,2025-08-20,brooks,shore,NA,spatt,nodularin,FALSE
+258,BKS_BL_SH_06,2025-08-20,brooks,shore,NA,spatt,anatoxin,FALSE
+258,BKS_BL_SH_06,2025-08-20,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+258,BKS_BL_SH_06,2025-08-20,brooks,shore,NA,spatt,microcystin,FALSE
+258,BKS_BL_SH_06,2025-08-20,brooks,shore,NA,spatt,nodularin,FALSE
+259,BKS_BL_SH_07,2025-08-20,brooks,shore,NA,spatt,anatoxin,FALSE
+259,BKS_BL_SH_07,2025-08-20,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+259,BKS_BL_SH_07,2025-08-20,brooks,shore,NA,spatt,microcystin,TRUE
+259,BKS_BL_SH_07,2025-08-20,brooks,shore,NA,spatt,nodularin,FALSE
+262,BKS_BL_BU_SS,2025-08-20,brooks,buoy,surface,spatt,anatoxin,FALSE
+262,BKS_BL_BU_SS,2025-08-20,brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+262,BKS_BL_BU_SS,2025-08-20,brooks,buoy,surface,spatt,microcystin,TRUE
+262,BKS_BL_BU_SS,2025-08-20,brooks,buoy,surface,spatt,nodularin,FALSE
+263,BKS_BL_BU_DD,2025-08-20,brooks,buoy,bottom,spatt,anatoxin,FALSE
+263,BKS_BL_BU_DD,2025-08-20,brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+263,BKS_BL_BU_DD,2025-08-20,brooks,buoy,bottom,spatt,microcystin,TRUE
+263,BKS_BL_BU_DD,2025-08-20,brooks,buoy,bottom,spatt,nodularin,TRUE
+264,BKS_UB_SH_08,2025-08-19,upper brooks,shore,NA,spatt,anatoxin,FALSE
+264,BKS_UB_SH_08,2025-08-19,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+264,BKS_UB_SH_08,2025-08-19,upper brooks,shore,NA,spatt,microcystin,TRUE
+264,BKS_UB_SH_08,2025-08-19,upper brooks,shore,NA,spatt,nodularin,FALSE
+265,BKS_UB_SH_09,2025-08-19,upper brooks,shore,NA,spatt,anatoxin,FALSE
+265,BKS_UB_SH_09,2025-08-19,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+265,BKS_UB_SH_09,2025-08-19,upper brooks,shore,NA,spatt,microcystin,TRUE
+265,BKS_UB_SH_09,2025-08-19,upper brooks,shore,NA,spatt,nodularin,TRUE
+266,BKS_UB_BU_SS,2025-08-19,upper brooks,buoy,surface,spatt,anatoxin,FALSE
+266,BKS_UB_BU_SS,2025-08-19,upper brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+266,BKS_UB_BU_SS,2025-08-19,upper brooks,buoy,surface,spatt,microcystin,TRUE
+266,BKS_UB_BU_SS,2025-08-19,upper brooks,buoy,surface,spatt,nodularin,TRUE
+267,BKS_UB_BU_DD,2025-08-19,upper brooks,buoy,bottom,spatt,anatoxin,FALSE
+267,BKS_UB_BU_DD,2025-08-19,upper brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+267,BKS_UB_BU_DD,2025-08-19,upper brooks,buoy,bottom,spatt,microcystin,TRUE
+267,BKS_UB_BU_DD,2025-08-19,upper brooks,buoy,bottom,spatt,nodularin,TRUE
+268,BKS_RN_SH_10,2025-08-19,rainbow,shore,NA,spatt,anatoxin,FALSE
+268,BKS_RN_SH_10,2025-08-19,rainbow,shore,NA,spatt,cylindrospermopsin,FALSE
+268,BKS_RN_SH_10,2025-08-19,rainbow,shore,NA,spatt,microcystin,TRUE
+268,BKS_RN_SH_10,2025-08-19,rainbow,shore,NA,spatt,nodularin,FALSE
+269,BKS_RN_BU_SS,2025-08-19,rainbow,buoy,surface,spatt,anatoxin,FALSE
+269,BKS_RN_BU_SS,2025-08-19,rainbow,buoy,surface,spatt,cylindrospermopsin,FALSE
+269,BKS_RN_BU_SS,2025-08-19,rainbow,buoy,surface,spatt,microcystin,TRUE
+269,BKS_RN_BU_SS,2025-08-19,rainbow,buoy,surface,spatt,nodularin,TRUE
+270,BKS_RN_BU_DD,2025-08-19,rainbow,buoy,bottom,spatt,anatoxin,FALSE
+270,BKS_RN_BU_DD,2025-08-19,rainbow,buoy,bottom,spatt,cylindrospermopsin,FALSE
+270,BKS_RN_BU_DD,2025-08-19,rainbow,buoy,bottom,spatt,microcystin,TRUE
+270,BKS_RN_BU_DD,2025-08-19,rainbow,buoy,bottom,spatt,nodularin,FALSE
+271,BKS_LJ_BU_SS,2025-08-19,lower jade,buoy,surface,spatt,anatoxin,FALSE
+271,BKS_LJ_BU_SS,2025-08-19,lower jade,buoy,surface,spatt,cylindrospermopsin,FALSE
+271,BKS_LJ_BU_SS,2025-08-19,lower jade,buoy,surface,spatt,microcystin,TRUE
+271,BKS_LJ_BU_SS,2025-08-19,lower jade,buoy,surface,spatt,nodularin,FALSE
+272,BKS_LJ_BU_DD,2025-08-19,lower jade,buoy,bottom,spatt,anatoxin,FALSE
+272,BKS_LJ_BU_DD,2025-08-19,lower jade,buoy,bottom,spatt,cylindrospermopsin,FALSE
+272,BKS_LJ_BU_DD,2025-08-19,lower jade,buoy,bottom,spatt,microcystin,TRUE
+272,BKS_LJ_BU_DD,2025-08-19,lower jade,buoy,bottom,spatt,nodularin,FALSE
+312,BKS_BL_SH_01,2025-09-01,brooks,shore,NA,spatt,anatoxin,FALSE
+312,BKS_BL_SH_01,2025-09-01,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+312,BKS_BL_SH_01,2025-09-01,brooks,shore,NA,spatt,microcystin,TRUE
+312,BKS_BL_SH_01,2025-09-01,brooks,shore,NA,spatt,nodularin,FALSE
+313,BKS_BL_SH_02,2025-09-01,brooks,shore,NA,spatt,anatoxin,FALSE
+313,BKS_BL_SH_02,2025-09-01,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+313,BKS_BL_SH_02,2025-09-01,brooks,shore,NA,spatt,microcystin,FALSE
+313,BKS_BL_SH_02,2025-09-01,brooks,shore,NA,spatt,nodularin,FALSE
+314,BKS_BL_SH_03,2025-09-01,brooks,shore,NA,spatt,anatoxin,FALSE
+314,BKS_BL_SH_03,2025-09-01,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+314,BKS_BL_SH_03,2025-09-01,brooks,shore,NA,spatt,microcystin,TRUE
+314,BKS_BL_SH_03,2025-09-01,brooks,shore,NA,spatt,nodularin,FALSE
+315,BKS_BL_SH_04,2025-09-02,brooks,shore,NA,spatt,anatoxin,FALSE
+315,BKS_BL_SH_04,2025-09-02,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+315,BKS_BL_SH_04,2025-09-02,brooks,shore,NA,spatt,microcystin,FALSE
+315,BKS_BL_SH_04,2025-09-02,brooks,shore,NA,spatt,nodularin,FALSE
+316,BKS_BL_SH_05,2025-09-02,brooks,shore,NA,spatt,anatoxin,FALSE
+316,BKS_BL_SH_05,2025-09-02,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+316,BKS_BL_SH_05,2025-09-02,brooks,shore,NA,spatt,microcystin,FALSE
+316,BKS_BL_SH_05,2025-09-02,brooks,shore,NA,spatt,nodularin,FALSE
+317,BKS_BL_SH_06,2025-09-02,brooks,shore,NA,spatt,anatoxin,FALSE
+317,BKS_BL_SH_06,2025-09-02,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+317,BKS_BL_SH_06,2025-09-02,brooks,shore,NA,spatt,microcystin,FALSE
+317,BKS_BL_SH_06,2025-09-02,brooks,shore,NA,spatt,nodularin,FALSE
+318,BKS_BL_SH_07,2025-09-02,brooks,shore,NA,spatt,anatoxin,FALSE
+318,BKS_BL_SH_07,2025-09-02,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+318,BKS_BL_SH_07,2025-09-02,brooks,shore,NA,spatt,microcystin,TRUE
+318,BKS_BL_SH_07,2025-09-02,brooks,shore,NA,spatt,nodularin,FALSE
+321,BKS_BL_BU_SS,2025-09-02,brooks,buoy,surface,spatt,anatoxin,FALSE
+321,BKS_BL_BU_SS,2025-09-02,brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+321,BKS_BL_BU_SS,2025-09-02,brooks,buoy,surface,spatt,microcystin,FALSE
+321,BKS_BL_BU_SS,2025-09-02,brooks,buoy,surface,spatt,nodularin,FALSE
+322,BKS_BL_BU_DD,2025-09-02,brooks,buoy,bottom,spatt,anatoxin,FALSE
+322,BKS_BL_BU_DD,2025-09-02,brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+322,BKS_BL_BU_DD,2025-09-02,brooks,buoy,bottom,spatt,microcystin,TRUE
+322,BKS_BL_BU_DD,2025-09-02,brooks,buoy,bottom,spatt,nodularin,FALSE
+324,BKS_UB_SH_09,2025-09-02,upper brooks,shore,NA,spatt,anatoxin,FALSE
+324,BKS_UB_SH_09,2025-09-02,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+324,BKS_UB_SH_09,2025-09-02,upper brooks,shore,NA,spatt,microcystin,TRUE
+324,BKS_UB_SH_09,2025-09-02,upper brooks,shore,NA,spatt,nodularin,FALSE
+325,BKS_UB_BU_SS,2025-09-02,upper brooks,buoy,surface,spatt,anatoxin,FALSE
+325,BKS_UB_BU_SS,2025-09-02,upper brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+325,BKS_UB_BU_SS,2025-09-02,upper brooks,buoy,surface,spatt,microcystin,TRUE
+325,BKS_UB_BU_SS,2025-09-02,upper brooks,buoy,surface,spatt,nodularin,FALSE
+326,BKS_UB_BU_DD,2025-09-02,upper brooks,buoy,bottom,spatt,anatoxin,FALSE
+326,BKS_UB_BU_DD,2025-09-02,upper brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+326,BKS_UB_BU_DD,2025-09-02,upper brooks,buoy,bottom,spatt,microcystin,FALSE
+326,BKS_UB_BU_DD,2025-09-02,upper brooks,buoy,bottom,spatt,nodularin,FALSE
+327,BKS_RN_SH_10,2025-09-02,rainbow,shore,NA,spatt,anatoxin,FALSE
+327,BKS_RN_SH_10,2025-09-02,rainbow,shore,NA,spatt,cylindrospermopsin,FALSE
+327,BKS_RN_SH_10,2025-09-02,rainbow,shore,NA,spatt,microcystin,TRUE
+327,BKS_RN_SH_10,2025-09-02,rainbow,shore,NA,spatt,nodularin,FALSE
+328,BKS_RN_BU_SS,2025-09-02,rainbow,buoy,surface,spatt,anatoxin,FALSE
+328,BKS_RN_BU_SS,2025-09-02,rainbow,buoy,surface,spatt,cylindrospermopsin,FALSE
+328,BKS_RN_BU_SS,2025-09-02,rainbow,buoy,surface,spatt,microcystin,TRUE
+328,BKS_RN_BU_SS,2025-09-02,rainbow,buoy,surface,spatt,nodularin,FALSE
+329,BKS_RN_BU_DD,2025-09-02,rainbow,buoy,bottom,spatt,anatoxin,FALSE
+329,BKS_RN_BU_DD,2025-09-02,rainbow,buoy,bottom,spatt,cylindrospermopsin,FALSE
+329,BKS_RN_BU_DD,2025-09-02,rainbow,buoy,bottom,spatt,microcystin,TRUE
+329,BKS_RN_BU_DD,2025-09-02,rainbow,buoy,bottom,spatt,nodularin,FALSE
+330,BKS_LJ_BU_SS,2025-09-02,lower jade,buoy,surface,spatt,anatoxin,FALSE
+330,BKS_LJ_BU_SS,2025-09-02,lower jade,buoy,surface,spatt,cylindrospermopsin,FALSE
+330,BKS_LJ_BU_SS,2025-09-02,lower jade,buoy,surface,spatt,microcystin,FALSE
+330,BKS_LJ_BU_SS,2025-09-02,lower jade,buoy,surface,spatt,nodularin,FALSE
+331,BKS_LJ_BU_DD,2025-09-02,lower jade,buoy,bottom,spatt,anatoxin,FALSE
+331,BKS_LJ_BU_DD,2025-09-02,lower jade,buoy,bottom,spatt,cylindrospermopsin,FALSE
+331,BKS_LJ_BU_DD,2025-09-02,lower jade,buoy,bottom,spatt,microcystin,FALSE
+331,BKS_LJ_BU_DD,2025-09-02,lower jade,buoy,bottom,spatt,nodularin,FALSE
+367,BKS_BL_SH_01,2025-09-16,brooks,shore,NA,spatt,anatoxin,FALSE
+367,BKS_BL_SH_01,2025-09-16,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+367,BKS_BL_SH_01,2025-09-16,brooks,shore,NA,spatt,microcystin,TRUE
+367,BKS_BL_SH_01,2025-09-16,brooks,shore,NA,spatt,nodularin,FALSE
+368,BKS_BL_SH_02,2025-09-16,brooks,shore,NA,spatt,anatoxin,FALSE
+368,BKS_BL_SH_02,2025-09-16,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+368,BKS_BL_SH_02,2025-09-16,brooks,shore,NA,spatt,microcystin,TRUE
+368,BKS_BL_SH_02,2025-09-16,brooks,shore,NA,spatt,nodularin,TRUE
+369,BKS_BL_SH_03,2025-09-16,brooks,shore,NA,spatt,anatoxin,FALSE
+369,BKS_BL_SH_03,2025-09-16,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+369,BKS_BL_SH_03,2025-09-16,brooks,shore,NA,spatt,microcystin,TRUE
+369,BKS_BL_SH_03,2025-09-16,brooks,shore,NA,spatt,nodularin,TRUE
+370,BKS_BL_SH_04,2025-09-17,brooks,shore,NA,spatt,anatoxin,FALSE
+370,BKS_BL_SH_04,2025-09-17,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+370,BKS_BL_SH_04,2025-09-17,brooks,shore,NA,spatt,microcystin,TRUE
+370,BKS_BL_SH_04,2025-09-17,brooks,shore,NA,spatt,nodularin,TRUE
+371,BKS_BL_SH_05,2025-09-17,brooks,shore,NA,spatt,anatoxin,FALSE
+371,BKS_BL_SH_05,2025-09-17,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+371,BKS_BL_SH_05,2025-09-17,brooks,shore,NA,spatt,microcystin,TRUE
+371,BKS_BL_SH_05,2025-09-17,brooks,shore,NA,spatt,nodularin,TRUE
+372,BKS_BL_SH_06,2025-09-17,brooks,shore,NA,spatt,anatoxin,FALSE
+372,BKS_BL_SH_06,2025-09-17,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+372,BKS_BL_SH_06,2025-09-17,brooks,shore,NA,spatt,microcystin,TRUE
+372,BKS_BL_SH_06,2025-09-17,brooks,shore,NA,spatt,nodularin,TRUE
+373,BKS_BL_SH_07,2025-09-17,brooks,shore,NA,spatt,anatoxin,FALSE
+373,BKS_BL_SH_07,2025-09-17,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+373,BKS_BL_SH_07,2025-09-17,brooks,shore,NA,spatt,microcystin,TRUE
+373,BKS_BL_SH_07,2025-09-17,brooks,shore,NA,spatt,nodularin,FALSE
+376,BKS_BL_BU_SS,2025-09-17,brooks,buoy,surface,spatt,anatoxin,FALSE
+376,BKS_BL_BU_SS,2025-09-17,brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+376,BKS_BL_BU_SS,2025-09-17,brooks,buoy,surface,spatt,microcystin,TRUE
+376,BKS_BL_BU_SS,2025-09-17,brooks,buoy,surface,spatt,nodularin,FALSE
+377,BKS_BL_BU_DD,2025-09-17,brooks,buoy,bottom,spatt,anatoxin,FALSE
+377,BKS_BL_BU_DD,2025-09-17,brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+377,BKS_BL_BU_DD,2025-09-17,brooks,buoy,bottom,spatt,microcystin,FALSE
+377,BKS_BL_BU_DD,2025-09-17,brooks,buoy,bottom,spatt,nodularin,FALSE
+378,BKS_UB_SH_08,2025-09-17,upper brooks,shore,NA,spatt,anatoxin,FALSE
+378,BKS_UB_SH_08,2025-09-17,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+378,BKS_UB_SH_08,2025-09-17,upper brooks,shore,NA,spatt,microcystin,TRUE
+378,BKS_UB_SH_08,2025-09-17,upper brooks,shore,NA,spatt,nodularin,FALSE
+379,BKS_UB_SH_09,2025-09-17,upper brooks,shore,NA,spatt,anatoxin,FALSE
+379,BKS_UB_SH_09,2025-09-17,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+379,BKS_UB_SH_09,2025-09-17,upper brooks,shore,NA,spatt,microcystin,TRUE
+379,BKS_UB_SH_09,2025-09-17,upper brooks,shore,NA,spatt,nodularin,FALSE
+380,BKS_UB_BU_SS,2025-09-17,upper brooks,buoy,surface,spatt,anatoxin,FALSE
+380,BKS_UB_BU_SS,2025-09-17,upper brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+380,BKS_UB_BU_SS,2025-09-17,upper brooks,buoy,surface,spatt,microcystin,TRUE
+380,BKS_UB_BU_SS,2025-09-17,upper brooks,buoy,surface,spatt,nodularin,FALSE
+381,BKS_UB_BU_DD,2025-09-17,upper brooks,buoy,bottom,spatt,anatoxin,FALSE
+381,BKS_UB_BU_DD,2025-09-17,upper brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+381,BKS_UB_BU_DD,2025-09-17,upper brooks,buoy,bottom,spatt,microcystin,TRUE
+381,BKS_UB_BU_DD,2025-09-17,upper brooks,buoy,bottom,spatt,nodularin,FALSE
+382,BKS_RN_SH_10,2025-09-17,rainbow,shore,NA,spatt,anatoxin,FALSE
+382,BKS_RN_SH_10,2025-09-17,rainbow,shore,NA,spatt,cylindrospermopsin,FALSE
+382,BKS_RN_SH_10,2025-09-17,rainbow,shore,NA,spatt,microcystin,TRUE
+382,BKS_RN_SH_10,2025-09-17,rainbow,shore,NA,spatt,nodularin,FALSE
+383,BKS_RN_BU_SS,2025-09-17,rainbow,buoy,surface,spatt,anatoxin,FALSE
+383,BKS_RN_BU_SS,2025-09-17,rainbow,buoy,surface,spatt,cylindrospermopsin,FALSE
+383,BKS_RN_BU_SS,2025-09-17,rainbow,buoy,surface,spatt,microcystin,TRUE
+383,BKS_RN_BU_SS,2025-09-17,rainbow,buoy,surface,spatt,nodularin,FALSE
+384,BKS_RN_BU_DD,2025-09-17,rainbow,buoy,bottom,spatt,anatoxin,FALSE
+384,BKS_RN_BU_DD,2025-09-17,rainbow,buoy,bottom,spatt,cylindrospermopsin,FALSE
+384,BKS_RN_BU_DD,2025-09-17,rainbow,buoy,bottom,spatt,microcystin,TRUE
+384,BKS_RN_BU_DD,2025-09-17,rainbow,buoy,bottom,spatt,nodularin,FALSE
+385,BKS_LJ_BU_SS,2025-09-17,lower jade,buoy,surface,spatt,anatoxin,FALSE
+385,BKS_LJ_BU_SS,2025-09-17,lower jade,buoy,surface,spatt,cylindrospermopsin,FALSE
+385,BKS_LJ_BU_SS,2025-09-17,lower jade,buoy,surface,spatt,microcystin,TRUE
+385,BKS_LJ_BU_SS,2025-09-17,lower jade,buoy,surface,spatt,nodularin,FALSE
+386,BKS_LJ_BU_DD,2025-09-17,lower jade,buoy,bottom,spatt,anatoxin,FALSE
+386,BKS_LJ_BU_DD,2025-09-17,lower jade,buoy,bottom,spatt,cylindrospermopsin,FALSE
+386,BKS_LJ_BU_DD,2025-09-17,lower jade,buoy,bottom,spatt,microcystin,FALSE
+386,BKS_LJ_BU_DD,2025-09-17,lower jade,buoy,bottom,spatt,nodularin,FALSE
+422,BKS_BL_SH_01,2015-09-29,brooks,shore,NA,spatt,anatoxin,FALSE
+422,BKS_BL_SH_01,2015-09-29,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+422,BKS_BL_SH_01,2015-09-29,brooks,shore,NA,spatt,microcystin,TRUE
+422,BKS_BL_SH_01,2015-09-29,brooks,shore,NA,spatt,nodularin,FALSE
+423,BKS_BL_SH_02,2015-09-29,brooks,shore,NA,spatt,anatoxin,FALSE
+423,BKS_BL_SH_02,2015-09-29,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+423,BKS_BL_SH_02,2015-09-29,brooks,shore,NA,spatt,microcystin,FALSE
+423,BKS_BL_SH_02,2015-09-29,brooks,shore,NA,spatt,nodularin,FALSE
+424,BKS_BL_SH_03,2015-09-29,brooks,shore,NA,spatt,anatoxin,FALSE
+424,BKS_BL_SH_03,2015-09-29,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+424,BKS_BL_SH_03,2015-09-29,brooks,shore,NA,spatt,microcystin,FALSE
+424,BKS_BL_SH_03,2015-09-29,brooks,shore,NA,spatt,nodularin,FALSE
+425,BKS_BL_SH_04,2025-09-30,brooks,shore,NA,spatt,anatoxin,FALSE
+425,BKS_BL_SH_04,2025-09-30,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+425,BKS_BL_SH_04,2025-09-30,brooks,shore,NA,spatt,microcystin,FALSE
+425,BKS_BL_SH_04,2025-09-30,brooks,shore,NA,spatt,nodularin,FALSE
+426,BKS_BL_SH_05,2025-09-30,brooks,shore,NA,spatt,anatoxin,FALSE
+426,BKS_BL_SH_05,2025-09-30,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+426,BKS_BL_SH_05,2025-09-30,brooks,shore,NA,spatt,microcystin,FALSE
+426,BKS_BL_SH_05,2025-09-30,brooks,shore,NA,spatt,nodularin,FALSE
+428,BKS_BL_SH_07,2025-09-30,brooks,shore,NA,spatt,anatoxin,FALSE
+428,BKS_BL_SH_07,2025-09-30,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+428,BKS_BL_SH_07,2025-09-30,brooks,shore,NA,spatt,microcystin,FALSE
+428,BKS_BL_SH_07,2025-09-30,brooks,shore,NA,spatt,nodularin,FALSE
+431,BKS_BL_BU_SS,2025-09-30,brooks,buoy,surface,spatt,anatoxin,FALSE
+431,BKS_BL_BU_SS,2025-09-30,brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+431,BKS_BL_BU_SS,2025-09-30,brooks,buoy,surface,spatt,microcystin,FALSE
+431,BKS_BL_BU_SS,2025-09-30,brooks,buoy,surface,spatt,nodularin,FALSE
+432,BKS_BL_BU_DD,2025-09-30,brooks,buoy,bottom,spatt,anatoxin,TRUE
+432,BKS_BL_BU_DD,2025-09-30,brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+432,BKS_BL_BU_DD,2025-09-30,brooks,buoy,bottom,spatt,microcystin,FALSE
+432,BKS_BL_BU_DD,2025-09-30,brooks,buoy,bottom,spatt,nodularin,FALSE
+433,BKS_UB_SH_08,2025-09-30,upper brooks,shore,NA,spatt,anatoxin,FALSE
+433,BKS_UB_SH_08,2025-09-30,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+433,BKS_UB_SH_08,2025-09-30,upper brooks,shore,NA,spatt,microcystin,FALSE
+433,BKS_UB_SH_08,2025-09-30,upper brooks,shore,NA,spatt,nodularin,FALSE
+434,BKS_UB_SH_09,2025-09-30,upper brooks,shore,NA,spatt,anatoxin,FALSE
+434,BKS_UB_SH_09,2025-09-30,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+434,BKS_UB_SH_09,2025-09-30,upper brooks,shore,NA,spatt,microcystin,FALSE
+434,BKS_UB_SH_09,2025-09-30,upper brooks,shore,NA,spatt,nodularin,FALSE
+435,BKS_UB_BU_SS,2025-09-30,upper brooks,buoy,surface,spatt,anatoxin,FALSE
+435,BKS_UB_BU_SS,2025-09-30,upper brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+435,BKS_UB_BU_SS,2025-09-30,upper brooks,buoy,surface,spatt,microcystin,TRUE
+435,BKS_UB_BU_SS,2025-09-30,upper brooks,buoy,surface,spatt,nodularin,FALSE
+436,BKS_UB_BU_DD,2025-09-30,upper brooks,buoy,bottom,spatt,anatoxin,FALSE
+436,BKS_UB_BU_DD,2025-09-30,upper brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+436,BKS_UB_BU_DD,2025-09-30,upper brooks,buoy,bottom,spatt,microcystin,TRUE
+436,BKS_UB_BU_DD,2025-09-30,upper brooks,buoy,bottom,spatt,nodularin,FALSE
+437,BKS_RN_SH_10,2025-09-30,rainbow,shore,NA,spatt,anatoxin,FALSE
+437,BKS_RN_SH_10,2025-09-30,rainbow,shore,NA,spatt,cylindrospermopsin,FALSE
+437,BKS_RN_SH_10,2025-09-30,rainbow,shore,NA,spatt,microcystin,TRUE
+437,BKS_RN_SH_10,2025-09-30,rainbow,shore,NA,spatt,nodularin,FALSE
+438,BKS_RN_BU_SS,2025-09-30,rainbow,buoy,surface,spatt,anatoxin,FALSE
+438,BKS_RN_BU_SS,2025-09-30,rainbow,buoy,surface,spatt,cylindrospermopsin,FALSE
+438,BKS_RN_BU_SS,2025-09-30,rainbow,buoy,surface,spatt,microcystin,TRUE
+438,BKS_RN_BU_SS,2025-09-30,rainbow,buoy,surface,spatt,nodularin,FALSE
+439,BKS_RN_BU_DD,2025-09-30,rainbow,buoy,bottom,spatt,anatoxin,FALSE
+439,BKS_RN_BU_DD,2025-09-30,rainbow,buoy,bottom,spatt,cylindrospermopsin,FALSE
+439,BKS_RN_BU_DD,2025-09-30,rainbow,buoy,bottom,spatt,microcystin,TRUE
+439,BKS_RN_BU_DD,2025-09-30,rainbow,buoy,bottom,spatt,nodularin,FALSE
+440,BKS_LJ_BU_SS,2025-10-01,lower jade,buoy,surface,spatt,anatoxin,FALSE
+440,BKS_LJ_BU_SS,2025-10-01,lower jade,buoy,surface,spatt,cylindrospermopsin,FALSE
+440,BKS_LJ_BU_SS,2025-10-01,lower jade,buoy,surface,spatt,microcystin,FALSE
+440,BKS_LJ_BU_SS,2025-10-01,lower jade,buoy,surface,spatt,nodularin,FALSE
+441,BKS_LJ_BU_DD,2025-10-01,lower jade,buoy,bottom,spatt,anatoxin,FALSE
+441,BKS_LJ_BU_DD,2025-10-01,lower jade,buoy,bottom,spatt,cylindrospermopsin,FALSE
+441,BKS_LJ_BU_DD,2025-10-01,lower jade,buoy,bottom,spatt,microcystin,FALSE
+441,BKS_LJ_BU_DD,2025-10-01,lower jade,buoy,bottom,spatt,nodularin,FALSE
+477,BKS_BL_SH_01,2025-10-14,brooks,shore,NA,spatt,anatoxin,FALSE
+477,BKS_BL_SH_01,2025-10-14,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+477,BKS_BL_SH_01,2025-10-14,brooks,shore,NA,spatt,microcystin,FALSE
+477,BKS_BL_SH_01,2025-10-14,brooks,shore,NA,spatt,nodularin,FALSE
+478,BKS_BL_SH_02,2025-10-14,brooks,shore,NA,spatt,anatoxin,FALSE
+478,BKS_BL_SH_02,2025-10-14,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+478,BKS_BL_SH_02,2025-10-14,brooks,shore,NA,spatt,microcystin,FALSE
+478,BKS_BL_SH_02,2025-10-14,brooks,shore,NA,spatt,nodularin,FALSE
+479,BKS_BL_SH_03,2025-10-14,brooks,shore,NA,spatt,anatoxin,FALSE
+479,BKS_BL_SH_03,2025-10-14,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+479,BKS_BL_SH_03,2025-10-14,brooks,shore,NA,spatt,microcystin,FALSE
+479,BKS_BL_SH_03,2025-10-14,brooks,shore,NA,spatt,nodularin,FALSE
+480,BKS_BL_SH_04,2025-10-14,brooks,shore,NA,spatt,anatoxin,FALSE
+480,BKS_BL_SH_04,2025-10-14,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+480,BKS_BL_SH_04,2025-10-14,brooks,shore,NA,spatt,microcystin,FALSE
+480,BKS_BL_SH_04,2025-10-14,brooks,shore,NA,spatt,nodularin,FALSE
+481,BKS_BL_SH_05,2025-10-14,brooks,shore,NA,spatt,anatoxin,FALSE
+481,BKS_BL_SH_05,2025-10-14,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+481,BKS_BL_SH_05,2025-10-14,brooks,shore,NA,spatt,microcystin,FALSE
+481,BKS_BL_SH_05,2025-10-14,brooks,shore,NA,spatt,nodularin,FALSE
+482,BKS_BL_SH_06,2025-10-14,brooks,shore,NA,spatt,anatoxin,FALSE
+482,BKS_BL_SH_06,2025-10-14,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+482,BKS_BL_SH_06,2025-10-14,brooks,shore,NA,spatt,microcystin,FALSE
+482,BKS_BL_SH_06,2025-10-14,brooks,shore,NA,spatt,nodularin,TRUE
+483,BKS_BL_SH_07,2025-10-14,brooks,shore,NA,spatt,anatoxin,FALSE
+483,BKS_BL_SH_07,2025-10-14,brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+483,BKS_BL_SH_07,2025-10-14,brooks,shore,NA,spatt,microcystin,FALSE
+483,BKS_BL_SH_07,2025-10-14,brooks,shore,NA,spatt,nodularin,TRUE
+486,BKS_BL_BU_SS,2025-10-14,brooks,buoy,surface,spatt,anatoxin,FALSE
+486,BKS_BL_BU_SS,2025-10-14,brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+486,BKS_BL_BU_SS,2025-10-14,brooks,buoy,surface,spatt,microcystin,FALSE
+486,BKS_BL_BU_SS,2025-10-14,brooks,buoy,surface,spatt,nodularin,TRUE
+487,BKS_BL_BU_DD,2025-10-14,brooks,buoy,bottom,spatt,anatoxin,FALSE
+487,BKS_BL_BU_DD,2025-10-14,brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+487,BKS_BL_BU_DD,2025-10-14,brooks,buoy,bottom,spatt,microcystin,FALSE
+487,BKS_BL_BU_DD,2025-10-14,brooks,buoy,bottom,spatt,nodularin,FALSE
+488,BKS_UB_SH_08,2025-10-15,upper brooks,shore,NA,spatt,anatoxin,TRUE
+488,BKS_UB_SH_08,2025-10-15,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+488,BKS_UB_SH_08,2025-10-15,upper brooks,shore,NA,spatt,microcystin,FALSE
+488,BKS_UB_SH_08,2025-10-15,upper brooks,shore,NA,spatt,nodularin,FALSE
+489,BKS_UB_SH_09,2025-10-15,upper brooks,shore,NA,spatt,anatoxin,FALSE
+489,BKS_UB_SH_09,2025-10-15,upper brooks,shore,NA,spatt,cylindrospermopsin,FALSE
+489,BKS_UB_SH_09,2025-10-15,upper brooks,shore,NA,spatt,microcystin,TRUE
+489,BKS_UB_SH_09,2025-10-15,upper brooks,shore,NA,spatt,nodularin,FALSE
+490,BKS_UB_BU_SS,2025-10-14,upper brooks,buoy,surface,spatt,anatoxin,FALSE
+490,BKS_UB_BU_SS,2025-10-14,upper brooks,buoy,surface,spatt,cylindrospermopsin,FALSE
+490,BKS_UB_BU_SS,2025-10-14,upper brooks,buoy,surface,spatt,microcystin,TRUE
+490,BKS_UB_BU_SS,2025-10-14,upper brooks,buoy,surface,spatt,nodularin,FALSE
+491,BKS_UB_BU_DD,2025-10-14,upper brooks,buoy,bottom,spatt,anatoxin,FALSE
+491,BKS_UB_BU_DD,2025-10-14,upper brooks,buoy,bottom,spatt,cylindrospermopsin,FALSE
+491,BKS_UB_BU_DD,2025-10-14,upper brooks,buoy,bottom,spatt,microcystin,TRUE
+491,BKS_UB_BU_DD,2025-10-14,upper brooks,buoy,bottom,spatt,nodularin,FALSE
+492,BKS_RN_SH_10,2025-10-15,rainbow,shore,NA,spatt,anatoxin,FALSE
+492,BKS_RN_SH_10,2025-10-15,rainbow,shore,NA,spatt,cylindrospermopsin,FALSE
+492,BKS_RN_SH_10,2025-10-15,rainbow,shore,NA,spatt,microcystin,TRUE
+492,BKS_RN_SH_10,2025-10-15,rainbow,shore,NA,spatt,nodularin,FALSE
+494,BKS_RN_BU_DD,2025-10-14,rainbow,buoy,bottom,spatt,anatoxin,FALSE
+494,BKS_RN_BU_DD,2025-10-14,rainbow,buoy,bottom,spatt,cylindrospermopsin,FALSE
+494,BKS_RN_BU_DD,2025-10-14,rainbow,buoy,bottom,spatt,microcystin,TRUE
+494,BKS_RN_BU_DD,2025-10-14,rainbow,buoy,bottom,spatt,nodularin,FALSE
+495,BKS_LJ_BU_SS,2025-10-14,lower jade,buoy,surface,spatt,anatoxin,FALSE
+495,BKS_LJ_BU_SS,2025-10-14,lower jade,buoy,surface,spatt,cylindrospermopsin,FALSE
+495,BKS_LJ_BU_SS,2025-10-14,lower jade,buoy,surface,spatt,microcystin,TRUE
+495,BKS_LJ_BU_SS,2025-10-14,lower jade,buoy,surface,spatt,nodularin,FALSE
+496,BKS_LJ_BU_DD,2025-10-14,lower jade,buoy,bottom,spatt,anatoxin,FALSE
+496,BKS_LJ_BU_DD,2025-10-14,lower jade,buoy,bottom,spatt,cylindrospermopsin,FALSE
+496,BKS_LJ_BU_DD,2025-10-14,lower jade,buoy,bottom,spatt,microcystin,FALSE
+496,BKS_LJ_BU_DD,2025-10-14,lower jade,buoy,bottom,spatt,nodularin,FALSE

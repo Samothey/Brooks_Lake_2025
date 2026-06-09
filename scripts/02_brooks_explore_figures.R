@@ -1,0 +1,519 @@
+# ======================================================================
+# 03_explore_patterns.R
+#
+# Purpose:
+#   Explore seasonal patterns in Brooks Lake:
+#   1. Physical drivers
+#   2. Surface vs bottom nutrients
+#   3. Surface and bottom story plots
+#   4. Stability relationships
+#   5. Lagged exploratory relationships
+# ======================================================================
+
+library(tidyverse)
+library(lubridate)
+library(scales)
+
+# ----------------------------------------------------------------------
+# 1. File paths
+# ----------------------------------------------------------------------
+
+fig_dir <- "figures/integrated_analysis"
+data_out_dir <- "data_clean/analysis"
+
+dir.create(fig_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(data_out_dir, recursive = TRUE, showWarnings = FALSE)
+
+# ----------------------------------------------------------------------
+# 2. Load cleaned / built data
+# ----------------------------------------------------------------------
+
+brooks_daily_drivers <- readRDS(
+  "data_clean/analysis/brooks_daily_drivers_2025.rds"
+)
+
+schmidt_daily <- readRDS(
+  "data_clean/analysis/schmidt_daily_2025.rds"
+)
+
+grab_tox <- readRDS(
+  "data_clean/toxins/grab_tox.rds"
+)
+
+phyto_clean <- readRDS(
+  "data_clean/phytoplankton/phyto_clean.rds"
+)
+
+deq_nutrients_clean_2025 <- readRDS(
+  "data_clean/deq/deq_nutrients_clean_2025.rds"
+)
+
+# ======================================================================
+# 3. Physical driver timeline
+# ======================================================================
+
+physical_long <- brooks_daily_drivers %>%
+  select(
+    date,
+    stability_daily,
+    deep_do_mgl,
+    air_temp_mean_c,
+    wind_speed_mean_ms,
+    gust_speed_max_ms,
+    snotel_prcp_mm
+  ) %>%
+  pivot_longer(
+    cols = -date,
+    names_to = "variable",
+    values_to = "value"
+  ) %>%
+  filter(!is.na(value)) %>%
+  group_by(variable) %>%
+  mutate(
+    scaled_value = value / max(value, na.rm = TRUE)
+  ) %>%
+  ungroup() %>%
+  mutate(
+    variable = recode(
+      variable,
+      stability_daily = "Schmidt stability",
+      deep_do_mgl = "Deep DO",
+      air_temp_mean_c = "Air temperature",
+      wind_speed_mean_ms = "Mean wind speed",
+      gust_speed_max_ms = "Max gust speed",
+      snotel_prcp_mm = "Precipitation"
+    )
+  )
+
+p_physical_scaled <- ggplot(
+  physical_long,
+  aes(date, scaled_value, color = variable)
+) +
+  geom_line(linewidth = 1, na.rm = TRUE) +
+  geom_point(size = 1.8, na.rm = TRUE) +
+  labs(
+    x = NULL,
+    y = "Scaled seasonal value",
+    color = NULL,
+    title = "Brooks Lake physical drivers"
+  ) +
+  theme_bw()
+
+p_physical_scaled
+
+ggsave(
+  file.path(fig_dir, "physical_drivers_scaled_timeline.png"),
+  p_physical_scaled,
+  width = 10,
+  height = 5,
+  dpi = 300
+)
+
+# ======================================================================
+# 4. Build Brooks nutrients, cyano, and toxin tables
+# ======================================================================
+
+nutrients_brooks <- deq_nutrients_clean_2025 %>%
+  mutate(
+    date = as.Date(date),
+    type = str_to_lower(type)
+  ) %>%
+  filter(
+    lake == "Brooks Lake",
+    type %in% c("surface", "bottom")
+  ) %>%
+  select(
+    date,
+    type,
+    ammonia,
+    tn,
+    tp,
+    chla,
+    secchi
+  ) %>%
+  arrange(date, type)
+
+surface_biology <- nutrients_brooks %>%
+  filter(type == "surface") %>%
+  select(
+    date,
+    chla,
+    secchi
+  )
+
+cyano_density <- phyto_clean %>%
+  mutate(
+    date = as.Date(date),
+    division = str_to_lower(division)
+  ) %>%
+  filter(
+    lake == "Brooks Lake",
+    division %in% c("cyanophyta", "cyanobacteria"),
+    sample_type != "duplicate"
+  ) %>%
+  group_by(date) %>%
+  summarise(
+    cyano_cells = sum(total_cells, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+tox_brooks_depth <- grab_tox %>%
+  mutate(
+    date = as.Date(sample_date),
+    lake = str_to_lower(lake),
+    site_type = str_trim(str_to_lower(site_type))
+  ) %>%
+  filter(
+    lake %in% c("brooks", "brooks lake"),
+    site_type %in% c("buoy_surface", "buoy_depth"),
+    sample_type != "duplicate"
+  ) %>%
+  mutate(
+    type = case_when(
+      site_type == "buoy_surface" ~ "surface",
+      site_type == "buoy_depth" ~ "bottom",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  filter(!is.na(type)) %>%
+  group_by(date, type) %>%
+  summarise(
+    total_mc = mean(total_mc, na.rm = TRUE),
+    max_total_mc = max(total_mc, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+stability_daily_plot <- schmidt_daily %>%
+  mutate(date = as.Date(date)) %>%
+  select(
+    date,
+    stability_daily,
+    strat_state
+  )
+
+# ======================================================================
+# 5. Nearest toxin join within +/- 2 days
+# ======================================================================
+
+join_nearest_toxin <- function(story_data, toxin_data, max_days = 2) {
+  story_data %>%
+    mutate(row_id = row_number()) %>%
+    left_join(
+      toxin_data,
+      by = "type",
+      relationship = "many-to-many"
+    ) %>%
+    mutate(
+      day_diff = abs(as.numeric(date.x - date.y))
+    ) %>%
+    filter(
+      is.na(date.y) | day_diff <= max_days
+    ) %>%
+    group_by(row_id) %>%
+    slice_min(day_diff, n = 1, with_ties = FALSE) %>%
+    ungroup() %>%
+    transmute(
+      date = date.x,
+      type,
+      ammonia,
+      tn,
+      tp,
+      chla,
+      secchi,
+      cyano_cells,
+      stability_daily,
+      strat_state,
+      total_mc,
+      max_total_mc,
+      toxin_sample_date = date.y,
+      toxin_day_diff = day_diff
+    )
+}
+
+story_surface_base <- nutrients_brooks %>%
+  filter(type == "surface") %>%
+  left_join(cyano_density, by = "date") %>%
+  left_join(stability_daily_plot, by = "date")
+
+story_bottom_base <- nutrients_brooks %>%
+  filter(type == "bottom") %>%
+  select(-chla, -secchi) %>%
+  left_join(surface_biology, by = "date") %>%
+  left_join(cyano_density, by = "date") %>%
+  left_join(stability_daily_plot, by = "date")
+
+story_surface <- join_nearest_toxin(
+  story_surface_base,
+  tox_brooks_depth %>% filter(type == "surface"),
+  max_days = 2
+)
+
+story_bottom <- join_nearest_toxin(
+  story_bottom_base,
+  tox_brooks_depth %>% filter(type == "bottom"),
+  max_days = 2
+)
+
+story_surface %>% count(toxin_day_diff)
+story_bottom %>% count(toxin_day_diff)
+
+
+saveRDS(story_surface, file.path(data_out_dir, "brooks_story_surface_2025.rds"))
+saveRDS(story_bottom, file.path(data_out_dir, "brooks_story_bottom_2025.rds"))
+
+# ======================================================================
+# 6. Scaled surface and bottom story plots
+# ======================================================================
+
+make_scaled_story_plot <- function(data, title_text) {
+  
+  plot_long <- data %>%
+    select(
+      date,
+      stability_daily,
+      ammonia,
+      tn,
+      tp,
+      chla,
+      secchi,
+      cyano_cells,
+      total_mc
+    ) %>%
+    pivot_longer(
+      cols = -date,
+      names_to = "variable",
+      values_to = "value"
+    ) %>%
+    filter(!is.na(value)) %>%
+    group_by(variable) %>%
+    mutate(
+      value_plot = case_when(
+        variable == "secchi" ~ max(value, na.rm = TRUE) - value,
+        TRUE ~ value
+      ),
+      scaled_value = value_plot / max(value_plot, na.rm = TRUE)
+    ) %>%
+    ungroup() %>%
+    mutate(
+      variable = recode(
+        variable,
+        stability_daily = "Schmidt stability",
+        ammonia = "Ammonia",
+        tn = "Total nitrogen",
+        tp = "Total phosphorus",
+        chla = "Chl-a",
+        secchi = "Lower clarity",
+        cyano_cells = "Cyanobacteria cells",
+        total_mc = "Total microcystins"
+      ),
+      line_type = case_when(
+        variable == "Schmidt stability" ~ "solid",
+        variable %in% c("Ammonia", "Total nitrogen", "Total phosphorus") ~ "dashed",
+        TRUE ~ "dotted"
+      )
+    )
+  
+  ggplot(
+    plot_long,
+    aes(
+      x = date,
+      y = scaled_value,
+      color = variable,
+      group = variable
+    )
+  ) +
+    geom_line(
+      aes(linetype = line_type),
+      linewidth = 1.1,
+      alpha = 0.9,
+      na.rm = TRUE
+    ) +
+    geom_point(
+      size = 2,
+      alpha = 0.9,
+      na.rm = TRUE
+    ) +
+    scale_linetype_identity() +
+    scale_color_manual(
+      values = c(
+        "Schmidt stability" = "black",
+        "Ammonia" = "#1b9e77",
+        "Total nitrogen" = "#66a61e",
+        "Total phosphorus" = "#d95f02",
+        "Chl-a" = "#7570b3",
+        "Lower clarity" = "#e7298a",
+        "Cyanobacteria cells" = "#1f78b4",
+        "Total microcystins" = "#e31a1c"
+      )
+    ) +
+    labs(
+      title = title_text,
+      x = NULL,
+      y = "Scaled seasonal value",
+      color = NULL
+    ) +
+    theme_bw()
+}
+
+p_surface_story <- make_scaled_story_plot(
+  story_surface,
+  "Brooks surface seasonal trends"
+)
+
+p_bottom_story <- make_scaled_story_plot(
+  story_bottom,
+  "Brooks bottom seasonal trends"
+)
+
+p_surface_story
+p_bottom_story
+
+ggsave(
+  file.path(fig_dir, "brooks_surface_scaled_story_plot.png"),
+  p_surface_story,
+  width = 10,
+  height = 5,
+  dpi = 300
+)
+
+ggsave(
+  file.path(fig_dir, "brooks_bottom_scaled_story_plot.png"),
+  p_bottom_story,
+  width = 10,
+  height = 5,
+  dpi = 300
+)
+
+# ======================================================================
+# 7. Raw surface vs bottom nutrient plots
+# ======================================================================
+
+nutrients_raw_long <- nutrients_brooks %>%
+  pivot_longer(
+    cols = c(ammonia, tn, tp),
+    names_to = "nutrient",
+    values_to = "concentration"
+  ) %>%
+  mutate(
+    nutrient = recode(
+      nutrient,
+      ammonia = "Ammonia",
+      tn = "Total nitrogen",
+      tp = "Total phosphorus"
+    )
+  )
+
+p_nutrients_raw <- ggplot(
+  nutrients_raw_long,
+  aes(date, concentration, color = type, group = type)
+) +
+  geom_line(linewidth = 1, na.rm = TRUE) +
+  geom_point(size = 2, na.rm = TRUE) +
+  facet_wrap(
+    ~ nutrient,
+    ncol = 1,
+    scales = "free_y"
+  ) +
+  labs(
+    x = NULL,
+    y = "Concentration",
+    color = NULL,
+    title = "Brooks Lake surface and bottom nutrients"
+  ) +
+  theme_bw()
+
+p_nutrients_raw
+
+ggsave(
+  file.path(fig_dir, "brooks_raw_surface_bottom_nutrients.png"),
+  p_nutrients_raw,
+  width = 9,
+  height = 7,
+  dpi = 300
+)
+
+# ======================================================================
+# 8. Raw surface vs bottom toxins
+# ======================================================================
+
+p_tox_raw <- ggplot(
+  tox_brooks_depth,
+  aes(date, total_mc, color = type, group = type)
+) +
+  geom_line(linewidth = 1, na.rm = TRUE) +
+  geom_point(size = 2, na.rm = TRUE) +
+  labs(
+    x = NULL,
+    y = "Total microcystins",
+    color = NULL,
+    title = "Brooks Lake buoy toxins"
+  ) +
+  theme_bw()
+
+p_tox_raw
+
+ggsave(
+  file.path(fig_dir, "brooks_raw_surface_bottom_toxins.png"),
+  p_tox_raw,
+  width = 9,
+  height = 4,
+  dpi = 300
+)
+
+# ======================================================================
+# 9. Stability relationship plots
+# ======================================================================
+
+p_stab_air <- ggplot(
+  brooks_daily_drivers,
+  aes(air_temp_mean_c, stability_daily)
+) +
+  geom_point(size = 2) +
+  geom_smooth(method = "gam", formula = y ~ s(x, k = 5)) +
+  labs(
+    x = "Mean air temperature (°C)",
+    y = "Schmidt stability"
+  ) +
+  theme_bw()
+
+p_stab_wind <- ggplot(
+  brooks_daily_drivers,
+  aes(wind_speed_mean_ms, stability_daily)
+) +
+  geom_point(size = 2) +
+  geom_smooth(method = "gam", formula = y ~ s(x, k = 5)) +
+  labs(
+    x = "Mean wind speed (m/s)",
+    y = "Schmidt stability"
+  ) +
+  theme_bw()
+
+p_stab_gust <- ggplot(
+  brooks_daily_drivers,
+  aes(gust_speed_max_ms, stability_daily)
+) +
+  geom_point(size = 2) +
+  geom_smooth(method = "gam", formula = y ~ s(x, k = 5)) +
+  labs(
+    x = "Max gust speed (m/s)",
+    y = "Schmidt stability"
+  ) +
+  theme_bw()
+
+p_stab_do <- ggplot(
+  brooks_daily_drivers,
+  aes(stability_daily, deep_do_mgl)
+) +
+  geom_point(size = 2) +
+  geom_smooth(method = "gam", formula = y ~ s(x, k = 5)) +
+  labs(
+    x = "Schmidt stability",
+    y = "Deep DO (mg/L)"
+  ) +
+  theme_bw()
+
+p_stab_air
+p_stab_wind
+p_stab_gust
+p_stab_do
+

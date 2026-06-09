@@ -1,0 +1,491 @@
+"sample_number","site_id","lake","site_type","sample_date","sample_type","method","result","sample_status","status","total_mc","toxin_richness","rr","yr","lr","la","dm_lr","ly","nod","lf","wr","atx","hatx","cyl","notes"
+44,"SPATT_BLANK","blank","blank",2025-06-25,"Blank","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+45,"SPATT_BLANK","blank","blank",2025-06-25,"Blank","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+46,"BKS_BL_SH_01","brooks","shore",2025-06-25,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+47,"BKS_BL_SH_01","brooks","shore",2025-06-24,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+48,"BKS_BL_SH_02","brooks","shore",2025-06-25,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+49,"BKS_BL_SH_02","brooks","shore",2025-06-25,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+50,"BKS_BL_SH_03","brooks","shore",2025-06-24,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+51,"BKS_BL_SH_03","brooks","shore",2025-06-25,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+52,"BKS_BL_SH_04","brooks","shore",2025-06-24,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53,"BKS_BL_SH_04","brooks","shore",2025-06-25,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+54,"BKS_BL_SH_05","brooks","shore",2025-06-24,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+55,"BKS_BL_SH_05","brooks","shore",2025-06-25,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+56,"BKS_BL_SH_06","brooks","shore",2025-06-24,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+57,"BKS_BL_SH_06","brooks","shore",2025-06-24,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+58,"BKS_BL_SH_07","brooks","shore",2025-06-24,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+59,"BKS_BL_SH_07","brooks","shore",2025-06-25,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+60,"BKS_BL_BU_SS","brooks","buoy_surface",2025-06-25,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+61,"BKS_BL_BU_SS","brooks","buoy_surface",2025-06-24,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+62,"BKS_BL_BU_DD","brooks","buoy_depth",2025-06-25,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+63,"BKS_BL_BU_DD","brooks","buoy_depth",2025-06-25,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+64,"BKS_BL_SH_01","brooks","shore",2025-07-21,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+65,"BKS_BL_SH_02","brooks","shore",2025-07-21,"regular","SPATT",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,1.338958617,0,0,0,0,0,NA
+66,"BKS_BL_SH_03","brooks","shore",2025-07-21,"regular","SPATT",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,1.228659921,0,0,0,0,0,NA
+67,"BKS_BL_SH_04","brooks","shore",2025-07-21,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+68,"SPATT_BLANK","blank","blank",2025-06-24,"Blank","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+69,"GRAB_BLANK","blank","blank",2025-06-24,"Blank","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+70,"SPATT_BLANK","blank","blank",2025-06-24,"Blank","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+71,"GRAB_BLANK","blank","blank",2025-06-24,"Blank","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+72,"BKS_BL_SH_05","brooks","shore",2025-07-23,"regular","SPATT",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,1.210257393,0,0,0,0,0,NA
+73,"BKS_BL_SH_06","brooks","shore",2025-07-23,"regular","SPATT",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,0.607283423,0,0,0,0,0,NA
+74,"BKS_BL_SH_07","brooks","shore",2025-07-23,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+75,"BKS_BL_BON","tributary","tributary",2025-07-23,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+76,"BKS_RN_SH_10","rainbow","shore",2025-06-24,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+77,"BKS_RN_SH_10","rainbow","shore",2025-06-25,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+78,"BKS_BL_CREEK","tributary","tributary",2025-07-23,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+79,"BKS_BL_BU_SS","brooks","buoy_surface",2025-07-23,"regular","SPATT",TRUE,"detected","Shipped",2.466857431,1,0,0,2.466857431,0,0,0,0,0,0,0,0,0,NA
+80,"BYS_BR_SH_01","boysen","shore",2025-06-25,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+81,"BYS_BR_SH_01","boysen","shore",2025-06-26,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+82,"BYS_PC_SH_02","boysen","shore",2025-06-25,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+83,"BYS_PC_SH_02","boysen","shore",2025-06-26,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+84,"BYS_FR_SH_03","boysen","shore",2025-06-27,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+85,"BYS_FR_SH_03","boysen","shore",2025-06-26,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+86,"BYS_CR_SH_04","boysen","shore",2025-06-25,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+87,"BYS_CR_SH_04","boysen","shore",2025-06-26,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+88,"BKS_BL_BU_DD","brooks","buoy_depth",2025-07-23,"regular","SPATT",TRUE,"detected","Shipped",2.860271469,2,0.503122303,0,2.357149166,0,0,0,0,0,0,0,0,0,NA
+89,"BKS_UB_SH_08","upper brooks","shore",2025-07-22,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+90,"BKS_UB_SH_09","upper brooks","shore",2025-07-22,"regular","SPATT",TRUE,"detected","Shipped",11.83345515,1,0,0,0,0,11.83345515,0,0,0,0,0,0,0,NA
+91,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-07-22,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+92,"SPATT_BLANK","blank","blank",2025-06-25,"Blank","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+93,"GRAB_BLANK","blank","blank",2025-06-25,"Blank","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94,"SPATT_BLANK","blank","blank",2025-06-25,"Blank","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+95,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-07-22,"regular","SPATT",TRUE,"detected","Shipped",5.861104874,1,0,0,5.861104874,0,0,0,0,0,0,0,0,0,NA
+96,"BKS_BL_SH_01","brooks","shore",2025-07-08,"regular","SPATT",TRUE,"detected","Shipped",5.080913362,1,0,0,5.080913362,0,0,0,0,0,0,0,0,0,NA
+97,"BKS_BL_SH_02","brooks","shore",2025-07-08,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+98,"BKS_BL_SH_03","brooks","shore",2025-07-08,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+99,"BKS_BL_SH_04","brooks","shore",2025-07-08,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+100,"BKS_BL_SH_05","brooks","shore",2025-07-08,"regular","SPATT",TRUE,"detected","Shipped",3.280592837,1,0,0,3.280592837,0,0,0,0,0,0,0,0,0,NA
+101,"BKS_BL_SH_06","brooks","shore",2025-07-08,"regular","SPATT",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,0.424888747,0,0,0,0,0,NA
+102,"BKS_BL_SH_07","brooks","shore",2025-07-08,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+103,"BKS_RN_SH_10","rainbow","shore",2025-07-22,"regular","SPATT",TRUE,"detected","Shipped",85.12470372,2,0,0,76.00336048,0,9.12134324,0,0,0,0,0,0,0,NA
+104,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-07-22,"regular","SPATT",TRUE,"detected","Shipped",73.89855809,2,0,0,66.48360336,0,7.41495473,0,0,0,0,0,0,0,NA
+105,"BKS_BL_BU_SS","brooks","buoy_surface",2025-07-08,"regular","SPATT",TRUE,"detected","Shipped",2.496454985,2,0,0,2.496454985,0,0,0,0.758347213,0,0,0,0,0,NA
+106,"BKS_BL_BU_DD","brooks","buoy_depth",2025-07-08,"regular","SPATT",TRUE,"detected","Shipped",2.406478422,1,0,0,2.406478422,0,0,0,0,0,0,0,0,0,NA
+107,"BKS_UB_SH_08","upper brooks","shore",2025-07-09,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+108,"BKS_UB_NCOVE","upper brooks","shore",2025-07-09,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+109,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-07-09,"regular","SPATT",TRUE,"detected","Shipped",0.446676819,1,0.446676819,0,0,0,0,0,0,0,0,0,0,0,NA
+110,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-07-09,"regular","SPATT",TRUE,"detected","Shipped",0.770932913,1,0.770932913,0,0,0,0,0,0,0,0,0,0,0,NA
+111,"BKS_RN_SH_10","rainbow","shore",2025-07-09,"regular","SPATT",TRUE,"detected","Shipped",0.492492959,1,0.492492959,0,0,0,0,0,0,0,0,0,0,0,NA
+112,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-07-09,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+113,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-07-09,"regular","SPATT",TRUE,"detected","Shipped",2.398693808,2,0.266588846,2.132104962,0,0,0,0,0,0,0,0,0,0,NA
+114,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-07-09,"regular","SPATT",TRUE,"detected","Shipped",0.65785868,1,0.65785868,0,0,0,0,0,0,0,0,0,0,0,NA
+115,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-07-09,"regular","SPATT",TRUE,"detected","Shipped",0.455559046,1,0,0,0,0,0,0,0,0.455559046,0,0,0,0,NA
+116,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-07-09,"Duplicate","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+117,"BKS_RN_SH_10","rainbow","shore",2025-07-09,"duplicate","SPATT",TRUE,"detected","Shipped",6.127231782,2,0,0.772837025,5.354394757,0,0,0,0,0,0,0,0,0,NA
+118,"BYS_BR_SH_01","boysen","shore",2025-07-10,"regular","SPATT",TRUE,"detected","Shipped",55.21601203,2,0,0,55.21601203,0,0,0,1.474531672,0,0,0,0,0,NA
+119,"BYS_PC_SH_02","boysen","shore",2025-07-10,"regular","SPATT",TRUE,"detected","Shipped",8.355586689,1,0,0,8.355586689,0,0,0,0,0,0,0,0,0,NA
+120,"BYS_FR_SH_03","boysen","shore",2025-07-10,"regular","SPATT",TRUE,"detected","Shipped",8.087235536,2,0,0,8.087235536,0,0,0,0.492558802,0,0,0,0,0,NA
+121,"BYS_CR_SH_04","boysen","shore",2025-07-10,"regular","SPATT",TRUE,"detected","Shipped",55.33637541,2,0,0,55.33637541,0,0,0,1.229591695,0,0,0,0,0,NA
+122,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-07-22,"regular","SPATT",TRUE,"detected","Shipped",20.365939952,3,0,0,19.97400768,0,0,0,0.399032031,0.391932272,0,0,0,0,NA
+123,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-07-22,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+124,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-07-22,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+125,"SPATT_BLANK","blank","blank",2025-07-09,"blank","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+126,"BKS_BL_SH_01","brooks","shore",2025-07-08,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+127,"BKS_BL_SH_02","brooks","shore",2025-07-08,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+128,"BKS_BL_SH_03","brooks","shore",2025-07-08,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+129,"BKS_BL_SH_04","brooks","shore",2025-07-08,"regular","GRAB",TRUE,"detected","Shipped",0.378075963,1,0,0,0.378075963,0,0,0,0,0,0,0,0,0,NA
+130,"BKS_BL_SH_05","brooks","shore",2025-07-08,"regular","GRAB",TRUE,"detected","Shipped",0.366535489,1,0,0,0.366535489,0,0,0,0,0,0,0,0,0,NA
+131,"BKS_BL_SH_06","brooks","shore",2025-07-08,"regular","GRAB",TRUE,"detected","Shipped",0.316108635,1,0,0,0.316108635,0,0,0,0,0,0,0,0,0,NA
+132,"BKS_BL_SH_07","brooks","shore",2025-07-08,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+133,"BKS_BL_BON","tributary","tributary",2025-07-08,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+134,"BKS_BL_CREEK","tributary","tributary",2025-07-08,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+135,"BKS_BL_BU_SS","brooks","buoy_surface",2025-07-08,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+136,"BKS_BL_BU_DD","brooks","buoy_depth",2025-07-08,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+137,"BKS_UB_SH_08","upper brooks","shore",2025-07-09,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+138,"BKS_UB_SH_09","upper brooks","shore",2025-07-09,"regular","GRAB",TRUE,"detected","Shipped",0.286504811,1,0,0,0.286504811,0,0,0,0,0,0,0,0,0,NA
+139,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-07-09,"regular","GRAB",TRUE,"detected","Shipped",0.376068924,1,0,0,0.376068924,0,0,0,0,0,0,0,0,0,NA
+140,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-07-09,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+141,"BKS_RN_SH_10","rainbow","shore",2025-07-09,"regular","GRAB",TRUE,"detected","Shipped",0.591170112,2,0.054788951,0,0.536381161,0,0,0,0,0,0,0,0,0,NA
+142,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-07-09,"regular","GRAB",TRUE,"detected","Shipped",0.428502817,1,0,0,0.428502817,0,0,0,0,0,0,0,0,0,NA
+143,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-07-09,"regular","GRAB",TRUE,"detected","Shipped",0.417464103,1,0,0,0.417464103,0,0,0,0,0,0,0,0,0,NA
+144,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-07-09,"regular","GRAB",TRUE,"detected","Shipped",0.267939701,1,0,0,0.267939701,0,0,0,0,0,0,0,0,0,NA
+145,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-07-09,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+146,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-07-09,"duplicate","GRAB",TRUE,"detected","Shipped",0.32714735,1,0,0,0.32714735,0,0,0,0,0,0,0,0,0,NA
+147,"BKS_UB_NCOVE","upper brooks","shore",2025-07-09,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+148,"BYS_BR_SH_01","boysen","shore",2025-07-10,"regular","GRAB",TRUE,"detected","Shipped",0.46086632,1,0,0,0.46086632,0,0,0,0,0,0,0,0,0,NA
+149,"BYS_PC_SH_02","boysen","shore",2025-07-10,"regular","GRAB",TRUE,"detected","Shipped",0.321627993,1,0,0,0.321627993,0,0,0,0,0,0,0,0,0,NA
+150,"BYS_FR_SH_03","boysen","shore",2025-07-10,"regular","GRAB",TRUE,"detected","Shipped",0.251883389,1,0,0,0.251883389,0,0,0,0,0,0,0,0,0,NA
+151,"BYS_CR_SH_04","boysen","shore",2025-07-10,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+152,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-07-22,"Duplicate","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+153,"BKS_BL_SH_03","brooks","shore",2025-07-21,"duplicate","SPATT",TRUE,"detected","Shipped",2.249087093,2,0,0,0,1.487297145,0,0,0,0.761789948,0,0,0,0,NA
+154,"BYS_PC_SH_02","boysen","shore",2025-07-10,"duplicate","GRAB",TRUE,"detected","Shipped",0.273208177,1,0,0,0.273208177,0,0,0,0,0,0,0,0,0,NA
+155,"GRAB_BLANK","blank","blank",2025-07-09,"blank","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+156,"BYS_BR_SH_01","boysen","shore",2025-07-21,"regular","SPATT",TRUE,"detected","Shipped",121.81161048,4,0,0,106.3511134,15.46049708,0,0,6.029972646,0,0,6.204989728,0,0,NA
+157,"BYS_PC_SH_02","boysen","shore",2025-07-21,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+158,"BYS_FR_SH_03","boysen","shore",2025-07-21,"regular","SPATT",TRUE,"detected","Shipped",50.59545161,3,0,0,40.06324851,10.5322031,0,0,4.35872028,0,0,0,0,0,NA
+159,"BYS_CR_SH_04","boysen","shore",2025-07-21,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+160,"BYS_BY_BU_SS","boysen","buoy_surface",2025-07-30,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+161,"BYS_BY_BU_DD","boysen","buoy_depth",2025-07-30,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+162,"BYS_PC_SH_02","boysen","shore",2025-07-21,"duplicate","SPATT",TRUE,"detected","Shipped",15.02648063,2,0,0,15.02648063,0,0,0,1.838971608,0,0,0,0,0,NA
+163,"SPATT_BLANK","blank","blank",2025-07-22,"blank","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+164,"BKS_BL_SH_01","brooks","shore",2025-07-21,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+165,"BKS_BL_SH_02","brooks","shore",2025-07-22,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+166,"BKS_BL_SH_03","brooks","shore",2025-07-21,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+167,"BKS_BL_SH_04","brooks","shore",2025-07-21,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+168,"BKS_BL_SH_05","brooks","shore",2025-07-23,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+169,"BKS_BL_SH_06","brooks","shore",2025-07-23,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+170,"BKS_BL_SH_07","brooks","shore",2025-07-23,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+171,"BKS_BL_BON","tributary","tributary",2025-07-23,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+172,"BKS_BL_CREEK","tributary","tributary",2025-07-23,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+173,"BKS_BL_BU_SS","brooks","buoy_surface",2025-07-23,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+174,"BKS_BL_BU_DD","brooks","buoy_depth",2025-07-23,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+175,"BKS_UB_SH_08","upper brooks","shore",2025-07-22,"regular","GRAB",TRUE,"detected","Shipped",6.011720845,2,0,1.085715908,0,0,0,0,0,0,4.926004937,0,0,0,NA
+176,"BKS_UB_SH_09","upper brooks","shore",2025-07-22,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+177,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-07-22,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+178,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-07-22,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+179,"BKS_RN_SH_10","rainbow","shore",2025-07-22,"regular","GRAB",TRUE,"detected","Shipped",3.27060479,2,0,0,3.035646419,0,0.234958371,0,0,0,0,0,0,0,NA
+180,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-07-22,"regular","GRAB",TRUE,"detected","Shipped",1.005777396,1,0,0,1.005777396,0,0,0,0,0,0,0,0,0,NA
+181,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-07-22,"regular","GRAB",TRUE,"detected","Shipped",0.695940758,1,0,0,0.695940758,0,0,0,0,0,0,0,0,0,NA
+182,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-07-22,"regular","GRAB",TRUE,"detected","Shipped",0.488713986,1,0,0,0.488713986,0,0,0,0,0,0,0,0,0,NA
+183,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-07-22,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+184,"BKS_BL_BU_SS","brooks","buoy_surface",2025-07-23,"duplicate","GRAB",TRUE,"detected","Shipped",0.4585796,1,0,0,0.4585796,0,0,0,0,0,0,0,0,0,NA
+185,"BYS_BR_SH_01","boysen","shore",2025-07-21,"regular","GRAB",TRUE,"detected","Shipped",0.837687884,1,0,0,0.837687884,0,0,0,0,0,0,0,0,0,NA
+186,"BYS_PC_SH_02","boysen","shore",2025-07-21,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+187,"BYS_FR_SH_03","boysen","shore",2025-07-21,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+188,"BYS_CR_SH_04","boysen","shore",2025-07-21,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+189,"BYS_BY_BU_SS","boysen","buoy_surface",2025-07-30,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+190,"BYS_BY_BU_DD","boysen","buoy_depth",2025-07-30,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+191,"BYS_CR_SH_04","boysen","shore",2025-07-21,"duplicate","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+192,"GRAB_BLANK","blank","blank",2025-07-22,"blank","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+193,"BKS_UB_NCOVE","upper brooks","shore",2025-07-22,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+194,"BKS_BL_SH_01","brooks","shore",2025-08-04,"regular","SPATT",TRUE,"detected","Shipped",13.09198453,1,0,0,13.09198453,0,0,0,0,0,0,0,0,0,NA
+195,"BKS_BL_SH_02","brooks","shore",2025-08-04,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+196,"BKS_BL_SH_03","brooks","shore",2025-08-04,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+197,"BKS_BL_SH_04","brooks","shore",2025-08-04,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+198,"BKS_BL_SH_05","brooks","shore",2025-08-06,"regular","SPATT",TRUE,"detected","Shipped",3.321634778,1,0,0,3.321634778,0,0,0,0,0,0,0,0,0,NA
+199,"BKS_BL_SH_06","brooks","shore",2025-08-06,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+200,"BKS_BL_SH_07","brooks","shore",2025-08-06,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+201,"BKS_BL_BON","tributary","tributary",2025-08-06,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+202,"BKS_BL_CREEK","tributary","tributary",2025-08-06,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+203,"BKS_BL_BU_SS","brooks","buoy_surface",2025-08-06,"regular","SPATT",TRUE,"detected","Shipped",6.452574056,2,0,0,5.353605489,0,0,0,0,1.098968567,0,0,0,0,NA
+204,"BKS_BL_BU_DD","brooks","buoy_depth",2025-08-06,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+205,"BKS_UB_SH_08","upper brooks","shore",2025-08-05,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+206,"BKS_UB_SH_09","upper brooks","shore",2025-08-05,"regular","SPATT",TRUE,"detected","Shipped",2.164173117,1,0,0,2.164173117,0,0,0,0,0,0,0,0,0,NA
+207,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-08-05,"regular","SPATT",TRUE,"detected","Shipped",15.59554292,1,0,0,15.59554292,0,0,0,0,0,0,0,0,0,NA
+208,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-08-05,"regular","SPATT",TRUE,"detected","Shipped",16.90099235,1,0,0,16.90099235,0,0,0,0,0,0,0,0,0,NA
+209,"BKS_RN_SH_10","rainbow","shore",2025-08-05,"regular","SPATT",TRUE,"detected","Shipped",64.58659749,1,0,0,64.58659749,0,0,0,0,0,0,0,0,0,NA
+210,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-08-05,"regular","SPATT",TRUE,"detected","Shipped",150.80174766,2,0,0,139.0548315,0,11.74691616,0,0,0,0,0,0,0,NA
+211,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-08-05,"regular","SPATT",TRUE,"detected","Shipped",71.048717752,3,0,0,63.80285427,0,6.11486511,0,0,1.130998372,0,0,0,0,NA
+212,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-08-05,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+213,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-08-05,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+214,"BKS_RN_SH_10","rainbow","shore",2025-08-05,"duplicate","SPATT",TRUE,"detected","Shipped",166.02750161,2,0,0,153.4719972,0,12.55550441,0,0,0,0,0,0,0,NA
+215,"BYS_BR_SH_01","boysen","shore",2025-08-04,"regular","SPATT",TRUE,"detected","Shipped",80.25669364,4,0,0,39.68203202,40.57466162,0,0,5.903717328,0,0,4.438027763,0,0,NA
+216,"BYS_PC_SH_02","boysen","shore",2025-08-04,"regular","SPATT",TRUE,"detected","Shipped",10.842719444,4,0,0,5.363865974,5.47885347,0,0,9.226887758,0,0,9.423189383,0,0,NA
+217,"BYS_FR_SH_03","boysen","shore",2025-08-04,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+218,"BYS_CR_SH_04","boysen","shore",2025-08-04,"regular","SPATT",TRUE,"detected","Shipped",67.231070333,4,2.954285783,0,43.8742295,20.40255505,0,0,7.423440016,0,0,0,0,0,NA
+219,"BYS_BY_BU_SS","boysen","buoy_surface",2025-08-04,"Regular","SPATT",FALSE,"not_analyzed","Not collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+220,"BYS_BY_BU_DD","boysen","buoy_depth",2025-08-04,"Regular","SPATT",FALSE,"not_analyzed","Not collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+221,"BYS_CR_SH_04","boysen","shore",2025-08-04,"duplicate","SPATT",TRUE,"detected","Shipped",78.678378452,4,3.117024712,0,49.4144969,26.14685684,0,0,9.449348696,0,0,0,0,0,NA
+222,"SPATT_BLANK","blank","blank",2025-08-07,"blank","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+223,"BKS_BL_SH_01","brooks","shore",2025-08-04,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+224,"BKS_BL_SH_02","brooks","shore",2025-08-04,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+225,"BKS_BL_SH_03","brooks","shore",2025-08-04,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+226,"BKS_BL_SH_04","brooks","shore",2025-08-04,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+227,"BKS_BL_SH_05","brooks","shore",2025-08-06,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+228,"BKS_BL_SH_06","brooks","shore",2025-08-06,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+229,"BKS_BL_SH_07","brooks","shore",2025-08-06,"regular","GRAB",TRUE,"detected","Shipped",0.380646375,1,0,0,0.380646375,0,0,0,0,0,0,0,0,0,NA
+230,"BKS_BL_BON","tributary","tributary",2025-08-06,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+231,"BKS_BL_CREEK","tributary","tributary",2025-08-06,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+232,"BKS_BL_BU_SS","brooks","buoy_surface",2025-08-06,"regular","GRAB",TRUE,"detected","Shipped",0.389763654,1,0,0,0.389763654,0,0,0,0,0,0,0,0,0,NA
+233,"BKS_BL_BU_DD","brooks","buoy_depth",2025-08-06,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+234,"BKS_UB_SH_08","upper brooks","shore",2025-08-05,"regular","GRAB",TRUE,"detected","Shipped",0.70079048,1,0,0,0,0,0.70079048,0,0,0,0,0,0,0,NA
+235,"BKS_UB_SH_09","upper brooks","shore",2025-08-05,"regular","GRAB",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,0,0,0,1.920470741,0,0,NA
+236,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-08-05,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+237,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-08-05,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+238,"BKS_RN_SH_10","rainbow","shore",2025-08-05,"regular","GRAB",TRUE,"detected","Shipped",1.562600222,1,0,0,1.562600222,0,0,0,0,0,0,0,0,0,NA
+239,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-08-05,"regular","GRAB",TRUE,"detected","Shipped",1.858096818,2,0,0,1.499539046,0,0.358557772,0,0,0,0,0,0,0,NA
+240,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-08-05,"regular","GRAB",TRUE,"detected","Shipped",0.576161346,1,0,0,0.576161346,0,0,0,0,0,0,0,0,0,NA
+241,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-08-05,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+242,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-08-05,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+243,"BKS_UB_SH_09","upper brooks","shore",2025-08-05,"duplicate","GRAB",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,0,0,0,1.452834852,0,0,NA
+244,"BKS_UB_NCOVE","upper brooks","shore",2025-08-05,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+245,"BYS_BR_SH_01","boysen","shore",2025-08-04,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+246,"BYS_PC_SH_02","boysen","shore",2025-08-04,"regular","GRAB",TRUE,"detected","Shipped",1.044941413,1,0,0,1.044941413,0,0,0,0,0,0,0,0,0,NA
+247,"BYS_FR_SH_03","boysen","shore",2025-08-04,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+248,"BYS_CR_SH_04","boysen","shore",2025-08-04,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+249,"BYS_BY_BU_SS","boysen","buoy_surface",2025-08-04,"Regular","GRAB",FALSE,"not_analyzed","Not collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+250,"BYS_BY_BU_DD","boysen","buoy_depth",2025-08-04,"Regular","GRAB",FALSE,"not_analyzed","Not collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+251,"BYS_CR_SH_04","boysen","shore",2025-08-04,"duplicate","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+252,"GRAB_BLANK","blank","blank",2025-08-07,"blank","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+253,"BKS_BL_SH_01","brooks","shore",2025-08-18,"regular","SPATT",TRUE,"detected","Shipped",5.055656783,1,0,0,5.055656783,0,0,0,0,0,0,0,0,0,NA
+254,"BKS_BL_SH_02","brooks","shore",2025-08-18,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+255,"BKS_BL_SH_03","brooks","shore",2025-08-18,"regular","SPATT",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,1.496078935,0,0,0,0,0,NA
+256,"BKS_BL_SH_04","brooks","shore",2025-08-20,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+257,"BKS_BL_SH_05","brooks","shore",2025-08-20,"regular","SPATT",TRUE,"detected","Shipped",2.958464716,2,0.150643468,0,2.807821248,0,0,0,0,0,0,0,0,0,NA
+258,"BKS_BL_SH_06","brooks","shore",2025-08-20,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+259,"BKS_BL_SH_07","brooks","shore",2025-08-20,"regular","SPATT",TRUE,"detected","Shipped",1.785324431,1,0,0,1.785324431,0,0,0,0,0,0,0,0,0,NA
+260,"BKS_BL_BON","tributary","tributary",2025-08-20,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+261,"BKS_BL_CREEK","tributary","tributary",2025-08-20,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+262,"BKS_BL_BU_SS","brooks","buoy_surface",2025-08-20,"regular","SPATT",TRUE,"detected","Shipped",4.027635089,1,0,0,4.027635089,0,0,0,0,0,0,0,0,0,NA
+263,"BKS_BL_BU_DD","brooks","buoy_depth",2025-08-20,"regular","SPATT",TRUE,"detected","Shipped",0.797720004,2,0,0,0,0,0,0.797720004,0.575719593,0,0,0,0,0,NA
+264,"BKS_UB_SH_08","upper brooks","shore",2025-08-19,"regular","SPATT",TRUE,"detected","Shipped",5.188087612,3,0.2912345,0,1.9700546,0,0,0,0,2.926798512,0,0,0,0,NA
+265,"BKS_UB_SH_09","upper brooks","shore",2025-08-19,"regular","SPATT",TRUE,"detected","Shipped",2.234870478,3,0,0,1.036395007,0,0,1.198475471,1.314848976,0,0,0,0,0,NA
+266,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-08-19,"regular","SPATT",TRUE,"detected","Shipped",5.763912272,3,0,0,4.900663334,0,0,0.863248938,1.24846011,0,0,0,0,0,NA
+267,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-08-19,"regular","SPATT",TRUE,"detected","Shipped",12.90109277,2,0,0,12.90109277,0,0,0,0.751358911,0,0,0,0,0,NA
+268,"BKS_RN_SH_10","rainbow","shore",2025-08-19,"regular","SPATT",TRUE,"detected","Shipped",37.34963487,2,0,0,33.0864632,0,4.26317167,0,0,0,0,0,0,0,NA
+269,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-08-19,"regular","SPATT",TRUE,"detected","Shipped",70.557919775,4,0,0,64.38086997,0,5.151332434,1.025717371,0.234923411,0,0,0,0,0,NA
+270,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-08-19,"regular","SPATT",TRUE,"detected","Shipped",31.94687412,2,0.73038022,0,31.2164939,0,0,0,0,0,0,0,0,0,NA
+271,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-08-19,"regular","SPATT",TRUE,"detected","Shipped",1.909096338,2,0.317613063,0,1.591483275,0,0,0,0,0,0,0,0,0,NA
+272,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-08-19,"regular","SPATT",TRUE,"detected","Shipped",1.757735653,2,0.166252378,0,1.591483275,0,0,0,0,0,0,0,0,0,NA
+273,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-08-19,"duplicate","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not analyzing"
+274,"BYS_BR_SH_01","boysen","shore",2025-08-18,"regular","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not analyzing"
+275,"BYS_PC_SH_02","boysen","shore",2025-08-18,"regular","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not analyzing"
+276,"BYS_FR_SH_03","boysen","shore",2025-08-18,"regular","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not analyzing"
+277,"BYS_CR_SH_04","boysen","shore",2025-08-18,"regular","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not analyzing"
+278,"BYS_BY_BU_SS","boysen","buoy_surface",2025-08-18,"Regular","SPATT",FALSE,"not_analyzed","Not collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+279,"BYS_BY_BU_DD","boysen","buoy_depth",2025-08-18,"Regular","SPATT",FALSE,"not_analyzed","Not collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+280,"BYS_BR_SH_01","boysen","shore",2025-08-18,"duplicate","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not analyzing"
+281,"SPATT_BLANK","blank","blank",2025-08-19,"blank","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not analyzing"
+282,"BKS_BL_SH_01","brooks","shore",2025-08-18,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+283,"BKS_BL_SH_02","brooks","shore",2025-08-18,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+284,"BKS_BL_SH_03","brooks","shore",2025-08-18,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+285,"BKS_BL_SH_04","brooks","shore",2025-08-20,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+286,"BKS_BL_SH_05","brooks","shore",2025-08-20,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+287,"BKS_BL_SH_06","brooks","shore",2025-08-20,"regular","GRAB",TRUE,"detected","Shipped",0.47511151,1,0,0,0.47511151,0,0,0,0,0,0,0,0,0,NA
+288,"BKS_BL_SH_07","brooks","shore",2025-08-20,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+289,"BKS_BL_BON","tributary","tributary",2025-08-20,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+290,"BKS_BL_CREEK","tributary","tributary",2025-08-20,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+291,"BKS_BL_BU_SS","brooks","buoy_surface",2025-08-20,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+292,"BKS_BL_BU_DD","brooks","buoy_depth",2025-08-20,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+293,"BKS_UB_SH_08","upper brooks","shore",2025-08-19,"regular","GRAB",TRUE,"detected","Shipped",0.385964787,1,0,0,0.385964787,0,0,0,0,0,0,0,0,0,NA
+294,"BKS_UB_SH_09","upper brooks","shore",2025-08-19,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+295,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-08-19,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+296,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-08-19,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+297,"BKS_RN_SH_10","rainbow","shore",2025-08-19,"regular","GRAB",TRUE,"detected","Shipped",1.277685271,1,0,0,1.277685271,0,0,0,0,0,0,0,0,0,NA
+298,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-08-19,"regular","GRAB",TRUE,"detected","Shipped",1.098632052,1,0,0,1.098632052,0,0,0,0,0,0,0,0,0,NA
+299,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-08-19,"regular","GRAB",TRUE,"detected","Shipped",1.274646178,1,0,0,1.274646178,0,0,0,0,0,0,0,0,0,NA
+300,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-08-19,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+301,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-08-19,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+302,"BKS_BL_SH_06","brooks","shore",2025-08-20,"duplicate","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+303,"BKS_UB_NCOVE","upper brooks","shore",2025-08-19,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+304,"BYS_BR_SH_01","boysen","shore",2025-08-18,"regular","GRAB",TRUE,"detected","Shipped",3.144448032,1,0,0,3.144448032,0,0,0,0,0,0,0,0,0,NA
+305,"BYS_PC_SH_02","boysen","shore",2025-08-18,"regular","GRAB",TRUE,"detected","Shipped",0.374821447,1,0,0,0.374821447,0,0,0,0,0,0,0,0,0,NA
+306,"BYS_FR_SH_03","boysen","shore",2025-08-18,"regular","GRAB",TRUE,"detected","Shipped",1.30658236,1,0,0,0,1.30658236,0,0,0,0,0,0,0,0,NA
+307,"BYS_CR_SH_04","boysen","shore",2025-08-18,"regular","GRAB",TRUE,"detected","Shipped",8.199072815,2,0,0,6.259771425,1.93930139,0,0,0,0,0,0,0,0,NA
+308,"BYS_BY_BU_SS","boysen","buoy_surface",2025-08-18,"Regular","GRAB",FALSE,"not_analyzed","Not collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+309,"BYS_BY_BU_DD","boysen","buoy_depth",2025-08-18,"Regular","GRAB",FALSE,"not_analyzed","Not collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+310,"BYS_FR_SH_03","boysen","shore",2025-08-18,"duplicate","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+311,"GRAB_BLANK","blank","blank",2025-08-19,"blank","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+312,"BKS_BL_SH_01","brooks","shore",2025-09-01,"regular","SPATT",TRUE,"detected","Shipped",1.454226465,1,0,0,1.454226465,0,0,0,0,0,0,0,0,0,NA
+313,"BKS_BL_SH_02","brooks","shore",2025-09-01,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+314,"BKS_BL_SH_03","brooks","shore",2025-09-01,"regular","SPATT",TRUE,"detected","Shipped",1.331100642,1,0,0,1.331100642,0,0,0,0,0,0,0,0,0,NA
+315,"BKS_BL_SH_04","brooks","shore",2025-09-02,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+316,"BKS_BL_SH_05","brooks","shore",2025-09-02,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+317,"BKS_BL_SH_06","brooks","shore",2025-09-02,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+318,"BKS_BL_SH_07","brooks","shore",2025-09-02,"regular","SPATT",TRUE,"detected","Shipped",5.695126877,2,0,0.867173939,4.827952938,0,0,0,0,0,0,0,0,0,NA
+319,"BKS_BL_BON","tributary","tributary",2025-09-02,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+320,"BKS_BL_CREEK","tributary","tributary",2025-09-02,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+321,"BKS_BL_BU_SS","brooks","buoy_surface",2025-09-02,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+322,"BKS_BL_BU_DD","brooks","buoy_depth",2025-09-02,"regular","SPATT",TRUE,"detected","Shipped",1.46251378,1,0,0,1.46251378,0,0,0,0,0,0,0,0,0,NA
+323,"BKS_UB_SH_08","upper brooks","shore",2025-09-02,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+324,"BKS_UB_SH_09","upper brooks","shore",2025-09-02,"regular","SPATT",TRUE,"detected","Shipped",2.215475543,1,0,0,2.215475543,0,0,0,0,0,0,0,0,0,NA
+325,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-09-02,"regular","SPATT",TRUE,"detected","Shipped",2.131418491,1,0,0,2.131418491,0,0,0,0,0,0,0,0,0,NA
+326,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-09-02,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+327,"BKS_RN_SH_10","rainbow","shore",2025-09-02,"regular","SPATT",TRUE,"detected","Shipped",49.305997676,2,0,0,45.33121841,0,3.974779266,0,0,0,0,0,0,0,NA
+328,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-09-02,"regular","SPATT",TRUE,"detected","Shipped",157.26215389,2,0,0,146.6890272,0,10.57312669,0,0,0,0,0,0,0,NA
+329,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-09-02,"regular","SPATT",TRUE,"detected","Shipped",57.096346689,3,0,13.92149794,39.53286035,0,3.641988399,0,0,0,0,0,0,0,NA
+330,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-09-02,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+331,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-09-02,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+332,"Brooks Dup",NA,NA,2025-09-02,"Duplicate","SPATT",FALSE,"not_analyzed","Not collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+333,"BYS_BR_SH_01","boysen","shore",2025-09-01,"regular","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+334,"BYS_PC_SH_02","boysen","shore",2025-09-01,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+335,"BYS_FR_SH_03","boysen","shore",2025-09-01,"regular","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+336,"BYS_CR_SH_04","boysen","shore",2025-09-01,"regular","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+337,"BYS_CR_SH_04","boysen","shore",2025-09-01,"duplicate","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+338,"SPATT_BLANK","blank","blank",2025-09-01,"blank","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+339,"BKS_BL_SH_01","brooks","shore",2025-09-01,"regular","GRAB",TRUE,"detected","Shipped",0.497816348,2,0.085108061,0,0.412708287,0,0,0,0,0,0,0,0,0,NA
+340,"BKS_BL_SH_02","brooks","shore",2025-09-01,"regular","GRAB",TRUE,"detected","Shipped",0.875881504,1,0,0,0,0,0.875881504,0,0,0,0,0,0,0,NA
+341,"BKS_BL_SH_03","brooks","shore",2025-09-01,"regular","GRAB",TRUE,"detected","Shipped",2.564694913,1,0,0,0,0,2.564694913,0,0,0,0,0,0,0,NA
+342,"BKS_BL_SH_04","brooks","shore",2025-09-02,"regular","GRAB",TRUE,"detected","Shipped",4.218424949,1,0,0,0,0,4.218424949,0,0,0,0,0,0,0,NA
+343,"BKS_BL_SH_05","brooks","shore",2025-09-02,"regular","GRAB",TRUE,"detected","Shipped",1.769805886,1,0,0,0,0,1.769805886,0,0,0,0,0,0,0,NA
+344,"BKS_BL_SH_06","brooks","shore",2025-09-02,"regular","GRAB",TRUE,"detected","Shipped",3.333467132,2,0.148297681,0,0,0,3.185169451,0,0,0,0,0,0,0,NA
+345,"BKS_BL_SH_07","brooks","shore",2025-09-02,"regular","GRAB",TRUE,"detected","Shipped",1.97990518,1,0,0,0,0,1.97990518,0,0,0,0,0,0,0,NA
+346,"BKS_BL_BON","tributary","tributary",2025-09-02,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+347,"BKS_BL_CREEK","tributary","tributary",2025-09-02,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+348,"BKS_BL_BU_SS","brooks","buoy_surface",2025-09-02,"regular","GRAB",TRUE,"detected","Shipped",0.260458471,1,0,0,0.260458471,0,0,0,0,0,0,0,0,0,NA
+349,"BKS_BL_BU_DD","brooks","buoy_depth",2025-09-02,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+350,"BKS_UB_SH_08","upper brooks","shore",2025-09-02,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+351,"BKS_UB_SH_09","upper brooks","shore",2025-09-02,"regular","GRAB",TRUE,"detected","Shipped",1.482322691,1,0,0,0,0,1.482322691,0,0,0,0,0,0,0,NA
+352,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-09-02,"regular","GRAB",TRUE,"detected","Shipped",1.498962235,1,0,0,0,0,1.498962235,0,0,0,0,0,0,0,NA
+353,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-09-02,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+354,"BKS_RN_SH_10","rainbow","shore",2025-09-02,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+355,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-09-02,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+356,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-09-02,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+357,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-09-02,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+358,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-09-02,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+359,"BKS_BL_SH_06","brooks","shore",2025-09-02,"duplicate","GRAB",TRUE,"detected","Shipped",6.590817375,2,0.101195,0,0,0,6.489622375,0,0,0,0,0,0,0,NA
+360,"BKS_UB_NCOVE","upper brooks","shore",2025-09-02,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+361,"BYS_BR_SH_01","boysen","shore",2025-09-01,"regular","GRAB",TRUE,"detected","Shipped",95.50824718,3,0,0,33.06520294,23.06285852,39.38018572,0,0,0,0,0,0,0,NA
+362,"BYS_PC_SH_02","boysen","shore",2025-09-01,"regular","GRAB",TRUE,"detected","Shipped",0.983938297,1,0,0,0,0,0.983938297,0,0,0,0,0,0,0,NA
+363,"BYS_FR_SH_03","boysen","shore",2025-09-01,"regular","GRAB",TRUE,"detected","Shipped",47.252046423,3,0,0,23.01434731,22.25518774,1.982511373,0,0,0,0,0,0,0,NA
+364,"BYS_CR_SH_04","boysen","shore",2025-09-01,"regular","GRAB",TRUE,"detected","Shipped",15.085929929,3,0.346003488,0,3.547681161,11.19224528,0,0,0,0,0,0,0,0,NA
+365,"BYS_CR_SH_04","boysen","shore",2025-09-01,"duplicate","GRAB",TRUE,"detected","Shipped",0.62959916,1,0,0,0.62959916,0,0,0,0,0,0,0,0,0,NA
+366,"GRAB_BLANK","blank","blank",2025-09-01,"blank","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+367,"BKS_BL_SH_01","brooks","shore",2025-09-16,"regular","SPATT",TRUE,"detected","Shipped",17.856616716,2,0,5.066527236,12.79008948,0,0,0,0,0,0,0,0,0,NA
+368,"BKS_BL_SH_02","brooks","shore",2025-09-16,"regular","SPATT",TRUE,"detected","Shipped",0.857749518,2,0,0,0.857749518,0,0,0,0.544388707,0,0,0,0,0,NA
+369,"BKS_BL_SH_03","brooks","shore",2025-09-16,"regular","SPATT",TRUE,"detected","Shipped",0.830434654,2,0,0,0.830434654,0,0,0,1.17706296,0,0,0,0,0,NA
+370,"BKS_BL_SH_04","brooks","shore",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",1.627903094,2,0,0,1.627903094,0,0,0,1.857141193,0,0,0,0,0,NA
+371,"BKS_BL_SH_05","brooks","shore",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",2.215329649,2,0,0,2.215329649,0,0,0,0.700344308,0,0,0,0,0,NA
+372,"BKS_BL_SH_06","brooks","shore",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",1.687242281,2,0,0,1.687242281,0,0,0,0.436419445,0,0,0,0,0,NA
+373,"BKS_BL_SH_07","brooks","shore",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",1.856468851,1,0,0,1.856468851,0,0,0,0,0,0,0,0,0,NA
+374,"BKS_BL_BON","tributary","tributary",2025-09-17,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+375,"BKS_BL_CREEK","tributary","tributary",2025-09-17,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+376,"BKS_BL_BU_SS","brooks","buoy_surface",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",6.665369063,1,0,0,6.665369063,0,0,0,0,0,0,0,0,0,NA
+377,"BKS_BL_BU_DD","brooks","buoy_depth",2025-09-17,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+378,"BKS_UB_SH_08","upper brooks","shore",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",7.218274362,3,0.31393219,0,2.976724621,0,0,0,0,3.927617551,0,0,0,0,NA
+379,"BKS_UB_SH_09","upper brooks","shore",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",2.337436546,2,0.373737525,0,1.963699021,0,0,0,0,0,0,0,0,0,NA
+380,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",9.130359134,2,1.148885522,0,7.981473612,0,0,0,0,0,0,0,0,0,NA
+381,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",23.32050441,1,0,0,23.32050441,0,0,0,0,0,0,0,0,0,NA
+382,"BKS_RN_SH_10","rainbow","shore",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",89.061488618,2,0,0,84.25673695,0,4.804751668,0,0,0,0,0,0,0,NA
+383,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",158.18591199,2,0,0,147.4968431,0,10.68906889,0,0,0,0,0,0,0,NA
+384,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",146.676086676,2,0,0,142.7561043,0,3.919982376,0,0,0,0,0,0,0,NA
+385,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-09-17,"regular","SPATT",TRUE,"detected","Shipped",44.3852806,1,0,0,44.3852806,0,0,0,0,0,0,0,0,0,NA
+386,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-09-17,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+387,"BKS_UB_SH_08","upper brooks","shore",2025-09-17,"Duplicate","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+388,"BYS_BR_SH_01","boysen","shore",2025-09-16,"Regular","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+389,"BYS_PC_SH_02","boysen","shore",2025-09-16,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+390,"BYS_FR_SH_03","boysen","shore",2025-09-16,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+391,"BYS_CR_SH_04","boysen","shore",2025-09-16,"Regular","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+392,"Boysen Dup","boysen","blank",2025-09-16,"Duplicate","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+393,"SPATT_BLANK","blank","blank",2025-09-16,"Blank","SPATT",FALSE,"not_analyzed","Shipped",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+394,"BKS_BL_SH_01","brooks","shore",2025-09-16,"regular","GRAB",TRUE,"detected","Shipped",0.788072829,1,0,0,0,0,0.788072829,0,0,0,0,0,0,0,NA
+395,"BKS_BL_SH_02","brooks","shore",2025-09-16,"regular","GRAB",TRUE,"detected","Shipped",1.660345757,1,0,0,0,0,1.660345757,0,0,0,0,0,0,0,NA
+396,"BKS_BL_SH_03","brooks","shore",2025-09-16,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+397,"BKS_BL_SH_04","brooks","shore",2025-09-17,"regular","GRAB",TRUE,"detected","Shipped",14.01009453,1,0,0,0,0,14.01009453,0,0,0,0,0,0,0,NA
+398,"BKS_BL_SH_05","brooks","shore",2025-09-17,"regular","GRAB",TRUE,"detected","Shipped",16.017995116,2,0,0,4.777281926,0,11.24071319,0,0,0,0,0,0,0,NA
+399,"BKS_BL_SH_06","brooks","shore",2025-09-17,"regular","GRAB",TRUE,"detected","Shipped",12.04482413,1,0,0,0,0,12.04482413,0,0,0,0,0,0,0,NA
+400,"BKS_BL_SH_07","brooks","shore",2025-09-17,"regular","GRAB",TRUE,"detected","Shipped",11.46504631,1,0,0,0,0,11.46504631,0,0,0,0,0,0,0,NA
+401,"BKS_BL_BON","tributary","tributary",2025-09-17,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+402,"BKS_BL_CREEK","tributary","tributary",2025-09-17,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+403,"BKS_BL_BU_SS","brooks","buoy_surface",2025-09-17,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+404,"BKS_BL_BU_DD","brooks","buoy_depth",2025-09-17,"regular","GRAB",TRUE,"detected","Shipped",1.713872963,1,0,0,0,0,1.713872963,0,0,0,0,0,0,0,NA
+405,"BKS_UB_SH_08","upper brooks","shore",2025-09-17,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+406,"BKS_UB_SH_09","upper brooks","shore",2025-09-17,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+407,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-09-17,"regular","GRAB",TRUE,"detected","Shipped",1.523219882,1,0,0,0,0,1.523219882,0,0,0,0,0,0,0,NA
+408,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-09-17,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+409,"BKS_RN_SH_10","rainbow","shore",2025-09-17,"regular","GRAB",TRUE,"detected","Shipped",319.866276964,3,0,0,313.5373033,2.10754174,0,4.221431924,0,0,0,0,0,0,NA
+410,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-09-17,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+411,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-09-17,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+412,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-09-17,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+413,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-09-17,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+414,"BKS_BL_SH_07","brooks","shore",2025-09-17,"duplicate","GRAB",TRUE,"detected","Shipped",12.155942173,2,0,0,2.951468042,0,9.204474131,0,0,0,0,0,0,0,NA
+415,"BKS_UB_NCOVE","upper brooks","shore",2025-09-17,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+416,"BYS_BR_SH_01","boysen","shore",2025-09-16,"regular","GRAB",TRUE,"detected","Shipped",7207.47860363,4,0,0,2487.70729,4609.90731,96.78961735,0,0,0,13.07438628,0,0,0,NA
+417,"BYS_PC_SH_02","boysen","shore",2025-09-16,"regular","GRAB",TRUE,"detected","Shipped",5.041982105,1,0,0,0,0,5.041982105,0,0,0,0,0,0,0,NA
+418,"BYS_FR_SH_03","boysen","shore",2025-09-16,"regular","GRAB",TRUE,"detected","Shipped",10.32339678,2,0,0,0,5.719054712,4.604342068,0,0,0,0,0,0,0,NA
+419,"BYS_CR_SH_04","boysen","shore",2025-09-16,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+420,"BYS_CR_SH_04","boysen","shore",2025-09-16,"duplicate","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+421,"GRAB_BLANK","blank","blank",2025-09-16,"blank","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+422,"BKS_BL_SH_01","brooks","shore",2025-09-29,"regular","SPATT",TRUE,"detected","Shipped",4.313250901,1,0,0,4.313250901,0,0,0,0,0,0,0,0,0,NA
+423,"BKS_BL_SH_02","brooks","shore",2025-09-29,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+424,"BKS_BL_SH_03","brooks","shore",2025-09-29,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+425,"BKS_BL_SH_04","brooks","shore",2025-09-30,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+426,"BKS_BL_SH_05","brooks","shore",2025-09-30,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+427,"BKS_BL_SH_06","brooks","shore",2025-09-30,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+428,"BKS_BL_SH_07","brooks","shore",2025-09-30,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+429,"BKS_BL_BON","tributary","tributary",2025-09-30,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+430,"BKS_BL_CREEK","tributary","tributary",2025-09-30,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+431,"BKS_BL_BU_SS","brooks","buoy_surface",2025-09-30,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+432,"BKS_BL_BU_DD","brooks","buoy_depth",2025-09-30,"regular","SPATT",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,0,0,0,0,7.674894635,0,NA
+433,"BKS_UB_SH_08","upper brooks","shore",2025-09-30,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+434,"BKS_UB_SH_09","upper brooks","shore",2025-09-30,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+435,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-09-30,"regular","SPATT",TRUE,"detected","Shipped",20.0839228,1,0,0,20.0839228,0,0,0,0,0,0,0,0,0,NA
+436,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-09-30,"regular","SPATT",TRUE,"detected","Shipped",25.15681738,1,0,0,25.15681738,0,0,0,0,0,0,0,0,0,NA
+437,"BKS_RN_SH_10","rainbow","shore",2025-09-30,"regular","SPATT",TRUE,"detected","Shipped",175.64163212,2,0,0,106.9220465,0,68.71958562,0,0,0,0,0,0,0,NA
+438,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-09-30,"regular","SPATT",TRUE,"detected","Shipped",357.9056577,2,0,0,201.5730614,0,156.3325963,0,0,0,0,0,0,0,NA
+439,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-09-30,"regular","SPATT",TRUE,"detected","Shipped",42.25437266,1,0,0,42.25437266,0,0,0,0,0,0,0,0,0,NA
+440,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-10-01,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+441,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-10-01,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+442,"BKS_BL_BU_SS","brooks","buoy_surface",2025-10-01,"Duplicate","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+443,"BYS_BR_SH_01","boysen","shore",2015-09-29,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+444,"BYS_PC_SH_02","boysen","shore",2025-09-29,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+445,"BYS_FR_SH_03","boysen","shore",2025-09-29,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+446,"BYS_CR_SH_04","boysen","shore",2025-09-29,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+447,"Boysen Dup","boysen","blank",2025-09-29,"Duplicate","SPATT",FALSE,"not_analyzed","Not collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+448,"SPATT_BLANK","blank","blank",2025-09-29,"Blank","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+449,"BKS_BL_SH_01","brooks","shore",2025-09-29,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+450,"BKS_BL_SH_02","brooks","shore",2025-09-29,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+451,"BKS_BL_SH_03","brooks","shore",2025-09-29,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+452,"BKS_BL_SH_04","brooks","shore",2025-09-30,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+453,"BKS_BL_SH_05","brooks","shore",2025-09-30,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+454,"BKS_BL_SH_06","brooks","shore",2025-09-30,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+455,"BKS_BL_SH_07","brooks","shore",2025-09-30,"regular","GRAB",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,0,0,0,1.318490774,0,0,NA
+456,"BKS_BL_BON","tributary","tributary",2025-09-30,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+457,"BKS_BL_CREEK","tributary","tributary",2025-09-30,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+458,"BKS_BL_BU_SS","brooks","buoy_surface",2025-09-30,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+459,"BKS_BL_BU_DD","brooks","buoy_depth",2025-09-30,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+460,"BKS_UB_SH_08","upper brooks","shore",2025-09-30,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+461,"BKS_UB_SH_09","upper brooks","shore",2025-09-30,"regular","GRAB",TRUE,"detected","Shipped",0.199061964,1,0.199061964,0,0,0,0,0,0,0,0,0,0,0,NA
+462,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-09-30,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+463,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-09-30,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+464,"BKS_RN_SH_10","rainbow","shore",2025-09-30,"regular","GRAB",TRUE,"detected","Shipped",40.391981886,3,0,0.844950339,37.45085004,0,2.096181507,0,0,0,0,0,0,0,NA
+465,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-09-30,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+466,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-09-30,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+467,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-10-01,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+468,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-10-01,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+469,"BKS_BL_SH_03","brooks","shore",2025-09-30,"duplicate","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+470,"BKS_UB_NCOVE","upper brooks","shore",2025-09-30,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+471,"BYS_BR_SH_01","boysen","shore",2025-09-29,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+472,"BYS_PC_SH_02","boysen","shore",2025-09-29,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+473,"BYS_FR_SH_03","boysen","shore",2025-09-29,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+474,"BYS_CR_SH_04","boysen","shore",2025-09-29,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+475,"BYS_CR_SH_04","boysen","shore",2025-09-29,"Duplicate","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+476,"GRAB_BLANK","blank","blank",2025-09-29,"Blank","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+477,"BKS_BL_SH_01","brooks","shore",2025-10-14,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+478,"BKS_BL_SH_02","brooks","shore",2025-10-14,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+479,"BKS_BL_SH_03","brooks","shore",2025-10-14,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+480,"BKS_BL_SH_04","brooks","shore",2025-10-14,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+481,"BKS_BL_SH_05","brooks","shore",2025-10-14,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+482,"BKS_BL_SH_06","brooks","shore",2025-10-14,"regular","SPATT",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,0.6750699501,0,0,0,0,0,NA
+483,"BKS_BL_SH_07","brooks","shore",2025-10-14,"regular","SPATT",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,0.4124262756,0,0,0,0,0,NA
+484,"BKS_BL_BON","tributary","tributary",2025-10-14,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+485,"BKS_BL_CREEK","tributary","tributary",2025-10-14,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+486,"BKS_BL_BU_SS","brooks","buoy_surface",2025-10-14,"regular","SPATT",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,0.9420230774,0,0,0,0,0,NA
+487,"BKS_BL_BU_DD","brooks","buoy_depth",2025-10-14,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+488,"BKS_UB_SH_08","upper brooks","shore",2025-10-15,"regular","SPATT",TRUE,"detected","Shipped",0,1,0,0,0,0,0,0,0,0,0,0,40.25037832,0,NA
+489,"BKS_UB_SH_09","upper brooks","shore",2025-10-15,"regular","SPATT",TRUE,"detected","Shipped",11.46504677,1,0,0,11.46504677,0,0,0,0,0,0,0,0,0,NA
+490,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-10-14,"regular","SPATT",TRUE,"detected","Shipped",11.13596561,1,0,0,11.13596561,0,0,0,0,0,0,0,0,0,NA
+491,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-10-14,"regular","SPATT",TRUE,"detected","Shipped",23.64750219,1,0,0,23.64750219,0,0,0,0,0,0,0,0,0,NA
+492,"BKS_RN_SH_10","rainbow","shore",2025-10-15,"regular","SPATT",TRUE,"detected","Shipped",147.39664198,2,0,0,28.30508578,0,119.0915562,0,0,0,0,0,0,0,NA
+493,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-10-15,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+494,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-10-14,"regular","SPATT",TRUE,"detected","Shipped",223.6548488,2,0,0,122.5120464,0,101.1428024,0,0,0,0,0,0,0,NA
+495,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-10-14,"regular","SPATT",TRUE,"detected","Shipped",109.8204244,1,0,0,109.8204244,0,0,0,0,0,0,0,0,0,NA
+496,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-10-14,"regular","SPATT",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+497,"BYS_BR_SH_01","boysen","shore",2025-10-14,"Duplicate","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+498,"BYS_BR_SH_01","boysen","shore",2025-10-14,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+499,"BYS_PC_SH_02","boysen","shore",2025-10-14,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+500,"BYS_FR_SH_03","boysen","shore",2025-10-14,"Regular","SPATT",FALSE,"not_analyzed","Lost",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+501,"BYS_CR_SH_04","boysen","shore",2025-10-14,"Regular","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+502,"Brooks Dup",NA,NA,2025-10-14,"Duplicate","SPATT",FALSE,"not_analyzed","Not collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+503,"SPATT_BLANK","blank","blank",2025-10-17,"Blank","SPATT",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+504,"BKS_BL_SH_01","brooks","shore",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+505,"BKS_BL_SH_02","brooks","shore",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+506,"BKS_BL_SH_03","brooks","shore",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+507,"BKS_BL_SH_04","brooks","shore",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+508,"BKS_BL_SH_05","brooks","shore",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+509,"BKS_BL_SH_06","brooks","shore",2025-10-14,"regular","GRAB",TRUE,"detected","Shipped",23.045021155,2,0,0,20.62286498,0,2.422156175,0,0,0,0,0,0,0,NA
+510,"BKS_BL_SH_07","brooks","shore",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+511,"BKS_BL_BON","tributary","tributary",2025-10-14,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+512,"BKS_BL_CREEK","tributary","tributary",2025-10-14,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+513,"BKS_BL_BU_SS","brooks","buoy_surface",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+514,"BKS_BL_BU_DD","brooks","buoy_depth",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+515,"BKS_UB_SH_08","upper brooks","shore",2025-10-15,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+516,"BKS_UB_SH_09","upper brooks","shore",2025-10-15,"regular","GRAB",TRUE,"detected","Shipped",238.3808274,1,0,0,238.3808274,0,0,0,0,0,0,0,0,0,NA
+517,"BKS_UB_BU_SS","upper brooks","buoy_surface",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+518,"BKS_UB_BU_DD","upper brooks","buoy_depth",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+519,"BKS_RN_SH_10","rainbow","shore",2025-10-15,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+520,"BKS_RN_BU_SS","rainbow","buoy_surface",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+521,"BKS_RN_BU_DD","rainbow","buoy_depth",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+522,"BKS_LJ_BU_SS","lower jade","buoy_surface",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+523,"BKS_LJ_BU_DD","lower jade","buoy_depth",2025-10-14,"regular","GRAB",FALSE,"analyzed_no_detection","Shipped",0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA
+524,"BYS_CR_SH_04","boysen","shore",2025-10-14,"Duplicate","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+525,"BKS_UB_NCOVE","upper brooks","shore",2025-10-15,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+526,"BYS_BR_SH_01","boysen","shore",2025-10-14,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+527,"BYS_PC_SH_02","boysen","shore",2025-10-14,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+528,"BYS_FR_SH_03","boysen","shore",2025-10-14,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+529,"BYS_CR_SH_04","boysen","shore",2025-10-14,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+530,"Brooks Dup",NA,NA,2025-10-14,"Duplicate","GRAB",FALSE,"not_analyzed","Not collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+531,"GRAB_BLANK","blank","blank",2025-10-17,"Blank","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+532,"BKS_RN_INFLOW","rainbow","tributary",2025-09-30,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+533,"BKS_RN_INFLOW","rainbow","tributary",2025-10-15,"Regular","GRAB",FALSE,"not_analyzed","Collected",0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
