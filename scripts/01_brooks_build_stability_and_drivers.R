@@ -20,7 +20,7 @@ library(rLakeAnalyzer)
 # ======================================================================
 
 fig_dir <- "figures/integrated_analysis"
-data_out_dir <- "data_clean/analysis"
+data_out_dir <- "data_clean/analysis/brooks"
 
 dir.create(fig_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(data_out_dir, recursive = TRUE, showWarnings = FALSE)
@@ -31,7 +31,7 @@ dir.create(data_out_dir, recursive = TRUE, showWarnings = FALSE)
 # ======================================================================
 
 brooks_weather_noaa_daily_2025 <- readRDS(
-  "data_clean/weather/brooks_weather_daily_2025.rds"
+  "data_clean/weather/brooks_weather_noaa_daily_2025.rds"
 )
 
 deq_nutrients_clean_2025 <- readRDS(

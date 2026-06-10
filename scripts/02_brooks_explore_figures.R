@@ -18,8 +18,8 @@ library(scales)
 # 1. File paths
 # ----------------------------------------------------------------------
 
-fig_dir <- "figures/integrated_analysis"
-data_out_dir <- "data_clean/analysis"
+fig_dir <- "figures/brooks/integrated_analysis"
+data_out_dir <- "data_clean/analysis/brooks"
 
 dir.create(fig_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(data_out_dir, recursive = TRUE, showWarnings = FALSE)
@@ -29,11 +29,11 @@ dir.create(data_out_dir, recursive = TRUE, showWarnings = FALSE)
 # ----------------------------------------------------------------------
 
 brooks_daily_drivers <- readRDS(
-  "data_clean/analysis/brooks_daily_drivers_2025.rds"
+  "data_clean/analysis/brooks/brooks_daily_drivers_2025.rds"
 )
 
 schmidt_daily <- readRDS(
-  "data_clean/analysis/schmidt_daily_2025.rds"
+  "data_clean/analysis/brooks/schmidt_daily_2025.rds"
 )
 
 grab_tox <- readRDS(
@@ -70,14 +70,18 @@ physical_long <- brooks_daily_drivers %>%
   filter(!is.na(value)) %>%
   group_by(variable) %>%
   mutate(
-    scaled_value = value / max(value, na.rm = TRUE)
+    value_plot = case_when(
+      variable == "deep_do_mgl" ~ max(value, na.rm = TRUE) - value,
+      TRUE ~ value
+    ),
+    scaled_value = value_plot / max(value_plot, na.rm = TRUE)
   ) %>%
   ungroup() %>%
   mutate(
     variable = recode(
       variable,
       stability_daily = "Schmidt stability",
-      deep_do_mgl = "Deep DO",
+      deep_do_mgl = "Low deep DO",
       air_temp_mean_c = "Air temperature",
       wind_speed_mean_ms = "Mean wind speed",
       gust_speed_max_ms = "Max gust speed",
@@ -87,10 +91,20 @@ physical_long <- brooks_daily_drivers %>%
 
 p_physical_scaled <- ggplot(
   physical_long,
-  aes(date, scaled_value, color = variable)
+  aes(
+    date,
+    scaled_value,
+    color = variable
+  )
 ) +
-  geom_line(linewidth = 1, na.rm = TRUE) +
-  geom_point(size = 1.8, na.rm = TRUE) +
+  geom_line(
+    linewidth = 1,
+    na.rm = TRUE
+  ) +
+  geom_point(
+    size = 1.8,
+    na.rm = TRUE
+  ) +
   labs(
     x = NULL,
     y = "Scaled seasonal value",

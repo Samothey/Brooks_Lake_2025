@@ -6,19 +6,11 @@ library(tidyverse)
 library(lubridate)
 library(scales)
 
-# ======================================================================
-# 1. File paths
-# ======================================================================
-
 fig_dir <- "figures/integrated_analysis/upperbrooks"
 data_out_dir <- "data_clean/analysis/upperbrooks"
 
 dir.create(fig_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(data_out_dir, recursive = TRUE, showWarnings = FALSE)
-
-# ======================================================================
-# 2. Load data
-# ======================================================================
 
 upperbrooks_daily_drivers <- readRDS(
   "data_clean/analysis/upperbrooks/upperbrooks_daily_drivers_2025.rds"
@@ -37,7 +29,7 @@ grab_tox <- readRDS(
 )
 
 # ======================================================================
-# 3. Physical drivers timeline
+# Physical drivers timeline
 # ======================================================================
 
 drivers_long_ub <- upperbrooks_daily_drivers %>%
@@ -58,14 +50,18 @@ drivers_long_ub <- upperbrooks_daily_drivers %>%
   filter(!is.na(value)) %>%
   group_by(variable) %>%
   mutate(
-    scaled_value = value / max(value, na.rm = TRUE)
+    value_plot = case_when(
+      variable == "deep_do_mgl" ~ max(value, na.rm = TRUE) - value,
+      TRUE ~ value
+    ),
+    scaled_value = value_plot / max(value_plot, na.rm = TRUE)
   ) %>%
   ungroup() %>%
   mutate(
     variable = recode(
       variable,
       stability_daily = "Schmidt stability",
-      deep_do_mgl = "Deep DO",
+      deep_do_mgl = "deep DO",
       air_temp_mean_c = "Air temperature",
       wind_speed_mean_ms = "Mean wind speed",
       gust_speed_max_ms = "Max gust speed",
@@ -78,12 +74,12 @@ p_ub_physical_drivers <- ggplot(
   aes(date, scaled_value, color = variable)
 ) +
   geom_line(linewidth = 1, na.rm = TRUE) +
-  geom_point(size = 2, na.rm = TRUE) +
+  geom_point(size = 1.8, na.rm = TRUE) +
   labs(
-    title = "Upper Brooks physical drivers",
     x = NULL,
     y = "Scaled seasonal value",
-    color = NULL
+    color = NULL,
+    title = "Upper Brooks Lake physical drivers"
   ) +
   theme_bw()
 
@@ -98,7 +94,7 @@ ggsave(
 )
 
 # ======================================================================
-# 4. Upper Brooks nutrients
+# Upper Brooks nutrients
 # ======================================================================
 
 nutrients_ub <- deq_nutrients_clean_2025 %>%
@@ -123,14 +119,10 @@ nutrients_ub <- deq_nutrients_clean_2025 %>%
 
 surface_biology_ub <- nutrients_ub %>%
   filter(type == "surface") %>%
-  select(
-    date,
-    chla,
-    secchi
-  )
+  select(date, chla, secchi)
 
 # ======================================================================
-# 5. Upper Brooks cyanobacteria
+# Upper Brooks cyanobacteria
 # ======================================================================
 
 cyano_ub <- phyto_clean %>%
@@ -150,7 +142,7 @@ cyano_ub <- phyto_clean %>%
   )
 
 # ======================================================================
-# 6. Upper Brooks toxins: surface and depth separate
+# Upper Brooks toxins
 # ======================================================================
 
 tox_ub_depth <- grab_tox %>%
@@ -180,7 +172,7 @@ tox_ub_depth <- grab_tox %>%
   )
 
 # ======================================================================
-# 7. Nearest toxin join within +/- 2 days
+# Nearest toxin join within +/- 2 days
 # ======================================================================
 
 join_nearest_toxin <- function(story_data, toxin_data, max_days = 2) {
@@ -223,35 +215,20 @@ join_nearest_toxin <- function(story_data, toxin_data, max_days = 2) {
 }
 
 # ======================================================================
-# 8. Build Upper Brooks story tables
+# Build story tables
 # ======================================================================
 
 story_surface_ub_base <- nutrients_ub %>%
   filter(type == "surface") %>%
-  left_join(
-    cyano_ub,
-    by = "date"
-  ) %>%
-  left_join(
-    upperbrooks_daily_drivers,
-    by = "date"
-  )
+  left_join(cyano_ub, by = "date") %>%
+  left_join(upperbrooks_daily_drivers, by = "date")
 
 story_bottom_ub_base <- nutrients_ub %>%
   filter(type == "bottom") %>%
   select(-chla, -secchi) %>%
-  left_join(
-    surface_biology_ub,
-    by = "date"
-  ) %>%
-  left_join(
-    cyano_ub,
-    by = "date"
-  ) %>%
-  left_join(
-    upperbrooks_daily_drivers,
-    by = "date"
-  )
+  left_join(surface_biology_ub, by = "date") %>%
+  left_join(cyano_ub, by = "date") %>%
+  left_join(upperbrooks_daily_drivers, by = "date")
 
 story_surface_ub <- join_nearest_toxin(
   story_surface_ub_base,
@@ -279,7 +256,7 @@ saveRDS(
 )
 
 # ======================================================================
-# 9. Scaled story plot function
+# Scaled story plot function
 # ======================================================================
 
 make_scaled_story_plot <- function(data, title_text) {
@@ -288,7 +265,6 @@ make_scaled_story_plot <- function(data, title_text) {
     select(
       date,
       stability_daily,
-      deep_do_mgl,
       ammonia,
       tn,
       tp,
@@ -307,7 +283,6 @@ make_scaled_story_plot <- function(data, title_text) {
     mutate(
       value_plot = case_when(
         variable == "secchi" ~ max(value, na.rm = TRUE) - value,
-        variable == "deep_do_mgl" ~ max(value, na.rm = TRUE) - value,
         TRUE ~ value
       ),
       scaled_value = value_plot / max(value_plot, na.rm = TRUE)
@@ -317,7 +292,6 @@ make_scaled_story_plot <- function(data, title_text) {
       variable = recode(
         variable,
         stability_daily = "Schmidt stability",
-        deep_do_mgl = "Lower deep DO",
         ammonia = "Ammonia",
         tn = "Total nitrogen",
         tp = "Total phosphorus",
@@ -325,6 +299,11 @@ make_scaled_story_plot <- function(data, title_text) {
         secchi = "Lower clarity",
         cyano_cells = "Cyanobacteria cells",
         total_mc = "Total microcystins"
+      ),
+      line_type = case_when(
+        variable %in% c("Schmidt stability", "Low deep DO") ~ "solid",
+        variable %in% c("Ammonia", "Total nitrogen", "Total phosphorus") ~ "dashed",
+        TRUE ~ "dotted"
       )
     )
   
@@ -337,12 +316,21 @@ make_scaled_story_plot <- function(data, title_text) {
       group = variable
     )
   ) +
-    geom_line(linewidth = 1.1, alpha = 0.9, na.rm = TRUE) +
-    geom_point(size = 2, alpha = 0.9, na.rm = TRUE) +
+    geom_line(
+      aes(linetype = line_type),
+      linewidth = 1.1,
+      alpha = 0.9,
+      na.rm = TRUE
+    ) +
+    geom_point(
+      size = 2,
+      alpha = 0.9,
+      na.rm = TRUE
+    ) +
+    scale_linetype_identity() +
     scale_color_manual(
       values = c(
         "Schmidt stability" = "black",
-        "Lower deep DO" = "#a6cee3",
         "Ammonia" = "#1b9e77",
         "Total nitrogen" = "#66a61e",
         "Total phosphorus" = "#d95f02",
@@ -360,10 +348,6 @@ make_scaled_story_plot <- function(data, title_text) {
     ) +
     theme_bw()
 }
-
-# ======================================================================
-# 10. Make Upper Brooks story plots
-# ======================================================================
 
 p_ub_surface_story <- make_scaled_story_plot(
   story_surface_ub,
@@ -395,7 +379,7 @@ ggsave(
 )
 
 # ======================================================================
-# 11. Raw surface vs bottom nutrients
+# Raw surface vs bottom nutrients
 # ======================================================================
 
 nutrients_ub_long <- nutrients_ub %>%
@@ -410,6 +394,11 @@ nutrients_ub_long <- nutrients_ub %>%
       ammonia = "Ammonia",
       tn = "Total nitrogen",
       tp = "Total phosphorus"
+    ),
+    type = recode(
+      type,
+      surface = "Surface",
+      bottom = "Bottom"
     )
   )
 
@@ -425,10 +414,10 @@ p_ub_nutrients_raw <- ggplot(
     scales = "free_y"
   ) +
   labs(
-    title = "Upper Brooks surface and bottom nutrients",
     x = NULL,
     y = "Concentration",
-    color = NULL
+    color = NULL,
+    title = "Upper Brooks Lake surface and bottom nutrients"
   ) +
   theme_bw()
 
@@ -443,20 +432,29 @@ ggsave(
 )
 
 # ======================================================================
-# 12. Raw surface vs bottom toxins
+# Raw surface vs bottom toxins
 # ======================================================================
 
+tox_ub_depth_plot <- tox_ub_depth %>%
+  mutate(
+    type = recode(
+      type,
+      surface = "Surface",
+      bottom = "Bottom"
+    )
+  )
+
 p_ub_tox_raw <- ggplot(
-  tox_ub_depth,
+  tox_ub_depth_plot,
   aes(date, total_mc, color = type, group = type)
 ) +
   geom_line(linewidth = 1, na.rm = TRUE) +
   geom_point(size = 2, na.rm = TRUE) +
   labs(
-    title = "Upper Brooks buoy toxins",
     x = NULL,
     y = "Total microcystins",
-    color = NULL
+    color = NULL,
+    title = "Rainbow Lake buoy toxins"
   ) +
   theme_bw()
 

@@ -2,20 +2,20 @@
 # 02_rainbow_explore_story.R
 #
 # Purpose:
-#   Build Rainbow Lake exploratory story plots using:
-#   - profile-based physical drivers
-#   - surface/bottom nutrients
-#   - Chl-a and Secchi
-#   - cyanobacteria cells
-#   - surface/depth grab toxins
+#   Rainbow Lake exploratory plots using:
+#   - daily 7 m buoy DO
+#   - daily NOAA/weather station drivers
+#   - profile-based Schmidt stability as separate point/line overlay
+#   - nutrients, Chl-a, Secchi, cyanobacteria cells, and toxins
 #
-# Notes:
-#   Rainbow uses profile-based stability from DEQ vertical profiles,
-#   not daily buoy-derived stability.
+# Important:
+#   Rainbow stability is based only on vertical profile dates, so it is
+#   not treated as a continuous daily variable.
 # ======================================================================
 
 library(tidyverse)
 library(lubridate)
+library(janitor)
 library(scales)
 
 # ======================================================================
@@ -29,8 +29,21 @@ dir.create(fig_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(data_out_dir, recursive = TRUE, showWarnings = FALSE)
 
 # ======================================================================
-# 2. Load cleaned / built data
+# 2. Load data
 # ======================================================================
+
+Rainbow_WQ_2025_cleaned <- read_csv(
+  "data_clean/buoy/Rainbow_WQ_2025_cleaned.csv",
+  show_col_types = FALSE
+)
+
+brooks_weather_noaa_daily_2025 <- readRDS(
+  "data_clean/weather/brooks_weather_noaa_daily_2025.rds"
+)
+
+rainbow_profile_stability <- readRDS(
+  file.path(data_out_dir, "rainbow_profile_stability_2025.rds")
+)
 
 rainbow_profile_drivers <- readRDS(
   file.path(data_out_dir, "rainbow_profile_drivers_2025.rds")
@@ -48,19 +61,9 @@ deq_nutrients_clean_2025 <- readRDS(
   "data_clean/deq/deq_nutrients_clean_2025.rds"
 )
 
-
 # ======================================================================
-# Rainbow 7 m DO from buoy file
+# 3. Daily Rainbow 7 m DO from buoy
 # ======================================================================
-
-library(tidyverse)
-library(lubridate)
-library(janitor)
-
-Rainbow_WQ_2025_cleaned <- read_csv(
-  "data_clean/buoy/Rainbow_WQ_2025_cleaned.csv",
-  show_col_types = FALSE
-)
 
 rainbow_deep_do_daily <- Rainbow_WQ_2025_cleaned %>%
   clean_names() %>%
@@ -78,26 +81,50 @@ rainbow_deep_do_daily <- Rainbow_WQ_2025_cleaned %>%
 
 saveRDS(
   rainbow_deep_do_daily,
-  "data_clean/analysis/rainbow_deep_do_daily_2025.rds"
+  file.path(data_out_dir, "rainbow_deep_do_daily_2025.rds")
 )
 
-rainbow_profile_drivers <- rainbow_profile_drivers %>%
-  select(-any_of(c("bottom_do_mgl", "deep_do_mgl"))) %>%
-  left_join(
-    rainbow_deep_do_daily,
-    by = "date"
-  )
 # ======================================================================
-# 3. Physical driver timeline
+# 4. Daily Rainbow drivers: DO + weather only
 # ======================================================================
 
-physical_long_rainbow <- rainbow_profile_drivers %>%
+rainbow_daily_drivers <- rainbow_deep_do_daily %>%
+  mutate(date = as.Date(date)) %>%
+  left_join(
+    brooks_weather_noaa_daily_2025 %>%
+      mutate(date = as.Date(date)),
+    by = "date"
+  )
+
+saveRDS(
+  rainbow_daily_drivers,
+  file.path(data_out_dir, "rainbow_daily_drivers_2025.rds")
+)
+
+# ======================================================================
+# 5. Prepare profile stability separately
+# ======================================================================
+
+rainbow_stability_plot <- rainbow_profile_stability %>%
+  mutate(date = as.Date(date)) %>%
   select(
     date,
-    stability_profile,
-    temp_diff,
-    do_diff,
-    bottom_do_mgl,
+    stability_profile
+  ) %>%
+  filter(!is.na(stability_profile)) %>%
+  mutate(
+    scaled_value = stability_profile / max(stability_profile, na.rm = TRUE),
+    variable = "Schmidt stability"
+  )
+
+# ======================================================================
+# 6. Physical driver timeline
+# ======================================================================
+
+physical_long_rainbow <- rainbow_daily_drivers %>%
+  select(
+    date,
+    deep_do_mgl,
     air_temp_mean_c,
     wind_speed_mean_ms,
     gust_speed_max_ms,
@@ -112,7 +139,7 @@ physical_long_rainbow <- rainbow_profile_drivers %>%
   group_by(variable) %>%
   mutate(
     value_plot = case_when(
-      variable == "bottom_do_mgl" ~ max(value, na.rm = TRUE) - value,
+      variable == "deep_do_mgl" ~ max(value, na.rm = TRUE) - value,
       TRUE ~ value
     ),
     scaled_value = value_plot / max(value_plot, na.rm = TRUE)
@@ -121,10 +148,7 @@ physical_long_rainbow <- rainbow_profile_drivers %>%
   mutate(
     variable = recode(
       variable,
-      stability_profile = "Schmidt stability",
-      temp_diff = "Temp difference",
-      do_diff = "DO difference",
-      bottom_do_mgl = "Low bottom DO",
+      deep_do_mgl = "Low deep DO",
       air_temp_mean_c = "Air temperature",
       wind_speed_mean_ms = "Mean wind speed",
       gust_speed_max_ms = "Max gust speed",
@@ -132,12 +156,27 @@ physical_long_rainbow <- rainbow_profile_drivers %>%
     )
   )
 
-p_rainbow_physical_scaled <- ggplot(
-  physical_long_rainbow,
-  aes(date, scaled_value, color = variable)
-) +
-  geom_line(linewidth = 1, na.rm = TRUE) +
-  geom_point(size = 2, na.rm = TRUE) +
+p_rainbow_physical_scaled <- ggplot() +
+  geom_line(
+    data = physical_long_rainbow,
+    aes(date, scaled_value, color = variable),
+    linewidth = 1,
+    na.rm = TRUE
+  ) +
+  geom_point(
+    data = physical_long_rainbow,
+    aes(date, scaled_value, color = variable),
+    size = 1.5,
+    na.rm = TRUE
+  ) +
+  geom_line(
+    data = rainbow_stability_plot,
+    aes(date, scaled_value),
+    color = "black",
+    linewidth = 1.2,
+    na.rm = TRUE
+  ) +
+
   labs(
     x = NULL,
     y = "Scaled seasonal value",
@@ -157,7 +196,7 @@ ggsave(
 )
 
 # ======================================================================
-# 4. Build Rainbow nutrients, cyano, and toxin tables
+# 7. Build Rainbow nutrients, cyano, and toxin tables
 # ======================================================================
 
 nutrients_rainbow <- deq_nutrients_clean_2025 %>%
@@ -230,19 +269,16 @@ tox_rainbow_depth <- grab_tox %>%
     .groups = "drop"
   )
 
-stability_rainbow_plot <- rainbow_profile_drivers %>%
+# Stability for story plots: profile dates only
+stability_story_rainbow <- rainbow_profile_stability %>%
   mutate(date = as.Date(date)) %>%
   select(
     date,
-    stability_profile,
-    temp_diff,
-    do_diff,
-    bottom_do_mgl,
-    strat_state
+    stability_daily = stability_profile
   )
 
 # ======================================================================
-# 5. Nearest toxin join within +/- 2 days
+# 8. Nearest toxin join within +/- 2 days
 # ======================================================================
 
 join_nearest_toxin <- function(story_data, toxin_data, max_days = 2) {
@@ -272,11 +308,7 @@ join_nearest_toxin <- function(story_data, toxin_data, max_days = 2) {
       chla,
       secchi,
       cyano_cells,
-      stability_profile,
-      temp_diff,
-      do_diff,
-      bottom_do_mgl,
-      strat_state,
+      stability_daily,
       total_mc,
       max_total_mc,
       toxin_sample_date = date.y,
@@ -285,7 +317,7 @@ join_nearest_toxin <- function(story_data, toxin_data, max_days = 2) {
 }
 
 # ======================================================================
-# 6. Build Rainbow surface and bottom story tables
+# 9. Build Rainbow surface and bottom story tables
 # ======================================================================
 
 story_surface_rainbow_base <- nutrients_rainbow %>%
@@ -295,7 +327,7 @@ story_surface_rainbow_base <- nutrients_rainbow %>%
     by = "date"
   ) %>%
   left_join(
-    stability_rainbow_plot,
+    stability_story_rainbow,
     by = "date"
   )
 
@@ -311,7 +343,7 @@ story_bottom_rainbow_base <- nutrients_rainbow %>%
     by = "date"
   ) %>%
   left_join(
-    stability_rainbow_plot,
+    stability_story_rainbow,
     by = "date"
   )
 
@@ -341,7 +373,7 @@ saveRDS(
 )
 
 # ======================================================================
-# 7. Scaled surface and bottom story plots
+# 10. Scaled surface and bottom story plots
 # ======================================================================
 
 make_scaled_story_plot_rainbow <- function(data, title_text) {
@@ -349,10 +381,7 @@ make_scaled_story_plot_rainbow <- function(data, title_text) {
   plot_long <- data %>%
     select(
       date,
-      stability_profile,
-      temp_diff,
-      do_diff,
-      bottom_do_mgl,
+      stability_daily,
       ammonia,
       tn,
       tp,
@@ -371,7 +400,6 @@ make_scaled_story_plot_rainbow <- function(data, title_text) {
     mutate(
       value_plot = case_when(
         variable == "secchi" ~ max(value, na.rm = TRUE) - value,
-        variable == "bottom_do_mgl" ~ max(value, na.rm = TRUE) - value,
         TRUE ~ value
       ),
       scaled_value = value_plot / max(value_plot, na.rm = TRUE)
@@ -380,10 +408,7 @@ make_scaled_story_plot_rainbow <- function(data, title_text) {
     mutate(
       variable = recode(
         variable,
-        stability_profile = "Schmidt stability",
-        temp_diff = "Temp difference",
-        do_diff = "DO difference",
-        bottom_do_mgl = "Low bottom DO",
+        stability_daily = "Schmidt stability",
         ammonia = "Ammonia",
         tn = "Total nitrogen",
         tp = "Total phosphorus",
@@ -393,17 +418,8 @@ make_scaled_story_plot_rainbow <- function(data, title_text) {
         total_mc = "Total microcystins"
       ),
       line_type = case_when(
-        variable %in% c(
-          "Schmidt stability",
-          "Temp difference",
-          "DO difference",
-          "Low bottom DO"
-        ) ~ "solid",
-        variable %in% c(
-          "Ammonia",
-          "Total nitrogen",
-          "Total phosphorus"
-        ) ~ "dashed",
+        variable == "Schmidt stability" ~ "solid",
+        variable %in% c("Ammonia", "Total nitrogen", "Total phosphorus") ~ "dashed",
         TRUE ~ "dotted"
       )
     )
@@ -432,9 +448,6 @@ make_scaled_story_plot_rainbow <- function(data, title_text) {
     scale_color_manual(
       values = c(
         "Schmidt stability" = "black",
-        "Temp difference" = "#984ea3",
-        "DO difference" = "#377eb8",
-        "Low bottom DO" = "#a65628",
         "Ammonia" = "#1b9e77",
         "Total nitrogen" = "#66a61e",
         "Total phosphorus" = "#d95f02",
@@ -483,7 +496,7 @@ ggsave(
 )
 
 # ======================================================================
-# 8. Raw surface vs bottom nutrient plots
+# 11. Raw surface vs bottom nutrients
 # ======================================================================
 
 nutrients_rainbow_long <- nutrients_rainbow %>%
@@ -531,7 +544,7 @@ ggsave(
 )
 
 # ======================================================================
-# 9. Raw surface vs bottom toxins
+# 12. Raw surface vs bottom toxins
 # ======================================================================
 
 p_rainbow_tox_raw <- ggplot(
@@ -557,47 +570,3 @@ ggsave(
   height = 4,
   dpi = 300
 )
-
-# ======================================================================
-# 10. Stability / profile-driver relationship plots
-# ======================================================================
-
-p_rainbow_stab_temp <- ggplot(
-  rainbow_profile_drivers,
-  aes(temp_diff, stability_profile)
-) +
-  geom_point(size = 2.5) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    x = "Surface-bottom temperature difference (°C)",
-    y = "Schmidt stability"
-  ) +
-  theme_bw()
-
-p_rainbow_stab_do <- ggplot(
-  rainbow_profile_drivers,
-  aes(stability_profile, do_diff)
-) +
-  geom_point(size = 2.5) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    x = "Schmidt stability",
-    y = "Surface-bottom DO difference (mg/L)"
-  ) +
-  theme_bw()
-
-p_rainbow_bottom_do <- ggplot(
-  rainbow_profile_drivers,
-  aes(stability_profile, bottom_do_mgl)
-) +
-  geom_point(size = 2.5) +
-  geom_smooth(method = "lm", se = FALSE) +
-  labs(
-    x = "Schmidt stability",
-    y = "Bottom DO (mg/L)"
-  ) +
-  theme_bw()
-
-p_rainbow_stab_temp
-p_rainbow_stab_do
-p_rainbow_bottom_do

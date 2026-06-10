@@ -1,13 +1,5 @@
 # ======================================================================
 # 02_lowerjade_explore_patterns.R
-#
-# Purpose:
-#   Explore Lower Jade seasonal patterns:
-#   - physical drivers
-#   - nutrients
-#   - Chl-a / Secchi
-#   - cyanobacteria
-#   - toxins
 # ======================================================================
 
 library(tidyverse)
@@ -44,8 +36,6 @@ grab_tox <- readRDS(
   "data_clean/toxins/grab_tox.rds"
 )
 
-
-
 schmidt_hourly_lj <- readRDS(
   "data_clean/analysis/lowerjade/schmidt_hourly_lowerjade_2025.rds"
 )
@@ -58,13 +48,9 @@ deep_do_daily_lj <- readRDS(
   "data_clean/analysis/lowerjade/deep_do_daily_lowerjade_2025.rds"
 )
 
-lowerjade_daily_drivers <- readRDS(
-  "data_clean/analysis/lowerjade/lowerjade_daily_drivers_2025.rds"
-)
-
-# ----------------------------------------------------------------------
+# ======================================================================
 # 3. Sampling dates
-# ----------------------------------------------------------------------
+# ======================================================================
 
 sampling_dates_lj <- as.POSIXct(
   paste0(
@@ -84,9 +70,9 @@ sampling_dates_lj <- as.POSIXct(
   tz = "America/Denver"
 )
 
-# ----------------------------------------------------------------------
+# ======================================================================
 # 4. Hourly stability plot
-# ----------------------------------------------------------------------
+# ======================================================================
 
 lowerjade_stability_plot <- ggplot(
   schmidt_hourly_lj,
@@ -95,8 +81,8 @@ lowerjade_stability_plot <- ggplot(
   geom_line(
     aes(y = schmidt_stability),
     linewidth = 0.35,
-    alpha = 0.2,
-    color = "gray60"
+    alpha = 0.25,
+    color = "gray70"
   ) +
   geom_line(
     aes(y = stability_24hr),
@@ -106,13 +92,14 @@ lowerjade_stability_plot <- ggplot(
   geom_point(
     aes(y = stability_24hr, color = strat_state_hourly),
     size = 1.2,
-    alpha = 0.8
+    alpha = 0.8,
+    na.rm = TRUE
   ) +
   geom_vline(
     xintercept = sampling_dates_lj,
     linetype = "dashed",
     color = "black",
-    alpha = 0.5
+    alpha = 0.45
   ) +
   scale_color_manual(
     values = c(
@@ -127,26 +114,29 @@ lowerjade_stability_plot <- ggplot(
     date_labels = "%b"
   ) +
   labs(
-    x = "Date",
+    x = NULL,
     y = expression("Schmidt stability (J m"^{-2}*")"),
     color = "Stability state",
     title = "Lower Jade Schmidt stability"
   ) +
-  theme_classic(base_family = "Helvetica")
+  theme_classic(base_family = "Helvetica") +
+  theme(
+    panel.grid = element_blank()
+  )
 
 lowerjade_stability_plot
 
 ggsave(
-  filename = file.path(fig_dir, "lowerjade_schmidt_stability_hourly.png"),
-  plot = lowerjade_stability_plot,
+  file.path(fig_dir, "lowerjade_schmidt_stability_hourly.png"),
+  lowerjade_stability_plot,
   width = 10,
   height = 4.5,
   dpi = 300
 )
 
-# ----------------------------------------------------------------------
+# ======================================================================
 # 5. Daily stability and deep DO
-# ----------------------------------------------------------------------
+# ======================================================================
 
 lowerjade_stability_do_daily <- lowerjade_daily_drivers %>%
   mutate(date = as.Date(date)) %>%
@@ -176,13 +166,13 @@ p_lj_daily_stability_do <- ggplot(
   ) +
   geom_line(
     aes(
-      y = deep_do_mgl /
-        max(deep_do_mgl, na.rm = TRUE) *
+      y = (max(deep_do_mgl, na.rm = TRUE) - deep_do_mgl) /
+        max(max(deep_do_mgl, na.rm = TRUE) - deep_do_mgl, na.rm = TRUE) *
         max(stability_daily, na.rm = TRUE)
     ),
     linewidth = 1,
     linetype = "dashed",
-    color = "firebrick",
+    color = "#a65628",
     na.rm = TRUE
   ) +
   scale_color_manual(
@@ -195,25 +185,25 @@ p_lj_daily_stability_do <- ggplot(
   ) +
   labs(
     x = NULL,
-    y = "Schmidt stability; deep DO scaled",
+    y = "Schmidt stability; low deep DO scaled",
     color = "Stability state",
-    title = "Lower Jade daily stability and deep DO"
+    title = "Lower Jade daily stability and low deep DO"
   ) +
   theme_bw()
 
 p_lj_daily_stability_do
 
 ggsave(
-  filename = file.path(fig_dir, "lowerjade_daily_stability_deep_do.png"),
-  plot = p_lj_daily_stability_do,
+  file.path(fig_dir, "lowerjade_daily_stability_low_deep_do.png"),
+  p_lj_daily_stability_do,
   width = 10,
   height = 4.5,
   dpi = 300
 )
 
-# ----------------------------------------------------------------------
+# ======================================================================
 # 6. Daily deep DO by stratification state
-# ----------------------------------------------------------------------
+# ======================================================================
 
 deep_do_strat_daily_lj <- lowerjade_daily_drivers %>%
   mutate(date = as.Date(date)) %>%
@@ -222,15 +212,13 @@ deep_do_strat_daily_lj <- lowerjade_daily_drivers %>%
     !is.na(deep_do_mgl)
   )
 
-table(deep_do_strat_daily_lj$strat_state)
-
 deep_do_boxplot_daily_lj <- ggplot(
   deep_do_strat_daily_lj,
   aes(x = strat_state, y = deep_do_mgl)
 ) +
   geom_boxplot(
     outlier.shape = NA,
-    alpha = 0.5
+    alpha = 0.45
   ) +
   geom_jitter(
     aes(color = strat_state),
@@ -261,17 +249,15 @@ deep_do_boxplot_daily_lj <- ggplot(
 deep_do_boxplot_daily_lj
 
 ggsave(
-  filename = file.path(fig_dir, "lowerjade_deep_do_by_strat_state.png"),
-  plot = deep_do_boxplot_daily_lj,
+  file.path(fig_dir, "lowerjade_deep_do_by_strat_state.png"),
+  deep_do_boxplot_daily_lj,
   width = 6,
   height = 4.5,
   dpi = 300
 )
 
-
-
 # ======================================================================
-# 3. Physical drivers timeline
+# 7. Physical drivers timeline
 # ======================================================================
 
 drivers_long_lj <- lowerjade_daily_drivers %>%
@@ -292,14 +278,18 @@ drivers_long_lj <- lowerjade_daily_drivers %>%
   filter(!is.na(value)) %>%
   group_by(variable) %>%
   mutate(
-    scaled_value = value / max(value, na.rm = TRUE)
+    value_plot = case_when(
+      variable == "deep_do_mgl" ~ max(value, na.rm = TRUE) - value,
+      TRUE ~ value
+    ),
+    scaled_value = value_plot / max(value_plot, na.rm = TRUE)
   ) %>%
   ungroup() %>%
   mutate(
     variable = recode(
       variable,
       stability_daily = "Schmidt stability",
-      deep_do_mgl = "Deep DO",
+      deep_do_mgl = "Low deep DO",
       air_temp_mean_c = "Air temperature",
       wind_speed_mean_ms = "Mean wind speed",
       gust_speed_max_ms = "Max gust speed",
@@ -311,13 +301,19 @@ p_lj_physical_drivers <- ggplot(
   drivers_long_lj,
   aes(date, scaled_value, color = variable)
 ) +
-  geom_line(linewidth = 1, na.rm = TRUE) +
-  geom_point(size = 2, na.rm = TRUE) +
+  geom_line(
+    linewidth = 1,
+    na.rm = TRUE
+  ) +
+  geom_point(
+    size = 1.8,
+    na.rm = TRUE
+  ) +
   labs(
-    title = "Lower Jade physical drivers",
     x = NULL,
     y = "Scaled seasonal value",
-    color = NULL
+    color = NULL,
+    title = "Lower Jade Lake physical drivers"
   ) +
   theme_bw()
 
@@ -332,7 +328,7 @@ ggsave(
 )
 
 # ======================================================================
-# 4. Lower Jade nutrients
+# 8. Lower Jade nutrients
 # ======================================================================
 
 nutrients_lj <- deq_nutrients_clean_2025 %>%
@@ -364,7 +360,7 @@ surface_biology_lj <- nutrients_lj %>%
   )
 
 # ======================================================================
-# 5. Lower Jade cyanobacteria
+# 9. Lower Jade cyanobacteria
 # ======================================================================
 
 cyano_lj <- phyto_clean %>%
@@ -384,7 +380,7 @@ cyano_lj <- phyto_clean %>%
   )
 
 # ======================================================================
-# 6. Lower Jade toxins: surface and depth separate
+# 10. Lower Jade toxins
 # ======================================================================
 
 tox_lj_depth <- grab_tox %>%
@@ -414,7 +410,7 @@ tox_lj_depth <- grab_tox %>%
   )
 
 # ======================================================================
-# 7. Nearest toxin join within +/- 2 days
+# 11. Nearest toxin join within +/- 2 days
 # ======================================================================
 
 join_nearest_toxin <- function(story_data, toxin_data, max_days = 2) {
@@ -457,35 +453,20 @@ join_nearest_toxin <- function(story_data, toxin_data, max_days = 2) {
 }
 
 # ======================================================================
-# 8. Build Lower Jade story tables
+# 12. Build story tables
 # ======================================================================
 
 story_surface_lj_base <- nutrients_lj %>%
   filter(type == "surface") %>%
-  left_join(
-    cyano_lj,
-    by = "date"
-  ) %>%
-  left_join(
-    lowerjade_daily_drivers,
-    by = "date"
-  )
+  left_join(cyano_lj, by = "date") %>%
+  left_join(lowerjade_daily_drivers, by = "date")
 
 story_bottom_lj_base <- nutrients_lj %>%
   filter(type == "bottom") %>%
   select(-chla, -secchi) %>%
-  left_join(
-    surface_biology_lj,
-    by = "date"
-  ) %>%
-  left_join(
-    cyano_lj,
-    by = "date"
-  ) %>%
-  left_join(
-    lowerjade_daily_drivers,
-    by = "date"
-  )
+  left_join(surface_biology_lj, by = "date") %>%
+  left_join(cyano_lj, by = "date") %>%
+  left_join(lowerjade_daily_drivers, by = "date")
 
 story_surface_lj <- join_nearest_toxin(
   story_surface_lj_base,
@@ -513,7 +494,7 @@ saveRDS(
 )
 
 # ======================================================================
-# 9. Scaled story plot function
+# 13. Scaled story plot function
 # ======================================================================
 
 make_scaled_story_plot <- function(data, title_text) {
@@ -522,7 +503,6 @@ make_scaled_story_plot <- function(data, title_text) {
     select(
       date,
       stability_daily,
-      deep_do_mgl,
       ammonia,
       tn,
       tp,
@@ -541,7 +521,6 @@ make_scaled_story_plot <- function(data, title_text) {
     mutate(
       value_plot = case_when(
         variable == "secchi" ~ max(value, na.rm = TRUE) - value,
-        variable == "deep_do_mgl" ~ max(value, na.rm = TRUE) - value,
         TRUE ~ value
       ),
       scaled_value = value_plot / max(value_plot, na.rm = TRUE)
@@ -551,7 +530,6 @@ make_scaled_story_plot <- function(data, title_text) {
       variable = recode(
         variable,
         stability_daily = "Schmidt stability",
-        deep_do_mgl = "Lower deep DO",
         ammonia = "Ammonia",
         tn = "Total nitrogen",
         tp = "Total phosphorus",
@@ -559,6 +537,11 @@ make_scaled_story_plot <- function(data, title_text) {
         secchi = "Lower clarity",
         cyano_cells = "Cyanobacteria cells",
         total_mc = "Total microcystins"
+      ),
+      line_type = case_when(
+        variable %in% c("Schmidt stability") ~ "solid",
+        variable %in% c("Ammonia", "Total nitrogen", "Total phosphorus") ~ "dashed",
+        TRUE ~ "dotted"
       )
     )
   
@@ -571,8 +554,30 @@ make_scaled_story_plot <- function(data, title_text) {
       group = variable
     )
   ) +
-    geom_line(linewidth = 1.1, alpha = 0.9, na.rm = TRUE) +
-    geom_point(size = 2, alpha = 0.9, na.rm = TRUE) +
+    geom_line(
+      aes(linetype = line_type),
+      linewidth = 1.1,
+      alpha = 0.9,
+      na.rm = TRUE
+    ) +
+    geom_point(
+      size = 2,
+      alpha = 0.9,
+      na.rm = TRUE
+    ) +
+    scale_linetype_identity() +
+    scale_color_manual(
+      values = c(
+        "Schmidt stability" = "black",
+        "Ammonia" = "#1b9e77",
+        "Total nitrogen" = "#66a61e",
+        "Total phosphorus" = "#d95f02",
+        "Chl-a" = "#7570b3",
+        "Lower clarity" = "#e7298a",
+        "Cyanobacteria cells" = "#1f78b4",
+        "Total microcystins" = "#e31a1c"
+      )
+    ) +
     labs(
       title = title_text,
       x = NULL,
@@ -583,7 +588,7 @@ make_scaled_story_plot <- function(data, title_text) {
 }
 
 # ======================================================================
-# 10. Make Lower Jade story plots
+# 14. Make story plots
 # ======================================================================
 
 p_lj_surface_story <- make_scaled_story_plot(
@@ -616,7 +621,7 @@ ggsave(
 )
 
 # ======================================================================
-# 11. Raw surface vs bottom nutrients
+# 15. Raw surface vs bottom nutrients
 # ======================================================================
 
 nutrients_lj_long <- nutrients_lj %>%
@@ -631,6 +636,11 @@ nutrients_lj_long <- nutrients_lj %>%
       ammonia = "Ammonia",
       tn = "Total nitrogen",
       tp = "Total phosphorus"
+    ),
+    type = recode(
+      type,
+      surface = "Surface",
+      bottom = "Bottom"
     )
   )
 
@@ -644,6 +654,12 @@ p_lj_nutrients_raw <- ggplot(
     ~ nutrient,
     ncol = 1,
     scales = "free_y"
+  ) +
+  scale_color_manual(
+    values = c(
+      "Surface" = "#1f78b4",
+      "Bottom" = "#d73027"
+    )
   ) +
   labs(
     title = "Lower Jade surface and bottom nutrients",
@@ -664,15 +680,30 @@ ggsave(
 )
 
 # ======================================================================
-# 12. Raw surface vs bottom toxins
+# 16. Raw surface vs bottom toxins
 # ======================================================================
 
+tox_lj_depth_plot <- tox_lj_depth %>%
+  mutate(
+    type = recode(
+      type,
+      surface = "Surface",
+      bottom = "Bottom"
+    )
+  )
+
 p_lj_tox_raw <- ggplot(
-  tox_lj_depth,
+  tox_lj_depth_plot,
   aes(date, total_mc, color = type, group = type)
 ) +
   geom_line(linewidth = 1, na.rm = TRUE) +
   geom_point(size = 2, na.rm = TRUE) +
+  scale_color_manual(
+    values = c(
+      "Surface" = "#1f78b4",
+      "Bottom" = "#d73027"
+    )
+  ) +
   labs(
     title = "Lower Jade buoy toxins",
     x = NULL,
